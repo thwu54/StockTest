@@ -1,0 +1,139 @@
+{
+  "2344": {
+    "Name": "2344",
+    "Trades": [
+      {
+        "_Type": 1,
+        "_Date1": "2020-04-11T00:00:00",
+        "_Date2": "2020-05-16T00:00:00",
+        "_Point1": 12.65,
+        "_Point2": 12.9,
+        "IsClose": true,
+        "_TradeNo": 14,
+        "_TradeNo2": 19,
+        "StopL": 13.2,
+        "StopW": 0.0
+      },
+      {
+        "_Type": 1,
+        "_Date1": "2020-08-29T00:00:00",
+        "_Date2": "2020-09-26T00:00:00",
+        "_Point1": 12.45,
+        "_Point2": 12.25,
+        "IsClose": true,
+        "_TradeNo": 34,
+        "_TradeNo2": 38,
+        "StopL": 13.5,
+        "StopW": 0.0
+      },
+      {
+        "_Type": 1,
+        "_Date1": "2021-09-04T00:00:00",
+        "_Date2": "2021-09-18T00:00:00",
+        "_Point1": 30.85,
+        "_Point2": 27.700001,
+        "IsClose": true,
+        "_TradeNo": 86,
+        "_TradeNo2": 88,
+        "StopL": 28.4,
+        "StopW": 0.0
+      },
+      {
+        "_Type": 1,
+        "_Date1": "2021-10-09T00:00:00",
+        "_Date2": "2021-10-23T00:00:00",
+        "_Point1": 25.549999,
+        "_Point2": 25.1,
+        "IsClose": true,
+        "_TradeNo": 91,
+        "_TradeNo2": 93,
+        "StopL": 25.6,
+        "StopW": 0.0
+      },
+      {
+        "_Type": 1,
+        "_Date1": "2021-10-30T00:00:00",
+        "_Date2": "2021-12-18T00:00:00",
+        "_Point1": 26.299999,
+        "_Point2": 30.549999,
+        "IsClose": true,
+        "_TradeNo": 94,
+        "_TradeNo2": 101,
+        "StopL": 30.799999,
+        "StopW": 0.0
+      },
+      {
+        "_Type": 1,
+        "_Date1": "2022-02-12T00:00:00",
+        "_Date2": "2022-04-09T00:00:00",
+        "_Point1": 33.099998,
+        "_Point2": 28.6,
+        "IsClose": true,
+        "_TradeNo": 108,
+        "_TradeNo2": 116,
+        "StopL": 29.700001,
+        "StopW": 0.0
+      },
+      {
+        "_Type": 1,
+        "_Date1": "2022-04-23T00:00:00",
+        "_Date2": "2022-06-11T00:00:00",
+        "_Point1": 28.1,
+        "_Point2": 27.85,
+        "IsClose": true,
+        "_TradeNo": 118,
+        "_TradeNo2": 125,
+        "StopL": 28.65,
+        "StopW": 0.0
+      },
+      {
+        "_Type": 1,
+        "_Date1": "2022-07-09T00:00:00",
+        "_Date2": "2022-08-13T00:00:00",
+        "_Point1": 20.25,
+        "_Point2": 21.799999,
+        "IsClose": true,
+        "_TradeNo": 129,
+        "_TradeNo2": 134,
+        "StopL": 21.950001,
+        "StopW": 0.0
+      },
+      {
+        "_Type": 1,
+        "_Date1": "2022-10-01T00:00:00",
+        "_Date2": "2022-10-15T00:00:00",
+        "_Point1": 19.75,
+        "_Point2": 19.549999,
+        "IsClose": true,
+        "_TradeNo": 141,
+        "_TradeNo2": 143,
+        "StopL": 20.1,
+        "StopW": 0.0
+      },
+      {
+        "_Type": 1,
+        "_Date1": "2023-01-07T00:00:00",
+        "_Date2": "2023-03-18T00:00:00",
+        "_Point1": 20.200001,
+        "_Point2": 23.9,
+        "IsClose": true,
+        "_TradeNo": 155,
+        "_TradeNo2": 164,
+        "StopL": 24.0,
+        "StopW": 0.0
+      },
+      {
+        "_Type": 1,
+        "_Date1": "2023-05-20T00:00:00",
+        "_Date2": "2023-06-17T00:00:00",
+        "_Point1": 26.0,
+        "_Point2": 29.200001,
+        "IsClose": true,
+        "_TradeNo": 173,
+        "_TradeNo2": 177,
+        "StopL": 26.85,
+        "StopW": 0.0
+      }
+    ]
+  }
+}

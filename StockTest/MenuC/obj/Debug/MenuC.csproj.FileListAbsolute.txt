@@ -1,0 +1,7 @@
+C:\程式\StockTest\MenuC\obj\Debug\MenuC.MenuData.resources
+C:\程式\StockTest\MenuC\obj\Debug\MenuC.csproj.GenerateResource.cache
+C:\程式\StockTest\MenuC\obj\Debug\MenuC.csproj.CoreCompileInputs.cache
+C:\程式\StockTest\MenuC\bin\Debug\MenuC.dll
+C:\程式\StockTest\MenuC\bin\Debug\MenuC.pdb
+C:\程式\StockTest\MenuC\obj\Debug\MenuC.dll
+C:\程式\StockTest\MenuC\obj\Debug\MenuC.pdb

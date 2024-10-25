@@ -1,0 +1,5645 @@
+[
+  {
+    "StockNo": "6561",
+    "TradeCount": 7,
+    "WinFisrtRate": 0.24124110590389417,
+    "WinRate": 0.7142857142857143,
+    "WinLoseRate": 2.0414615172522197,
+    "Kelly": 0.57432996038110318,
+    "KeepTimeRange": 79
+  },
+  {
+    "StockNo": "8938",
+    "TradeCount": 26,
+    "WinFisrtRate": 0.42355874327147836,
+    "WinRate": 0.46153846153846156,
+    "WinLoseRate": 1.996224670753709,
+    "Kelly": 0.19179851375080448,
+    "KeepTimeRange": 354
+  },
+  {
+    "StockNo": "3287",
+    "TradeCount": 30,
+    "WinFisrtRate": -0.39208778792521487,
+    "WinRate": 0.4,
+    "WinLoseRate": 1.0964782558854793,
+    "Kelly": -0.14720647379866181,
+    "KeepTimeRange": 584
+  },
+  {
+    "StockNo": "1786",
+    "TradeCount": 21,
+    "WinFisrtRate": 0.19532266389385061,
+    "WinRate": 0.2857142857142857,
+    "WinLoseRate": 2.9334168168887658,
+    "Kelly": 0.042214722279145078,
+    "KeepTimeRange": 250
+  },
+  {
+    "StockNo": "2548",
+    "TradeCount": 7,
+    "WinFisrtRate": -0.22141013580418642,
+    "WinRate": 0.42857142857142855,
+    "WinLoseRate": 0.21245187258907519,
+    "Kelly": -2.2611133666943193,
+    "KeepTimeRange": 147
+  },
+  {
+    "StockNo": "3444",
+    "TradeCount": 36,
+    "WinFisrtRate": 0.44573251253045926,
+    "WinRate": 0.44444444444444442,
+    "WinLoseRate": 1.5660357753351157,
+    "Kelly": 0.08969165762725162,
+    "KeepTimeRange": 400
+  },
+  {
+    "StockNo": "6161",
+    "TradeCount": 34,
+    "WinFisrtRate": -0.38705026186179237,
+    "WinRate": 0.29411764705882354,
+    "WinLoseRate": 1.7428115612320183,
+    "Kelly": -0.11090741052237479,
+    "KeepTimeRange": 494
+  },
+  {
+    "StockNo": "4163",
+    "TradeCount": 20,
+    "WinFisrtRate": -0.0429948249203814,
+    "WinRate": 0.4,
+    "WinLoseRate": 1.4052612339666721,
+    "Kelly": -0.026966876689796915,
+    "KeepTimeRange": 254
+  },
+  {
+    "StockNo": "3232",
+    "TradeCount": 34,
+    "WinFisrtRate": 0.81638023622343536,
+    "WinRate": 0.41176470588235292,
+    "WinLoseRate": 2.3318384976479178,
+    "Kelly": 0.15950225515474503,
+    "KeepTimeRange": 351
+  },
+  {
+    "StockNo": "1568",
+    "TradeCount": 23,
+    "WinFisrtRate": -0.38440881276240169,
+    "WinRate": 0.34782608695652173,
+    "WinLoseRate": 1.2755361812304569,
+    "Kelly": -0.16346784781399426,
+    "KeepTimeRange": 243
+  },
+  {
+    "StockNo": "1565",
+    "TradeCount": 6,
+    "WinFisrtRate": 0.1249593331871381,
+    "WinRate": 0.66666666666666663,
+    "WinLoseRate": 1.1845320869991538,
+    "Kelly": 0.3852615979548627,
+    "KeepTimeRange": 75
+  },
+  {
+    "StockNo": "4105",
+    "TradeCount": 13,
+    "WinFisrtRate": -0.28948880501086005,
+    "WinRate": 0.38461538461538464,
+    "WinLoseRate": 0.76142160343461662,
+    "Kelly": -0.42358944252471969,
+    "KeepTimeRange": 186
+  },
+  {
+    "StockNo": "8927",
+    "TradeCount": 26,
+    "WinFisrtRate": -0.2604097211060904,
+    "WinRate": 0.34615384615384615,
+    "WinLoseRate": 1.4290672266666324,
+    "Kelly": -0.11137967056620435,
+    "KeepTimeRange": 517
+  },
+  {
+    "StockNo": "4726",
+    "TradeCount": 23,
+    "WinFisrtRate": -0.4526472572489707,
+    "WinRate": 0.34782608695652173,
+    "WinLoseRate": 1.1025106489972705,
+    "Kelly": -0.2437091636432146,
+    "KeepTimeRange": 199
+  },
+  {
+    "StockNo": "6101",
+    "TradeCount": 22,
+    "WinFisrtRate": 0.80532056296731824,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.7566892660582461,
+    "Kelly": 0.21537368067266277,
+    "KeepTimeRange": 331
+  },
+  {
+    "StockNo": "2236",
+    "TradeCount": 22,
+    "WinFisrtRate": -1.196312136151765,
+    "WinRate": 0.18181818181818182,
+    "WinLoseRate": 1.0266409137982697,
+    "Kelly": -0.61513215123915344,
+    "KeepTimeRange": 241
+  },
+  {
+    "StockNo": "3062",
+    "TradeCount": 36,
+    "WinFisrtRate": -1.6236642728609,
+    "WinRate": 0.19444444444444445,
+    "WinLoseRate": 0.48239699374703182,
+    "Kelly": -1.4754572464810749,
+    "KeepTimeRange": 396
+  },
+  {
+    "StockNo": "1783",
+    "TradeCount": 28,
+    "WinFisrtRate": -0.15246414388682614,
+    "WinRate": 0.32142857142857145,
+    "WinLoseRate": 1.8736718308354694,
+    "Kelly": -0.040732729928483091,
+    "KeepTimeRange": 265
+  },
+  {
+    "StockNo": "9938",
+    "TradeCount": 15,
+    "WinFisrtRate": 0.24232500125369705,
+    "WinRate": 0.66666666666666663,
+    "WinLoseRate": 0.81866798169163746,
+    "Kelly": 0.25950119691840923,
+    "KeepTimeRange": 185
+  },
+  {
+    "StockNo": "6548",
+    "TradeCount": 12,
+    "WinFisrtRate": -0.025991808079757948,
+    "WinRate": 0.25,
+    "WinLoseRate": 2.8644325935504953,
+    "Kelly": -0.011831959910205747,
+    "KeepTimeRange": 139
+  },
+  {
+    "StockNo": "3504",
+    "TradeCount": 27,
+    "WinFisrtRate": 0.079312326116233761,
+    "WinRate": 0.40740740740740738,
+    "WinLoseRate": 1.5552194685883558,
+    "Kelly": 0.026372701655891839,
+    "KeepTimeRange": 290
+  },
+  {
+    "StockNo": "2704",
+    "TradeCount": 8,
+    "WinFisrtRate": 0.20529604115060401,
+    "WinRate": 0.5,
+    "WinLoseRate": 2.0639001993900221,
+    "Kelly": 0.25774022399543683,
+    "KeepTimeRange": 69
+  },
+  {
+    "StockNo": "3016",
+    "TradeCount": 29,
+    "WinFisrtRate": -0.69491905513141594,
+    "WinRate": 0.31034482758620691,
+    "WinLoseRate": 1.2435692826668994,
+    "Kelly": -0.24423237372162182,
+    "KeepTimeRange": 268
+  },
+  {
+    "StockNo": "4927",
+    "TradeCount": 15,
+    "WinFisrtRate": 0.15869902738729946,
+    "WinRate": 0.4,
+    "WinLoseRate": 1.9161806734953608,
+    "Kelly": 0.086877125785053189,
+    "KeepTimeRange": 178
+  },
+  {
+    "StockNo": "5864",
+    "TradeCount": 11,
+    "WinFisrtRate": 0.28493082600409653,
+    "WinRate": 0.54545454545454541,
+    "WinLoseRate": 1.499781227422563,
+    "Kelly": 0.24238003949702652,
+    "KeepTimeRange": 202
+  },
+  {
+    "StockNo": "5306",
+    "TradeCount": 13,
+    "WinFisrtRate": 0.47907019806993795,
+    "WinRate": 0.53846153846153844,
+    "WinLoseRate": 2.1581874039651265,
+    "Kelly": 0.3246068654658103,
+    "KeepTimeRange": 142
+  },
+  {
+    "StockNo": "5263",
+    "TradeCount": 19,
+    "WinFisrtRate": 2.0406410409166598,
+    "WinRate": 0.42105263157894735,
+    "WinLoseRate": 5.9501993606763612,
+    "Kelly": 0.32375381294655053,
+    "KeepTimeRange": 178
+  },
+  {
+    "StockNo": "4739",
+    "TradeCount": 24,
+    "WinFisrtRate": -0.11430215845215107,
+    "WinRate": 0.375,
+    "WinLoseRate": 1.466034858652794,
+    "Kelly": -0.051320013000469067,
+    "KeepTimeRange": 216
+  },
+  {
+    "StockNo": "2712",
+    "TradeCount": 22,
+    "WinFisrtRate": -0.53684640431405406,
+    "WinRate": 0.31818181818181818,
+    "WinLoseRate": 0.76784311811122452,
+    "Kelly": -0.56978366035935735,
+    "KeepTimeRange": 306
+  },
+  {
+    "StockNo": "3630",
+    "TradeCount": 22,
+    "WinFisrtRate": 0.14569081771611081,
+    "WinRate": 0.36363636363636365,
+    "WinLoseRate": 1.9831937287338348,
+    "Kelly": 0.042758162407923295,
+    "KeepTimeRange": 181
+  },
+  {
+    "StockNo": "6163",
+    "TradeCount": 29,
+    "WinFisrtRate": -0.13434906723728302,
+    "WinRate": 0.44827586206896552,
+    "WinLoseRate": 1.0998090591287637,
+    "Kelly": -0.053378614543633129,
+    "KeepTimeRange": 405
+  },
+  {
+    "StockNo": "2729",
+    "TradeCount": 19,
+    "WinFisrtRate": -0.16150628371016321,
+    "WinRate": 0.36842105263157893,
+    "WinLoseRate": 1.3040031707279702,
+    "Kelly": -0.11591745324478103,
+    "KeepTimeRange": 279
+  },
+  {
+    "StockNo": "5536",
+    "TradeCount": 17,
+    "WinFisrtRate": 0.29061640056944771,
+    "WinRate": 0.52941176470588236,
+    "WinLoseRate": 1.4359307705967863,
+    "Kelly": 0.20168828044728071,
+    "KeepTimeRange": 194
+  },
+  {
+    "StockNo": "1707",
+    "TradeCount": 16,
+    "WinFisrtRate": 0.1409444146735844,
+    "WinRate": 0.4375,
+    "WinLoseRate": 1.7536704907701157,
+    "Kelly": 0.11674418928154462,
+    "KeepTimeRange": 210
+  },
+  {
+    "StockNo": "4950",
+    "TradeCount": 15,
+    "WinFisrtRate": 0.50904869869059222,
+    "WinRate": 0.46666666666666667,
+    "WinLoseRate": 2.044653203011952,
+    "Kelly": 0.20582373616496252,
+    "KeepTimeRange": 162
+  },
+  {
+    "StockNo": "2812",
+    "TradeCount": 9,
+    "WinFisrtRate": 0.091589223887238919,
+    "WinRate": 0.44444444444444442,
+    "WinLoseRate": 2.0536481397820463,
+    "Kelly": 0.17392314880783322,
+    "KeepTimeRange": 115
+  },
+  {
+    "StockNo": "6185",
+    "TradeCount": 29,
+    "WinFisrtRate": 0.2998322044134431,
+    "WinRate": 0.55172413793103448,
+    "WinLoseRate": 1.0753188434585128,
+    "Kelly": 0.13484698117333221,
+    "KeepTimeRange": 517
+  },
+  {
+    "StockNo": "2745",
+    "TradeCount": 13,
+    "WinFisrtRate": 1.3513867001876827,
+    "WinRate": 0.46153846153846156,
+    "WinLoseRate": 4.692663077213064,
+    "Kelly": 0.34679305373873381,
+    "KeepTimeRange": 185
+  },
+  {
+    "StockNo": "1268",
+    "TradeCount": 11,
+    "WinFisrtRate": 0.13271017881751579,
+    "WinRate": 0.63636363636363635,
+    "WinLoseRate": 0.94886819457048688,
+    "Kelly": 0.25313194442040848,
+    "KeepTimeRange": 143
+  },
+  {
+    "StockNo": "1903",
+    "TradeCount": 24,
+    "WinFisrtRate": -0.08557835967379214,
+    "WinRate": 0.45833333333333331,
+    "WinLoseRate": 1.0717495946997924,
+    "Kelly": -0.047070792168942222,
+    "KeepTimeRange": 277
+  },
+  {
+    "StockNo": "6695",
+    "TradeCount": 10,
+    "WinFisrtRate": -0.29159191642311683,
+    "WinRate": 0.4,
+    "WinLoseRate": 0.87422209904691417,
+    "Kelly": -0.28632444850585004,
+    "KeepTimeRange": 96
+  },
+  {
+    "StockNo": "3564",
+    "TradeCount": 18,
+    "WinFisrtRate": -0.40789398120606346,
+    "WinRate": 0.3888888888888889,
+    "WinLoseRate": 0.93906192232912133,
+    "Kelly": -0.2618787512209288,
+    "KeepTimeRange": 213
+  },
+  {
+    "StockNo": "3015",
+    "TradeCount": 30,
+    "WinFisrtRate": -0.75785307789759,
+    "WinRate": 0.26666666666666666,
+    "WinLoseRate": 0.73766193567496841,
+    "Kelly": -0.727465330482306,
+    "KeepTimeRange": 348
+  },
+  {
+    "StockNo": "8070",
+    "TradeCount": 21,
+    "WinFisrtRate": 0.19052471892818176,
+    "WinRate": 0.47619047619047616,
+    "WinLoseRate": 1.3818186313156624,
+    "Kelly": 0.097117917796331277,
+    "KeepTimeRange": 310
+  },
+  {
+    "StockNo": "5299",
+    "TradeCount": 12,
+    "WinFisrtRate": 0.60385939454944715,
+    "WinRate": 0.41666666666666669,
+    "WinLoseRate": 3.3283364619745561,
+    "Kelly": 0.24140393707253571,
+    "KeepTimeRange": 156
+  },
+  {
+    "StockNo": "4549",
+    "TradeCount": 22,
+    "WinFisrtRate": -0.4943630415559126,
+    "WinRate": 0.31818181818181818,
+    "WinLoseRate": 0.71161078445673664,
+    "Kelly": -0.63995175245919,
+    "KeepTimeRange": 262
+  },
+  {
+    "StockNo": "6234",
+    "TradeCount": 30,
+    "WinFisrtRate": -0.0822724853040445,
+    "WinRate": 0.4,
+    "WinLoseRate": 1.3792368210496753,
+    "Kelly": -0.035023188797531413,
+    "KeepTimeRange": 409
+  },
+  {
+    "StockNo": "1409",
+    "TradeCount": 24,
+    "WinFisrtRate": -0.4308882598299425,
+    "WinRate": 0.29166666666666669,
+    "WinLoseRate": 1.1137925864470069,
+    "Kelly": -0.34429854081681394,
+    "KeepTimeRange": 252
+  },
+  {
+    "StockNo": "2719",
+    "TradeCount": 17,
+    "WinFisrtRate": 0.92652208467253871,
+    "WinRate": 0.52941176470588236,
+    "WinLoseRate": 2.3666849755886346,
+    "Kelly": 0.33057320353359354,
+    "KeepTimeRange": 157
+  },
+  {
+    "StockNo": "4526",
+    "TradeCount": 21,
+    "WinFisrtRate": 0.36721036489852227,
+    "WinRate": 0.47619047619047616,
+    "WinLoseRate": 2.0172979421979531,
+    "Kelly": 0.2165314972898158,
+    "KeepTimeRange": 329
+  },
+  {
+    "StockNo": "9907",
+    "TradeCount": 18,
+    "WinFisrtRate": -0.063543092405427382,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 1.7948085982933815,
+    "Kelly": -0.038108316378271556,
+    "KeepTimeRange": 234
+  },
+  {
+    "StockNo": "1314",
+    "TradeCount": 20,
+    "WinFisrtRate": 0.4164051725208186,
+    "WinRate": 0.45,
+    "WinLoseRate": 1.9850026229230051,
+    "Kelly": 0.17292228048036512,
+    "KeepTimeRange": 280
+  },
+  {
+    "StockNo": "4744",
+    "TradeCount": 14,
+    "WinFisrtRate": -0.22233726192007897,
+    "WinRate": 0.35714285714285715,
+    "WinLoseRate": 1.1148071957549763,
+    "Kelly": -0.21951034827692245,
+    "KeepTimeRange": 190
+  },
+  {
+    "StockNo": "8171",
+    "TradeCount": 29,
+    "WinFisrtRate": 0.17759789399235926,
+    "WinRate": 0.41379310344827586,
+    "WinLoseRate": 1.672781086685702,
+    "Kelly": 0.063354602428885576,
+    "KeepTimeRange": 338
+  },
+  {
+    "StockNo": "4162",
+    "TradeCount": 10,
+    "WinFisrtRate": 0.091313243667237767,
+    "WinRate": 0.4,
+    "WinLoseRate": 1.9424983446597566,
+    "Kelly": 0.091119427900931083,
+    "KeepTimeRange": 88
+  },
+  {
+    "StockNo": "6218",
+    "TradeCount": 29,
+    "WinFisrtRate": -0.0870167876212504,
+    "WinRate": 0.34482758620689657,
+    "WinLoseRate": 1.7373475698273113,
+    "Kelly": -0.03228314579143704,
+    "KeepTimeRange": 287
+  },
+  {
+    "StockNo": "5522",
+    "TradeCount": 8,
+    "WinFisrtRate": -0.027505694371752258,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.89064880530745183,
+    "Kelly": -0.061388503549836382,
+    "KeepTimeRange": 142
+  },
+  {
+    "StockNo": "3202",
+    "TradeCount": 30,
+    "WinFisrtRate": 0.42290460724410728,
+    "WinRate": 0.43333333333333335,
+    "WinLoseRate": 1.7212803470237439,
+    "Kelly": 0.10412103061548333,
+    "KeepTimeRange": 433
+  },
+  {
+    "StockNo": "3092",
+    "TradeCount": 29,
+    "WinFisrtRate": 1.6933680713660719,
+    "WinRate": 0.48275862068965519,
+    "WinLoseRate": 2.6752999109204483,
+    "Kelly": 0.2894190339020245,
+    "KeepTimeRange": 377
+  },
+  {
+    "StockNo": "6129",
+    "TradeCount": 38,
+    "WinFisrtRate": -0.4432731745269,
+    "WinRate": 0.31578947368421051,
+    "WinLoseRate": 1.5467554154550689,
+    "Kelly": -0.12656263931258727,
+    "KeepTimeRange": 383
+  },
+  {
+    "StockNo": "3024",
+    "TradeCount": 28,
+    "WinFisrtRate": 0.34769876772182495,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.3944970112100372,
+    "Kelly": 0.14144777939241443,
+    "KeepTimeRange": 507
+  },
+  {
+    "StockNo": "1515",
+    "TradeCount": 25,
+    "WinFisrtRate": 1.2422988896575973,
+    "WinRate": 0.64,
+    "WinLoseRate": 1.7910570148329745,
+    "Kelly": 0.4390013734802452,
+    "KeepTimeRange": 372
+  },
+  {
+    "StockNo": "5353",
+    "TradeCount": 34,
+    "WinFisrtRate": -0.35437134668394132,
+    "WinRate": 0.38235294117647056,
+    "WinLoseRate": 1.2325883032595362,
+    "Kelly": -0.11874467364770358,
+    "KeepTimeRange": 601
+  },
+  {
+    "StockNo": "2314",
+    "TradeCount": 32,
+    "WinFisrtRate": -0.48313588715111366,
+    "WinRate": 0.3125,
+    "WinLoseRate": 1.5527784329630514,
+    "Kelly": -0.13025473268140064,
+    "KeepTimeRange": 358
+  },
+  {
+    "StockNo": "5607",
+    "TradeCount": 27,
+    "WinFisrtRate": -0.020414830391963013,
+    "WinRate": 0.44444444444444442,
+    "WinLoseRate": 1.2231483371102117,
+    "Kelly": -0.0097568479908632932,
+    "KeepTimeRange": 429
+  },
+  {
+    "StockNo": "4503",
+    "TradeCount": 30,
+    "WinFisrtRate": 0.53761625241118838,
+    "WinRate": 0.53333333333333333,
+    "WinLoseRate": 1.3221901030780803,
+    "Kelly": 0.18038358308164182,
+    "KeepTimeRange": 274
+  },
+  {
+    "StockNo": "3036",
+    "TradeCount": 13,
+    "WinFisrtRate": 0.41611371933475583,
+    "WinRate": 0.76923076923076927,
+    "WinLoseRate": 0.84680578066247336,
+    "Kelly": 0.49671346238303465,
+    "KeepTimeRange": 217
+  },
+  {
+    "StockNo": "5512",
+    "TradeCount": 25,
+    "WinFisrtRate": 0.024295087851150643,
+    "WinRate": 0.44,
+    "WinLoseRate": 1.3224369407981893,
+    "Kelly": 0.016539354941190409,
+    "KeepTimeRange": 367
+  },
+  {
+    "StockNo": "3004",
+    "TradeCount": 31,
+    "WinFisrtRate": -0.29976445628201787,
+    "WinRate": 0.35483870967741937,
+    "WinLoseRate": 1.4624674760566325,
+    "Kelly": -0.086307025790271441,
+    "KeepTimeRange": 364
+  },
+  {
+    "StockNo": "3049",
+    "TradeCount": 22,
+    "WinFisrtRate": 0.35549191508440775,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.3976420589870988,
+    "Kelly": 0.14225461248471533,
+    "KeepTimeRange": 225
+  },
+  {
+    "StockNo": "5234",
+    "TradeCount": 20,
+    "WinFisrtRate": -0.11395402298066183,
+    "WinRate": 0.4,
+    "WinLoseRate": 1.276161925629564,
+    "Kelly": -0.070159772008559385,
+    "KeepTimeRange": 387
+  },
+  {
+    "StockNo": "8213",
+    "TradeCount": 19,
+    "WinFisrtRate": 0.24195464753841825,
+    "WinRate": 0.52631578947368418,
+    "WinLoseRate": 1.3424590411109774,
+    "Kelly": 0.17346762351823758,
+    "KeepTimeRange": 254
+  },
+  {
+    "StockNo": "3030",
+    "TradeCount": 21,
+    "WinFisrtRate": -0.085906619686000746,
+    "WinRate": 0.52380952380952384,
+    "WinLoseRate": 0.780322192823333,
+    "Kelly": -0.086439012718113939,
+    "KeepTimeRange": 287
+  },
+  {
+    "StockNo": "1722",
+    "TradeCount": 6,
+    "WinFisrtRate": -0.083566571225288044,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.3647693833648411,
+    "Kelly": -0.87072907651326,
+    "KeepTimeRange": 56
+  },
+  {
+    "StockNo": "3540",
+    "TradeCount": 27,
+    "WinFisrtRate": 1.1078577444150639,
+    "WinRate": 0.40740740740740738,
+    "WinLoseRate": 3.1637568012722075,
+    "Kelly": 0.22010078751984216,
+    "KeepTimeRange": 309
+  },
+  {
+    "StockNo": "2066",
+    "TradeCount": 20,
+    "WinFisrtRate": -0.22273437548308503,
+    "WinRate": 0.3,
+    "WinLoseRate": 1.7585259463717775,
+    "Kelly": -0.0980606606597148,
+    "KeepTimeRange": 154
+  },
+  {
+    "StockNo": "8091",
+    "TradeCount": 27,
+    "WinFisrtRate": -0.26458803830962224,
+    "WinRate": 0.40740740740740738,
+    "WinLoseRate": 1.1266038711838733,
+    "Kelly": -0.11859166622428213,
+    "KeepTimeRange": 400
+  },
+  {
+    "StockNo": "4934",
+    "TradeCount": 20,
+    "WinFisrtRate": 0.4589704118166113,
+    "WinRate": 0.35,
+    "WinLoseRate": 2.9645664413778774,
+    "Kelly": 0.13074365582513586,
+    "KeepTimeRange": 239
+  },
+  {
+    "StockNo": "6535",
+    "TradeCount": 17,
+    "WinFisrtRate": -0.0077709816272042431,
+    "WinRate": 0.29411764705882354,
+    "WinLoseRate": 2.3751880706386164,
+    "Kelly": -0.0030724414512564024,
+    "KeepTimeRange": 167
+  },
+  {
+    "StockNo": "4736",
+    "TradeCount": 19,
+    "WinFisrtRate": 0.52024019239974484,
+    "WinRate": 0.47368421052631576,
+    "WinLoseRate": 2.0913127181905846,
+    "Kelly": 0.22201654509507618,
+    "KeepTimeRange": 219
+  },
+  {
+    "StockNo": "6005",
+    "TradeCount": 18,
+    "WinFisrtRate": -0.5914015695892777,
+    "WinRate": 0.11111111111111111,
+    "WinLoseRate": 1.3647345223937375,
+    "Kelly": -0.54021621614795334,
+    "KeepTimeRange": 233
+  },
+  {
+    "StockNo": "6874",
+    "TradeCount": 2,
+    "WinFisrtRate": 0.94527687837276875,
+    "WinRate": 1.0,
+    "WinLoseRate": 10.0,
+    "Kelly": 1.0,
+    "KeepTimeRange": 18
+  },
+  {
+    "StockNo": "1720",
+    "TradeCount": 24,
+    "WinFisrtRate": -0.66659560425802167,
+    "WinRate": 0.25,
+    "WinLoseRate": 1.0243592999218203,
+    "Kelly": -0.48216497381069356,
+    "KeepTimeRange": 303
+  },
+  {
+    "StockNo": "6257",
+    "TradeCount": 16,
+    "WinFisrtRate": -0.18374933477354677,
+    "WinRate": 0.4375,
+    "WinLoseRate": 0.7635410355247163,
+    "Kelly": -0.29919910827181928,
+    "KeepTimeRange": 135
+  },
+  {
+    "StockNo": "6672",
+    "TradeCount": 3,
+    "WinFisrtRate": 0.13289268814208835,
+    "WinRate": 0.66666666666666663,
+    "WinLoseRate": 2.9184029400847167,
+    "Kelly": 0.55244894547575485,
+    "KeepTimeRange": 33
+  },
+  {
+    "StockNo": "6202",
+    "TradeCount": 21,
+    "WinFisrtRate": 0.17597213970609113,
+    "WinRate": 0.42857142857142855,
+    "WinLoseRate": 1.6761764959154355,
+    "Kelly": 0.087659494284646589,
+    "KeepTimeRange": 296
+  },
+  {
+    "StockNo": "1342",
+    "TradeCount": 9,
+    "WinFisrtRate": -0.09427774151423228,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 1.3764414629213604,
+    "Kelly": -0.15100739936425117,
+    "KeepTimeRange": 78
+  },
+  {
+    "StockNo": "2607",
+    "TradeCount": 26,
+    "WinFisrtRate": -0.4352037623925693,
+    "WinRate": 0.26923076923076922,
+    "WinLoseRate": 1.2863059908250656,
+    "Kelly": -0.29888384422951558,
+    "KeepTimeRange": 537
+  },
+  {
+    "StockNo": "3169",
+    "TradeCount": 29,
+    "WinFisrtRate": 0.160966731229448,
+    "WinRate": 0.37931034482758619,
+    "WinLoseRate": 1.86385639021887,
+    "Kelly": 0.046296675732872772,
+    "KeepTimeRange": 369
+  },
+  {
+    "StockNo": "6213",
+    "TradeCount": 13,
+    "WinFisrtRate": 0.072604483066070341,
+    "WinRate": 0.53846153846153844,
+    "WinLoseRate": 1.1044200934626844,
+    "Kelly": 0.12056035731641668,
+    "KeepTimeRange": 257
+  },
+  {
+    "StockNo": "6477",
+    "TradeCount": 16,
+    "WinFisrtRate": 0.20179548159876987,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.286572941497659,
+    "Kelly": 0.11137065464942408,
+    "KeepTimeRange": 231
+  },
+  {
+    "StockNo": "5434",
+    "TradeCount": 14,
+    "WinFisrtRate": 0.23041420300449061,
+    "WinRate": 0.6428571428571429,
+    "WinLoseRate": 1.0538674056289306,
+    "Kelly": 0.30396929488378216,
+    "KeepTimeRange": 286
+  },
+  {
+    "StockNo": "4190",
+    "TradeCount": 12,
+    "WinFisrtRate": -0.13419108247815353,
+    "WinRate": 0.41666666666666669,
+    "WinLoseRate": 0.9051482321804043,
+    "Kelly": -0.22779499452240321,
+    "KeepTimeRange": 125
+  },
+  {
+    "StockNo": "2497",
+    "TradeCount": 38,
+    "WinFisrtRate": 0.337805465197872,
+    "WinRate": 0.39473684210526316,
+    "WinLoseRate": 1.8911821157482454,
+    "Kelly": 0.074691959671894348,
+    "KeepTimeRange": 385
+  },
+  {
+    "StockNo": "3010",
+    "TradeCount": 11,
+    "WinFisrtRate": 0.011990137226669154,
+    "WinRate": 0.54545454545454541,
+    "WinLoseRate": 0.86992398148725114,
+    "Kelly": 0.02294284992874962,
+    "KeepTimeRange": 216
+  },
+  {
+    "StockNo": "8341",
+    "TradeCount": 10,
+    "WinFisrtRate": 0.16067921041735256,
+    "WinRate": 0.4,
+    "WinLoseRate": 2.2916291777994227,
+    "Kelly": 0.13817753508612574,
+    "KeepTimeRange": 101
+  },
+  {
+    "StockNo": "6776",
+    "TradeCount": 8,
+    "WinFisrtRate": 0.340556934275591,
+    "WinRate": 0.625,
+    "WinLoseRate": 1.9898825103476876,
+    "Kelly": 0.43654666265473274,
+    "KeepTimeRange": 89
+  },
+  {
+    "StockNo": "6243",
+    "TradeCount": 35,
+    "WinFisrtRate": -0.71986733180604734,
+    "WinRate": 0.31428571428571428,
+    "WinLoseRate": 1.3011444146306423,
+    "Kelly": -0.21272287753838415,
+    "KeepTimeRange": 341
+  },
+  {
+    "StockNo": "8105",
+    "TradeCount": 23,
+    "WinFisrtRate": 0.6651271430827056,
+    "WinRate": 0.52173913043478259,
+    "WinLoseRate": 1.6821297437765628,
+    "Kelly": 0.23742047348536671,
+    "KeepTimeRange": 326
+  },
+  {
+    "StockNo": "3081",
+    "TradeCount": 5,
+    "WinFisrtRate": -0.12017579431119935,
+    "WinRate": 0.4,
+    "WinLoseRate": 0.72971152676269913,
+    "Kelly": -0.42224273290823167,
+    "KeepTimeRange": 39
+  },
+  {
+    "StockNo": "6712",
+    "TradeCount": 1,
+    "WinFisrtRate": 0.11691397849462365,
+    "WinRate": 1.0,
+    "WinLoseRate": 10.0,
+    "Kelly": 1.0,
+    "KeepTimeRange": 19
+  },
+  {
+    "StockNo": "1210",
+    "TradeCount": 15,
+    "WinFisrtRate": -0.24735545826154826,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 1.0012867380143882,
+    "Kelly": -0.33247661036841475,
+    "KeepTimeRange": 182
+  },
+  {
+    "StockNo": "3059",
+    "TradeCount": 23,
+    "WinFisrtRate": -0.02449760505043657,
+    "WinRate": 0.43478260869565216,
+    "WinLoseRate": 1.2627468206229786,
+    "Kelly": -0.01282682660310136,
+    "KeepTimeRange": 246
+  },
+  {
+    "StockNo": "6416",
+    "TradeCount": 14,
+    "WinFisrtRate": -0.18863584454145507,
+    "WinRate": 0.35714285714285715,
+    "WinLoseRate": 1.0928886983587212,
+    "Kelly": -0.23107545257392653,
+    "KeepTimeRange": 115
+  },
+  {
+    "StockNo": "8420",
+    "TradeCount": 21,
+    "WinFisrtRate": 0.48021333214783046,
+    "WinRate": 0.47619047619047616,
+    "WinLoseRate": 1.9389841781206889,
+    "Kelly": 0.2060441130998743,
+    "KeepTimeRange": 301
+  },
+  {
+    "StockNo": "8426",
+    "TradeCount": 19,
+    "WinFisrtRate": 0.37530879910153531,
+    "WinRate": 0.47368421052631576,
+    "WinLoseRate": 1.719009066619275,
+    "Kelly": 0.1675102643302237,
+    "KeepTimeRange": 263
+  },
+  {
+    "StockNo": "2006",
+    "TradeCount": 12,
+    "WinFisrtRate": -0.22437519073712822,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.47218340034543588,
+    "Kelly": -0.55891058354489864,
+    "KeepTimeRange": 131
+  },
+  {
+    "StockNo": "2413",
+    "TradeCount": 37,
+    "WinFisrtRate": -0.48520886711424527,
+    "WinRate": 0.27027027027027029,
+    "WinLoseRate": 2.0859446640869943,
+    "Kelly": -0.079561507289911626,
+    "KeepTimeRange": 510
+  },
+  {
+    "StockNo": "6016",
+    "TradeCount": 24,
+    "WinFisrtRate": 0.20482830083259462,
+    "WinRate": 0.54166666666666663,
+    "WinLoseRate": 1.1169431202380442,
+    "Kelly": 0.13132049502307136,
+    "KeepTimeRange": 361
+  },
+  {
+    "StockNo": "6763",
+    "TradeCount": 2,
+    "WinFisrtRate": -0.03547135278514589,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.59015529273308465,
+    "Kelly": -0.34723462816784378,
+    "KeepTimeRange": 22
+  },
+  {
+    "StockNo": "1307",
+    "TradeCount": 19,
+    "WinFisrtRate": -0.11234577607791797,
+    "WinRate": 0.36842105263157893,
+    "WinLoseRate": 1.4467851111097771,
+    "Kelly": -0.068118515351643816,
+    "KeepTimeRange": 331
+  },
+  {
+    "StockNo": "5478",
+    "TradeCount": 26,
+    "WinFisrtRate": -0.23805312079625068,
+    "WinRate": 0.34615384615384615,
+    "WinLoseRate": 1.4493064707704826,
+    "Kelly": -0.10499031626651145,
+    "KeepTimeRange": 453
+  },
+  {
+    "StockNo": "1789",
+    "TradeCount": 22,
+    "WinFisrtRate": -0.079941400451808822,
+    "WinRate": 0.36363636363636365,
+    "WinLoseRate": 1.568452482527926,
+    "Kelly": -0.042090710312340462,
+    "KeepTimeRange": 276
+  },
+  {
+    "StockNo": "2362",
+    "TradeCount": 13,
+    "WinFisrtRate": -0.27977602912966859,
+    "WinRate": 0.38461538461538464,
+    "WinLoseRate": 0.77633077004206685,
+    "Kelly": -0.4080681455650173,
+    "KeepTimeRange": 196
+  },
+  {
+    "StockNo": "3594",
+    "TradeCount": 28,
+    "WinFisrtRate": -0.21145872568207352,
+    "WinRate": 0.42857142857142855,
+    "WinLoseRate": 1.0935854621580408,
+    "Kelly": -0.09395615724791434,
+    "KeepTimeRange": 278
+  },
+  {
+    "StockNo": "9942",
+    "TradeCount": 20,
+    "WinFisrtRate": 0.9543989719569419,
+    "WinRate": 0.7,
+    "WinLoseRate": 1.7419214018868032,
+    "Kelly": 0.52777638550450778,
+    "KeepTimeRange": 323
+  },
+  {
+    "StockNo": "5209",
+    "TradeCount": 20,
+    "WinFisrtRate": 0.19079033980543425,
+    "WinRate": 0.45,
+    "WinLoseRate": 1.5861434774408969,
+    "Kelly": 0.10324700582107699,
+    "KeepTimeRange": 384
+  },
+  {
+    "StockNo": "1471",
+    "TradeCount": 26,
+    "WinFisrtRate": -0.1406711224182631,
+    "WinRate": 0.30769230769230771,
+    "WinLoseRate": 2.0090486211517238,
+    "Kelly": -0.036902484598390684,
+    "KeepTimeRange": 332
+  },
+  {
+    "StockNo": "2392",
+    "TradeCount": 17,
+    "WinFisrtRate": 0.53437577636956823,
+    "WinRate": 0.58823529411764708,
+    "WinLoseRate": 1.8086210769840949,
+    "Kelly": 0.3605675359994141,
+    "KeepTimeRange": 246
+  },
+  {
+    "StockNo": "4973",
+    "TradeCount": 27,
+    "WinFisrtRate": -0.23590806099132555,
+    "WinRate": 0.40740740740740738,
+    "WinLoseRate": 1.1526995204210391,
+    "Kelly": -0.10668371703076368,
+    "KeepTimeRange": 464
+  },
+  {
+    "StockNo": "6190",
+    "TradeCount": 29,
+    "WinFisrtRate": 0.20882581309111398,
+    "WinRate": 0.44827586206896552,
+    "WinLoseRate": 1.5484196709071634,
+    "Kelly": 0.09196151893755905,
+    "KeepTimeRange": 250
+  },
+  {
+    "StockNo": "8034",
+    "TradeCount": 36,
+    "WinFisrtRate": 0.90386417864313517,
+    "WinRate": 0.47222222222222221,
+    "WinLoseRate": 1.7614883707631641,
+    "Kelly": 0.17260186336108579,
+    "KeepTimeRange": 460
+  },
+  {
+    "StockNo": "2451",
+    "TradeCount": 12,
+    "WinFisrtRate": 0.23317482937241463,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.9274670848640236,
+    "Kelly": 0.2405921979543047,
+    "KeepTimeRange": 132
+  },
+  {
+    "StockNo": "2734",
+    "TradeCount": 21,
+    "WinFisrtRate": 0.85580953093154555,
+    "WinRate": 0.42857142857142855,
+    "WinLoseRate": 2.38114857944405,
+    "Kelly": 0.18859120374984753,
+    "KeepTimeRange": 186
+  },
+  {
+    "StockNo": "2208",
+    "TradeCount": 22,
+    "WinFisrtRate": 0.2728141684428364,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.3818909124122556,
+    "Kelly": 0.13817693892552613,
+    "KeepTimeRange": 365
+  },
+  {
+    "StockNo": "8048",
+    "TradeCount": 32,
+    "WinFisrtRate": 0.16272361260077192,
+    "WinRate": 0.375,
+    "WinLoseRate": 1.8453848195617737,
+    "Kelly": 0.036317252979018388,
+    "KeepTimeRange": 499
+  },
+  {
+    "StockNo": "1723",
+    "TradeCount": 16,
+    "WinFisrtRate": -0.10551558884497538,
+    "WinRate": 0.375,
+    "WinLoseRate": 1.2313486961329971,
+    "Kelly": -0.13257352646150378,
+    "KeepTimeRange": 269
+  },
+  {
+    "StockNo": "2393",
+    "TradeCount": 13,
+    "WinFisrtRate": -0.074222097977083734,
+    "WinRate": 0.30769230769230771,
+    "WinLoseRate": 1.8233505586543748,
+    "Kelly": -0.071997538026999541,
+    "KeepTimeRange": 86
+  },
+  {
+    "StockNo": "6547",
+    "TradeCount": 8,
+    "WinFisrtRate": -0.0512076190487908,
+    "WinRate": 0.125,
+    "WinLoseRate": 6.3192323763153579,
+    "Kelly": -0.0134661851144329,
+    "KeepTimeRange": 72
+  },
+  {
+    "StockNo": "1806",
+    "TradeCount": 20,
+    "WinFisrtRate": -0.50028146640534388,
+    "WinRate": 0.3,
+    "WinLoseRate": 0.72177504589167,
+    "Kelly": -0.66983125696072054,
+    "KeepTimeRange": 315
+  },
+  {
+    "StockNo": "2231",
+    "TradeCount": 16,
+    "WinFisrtRate": 1.0681625492568967,
+    "WinRate": 0.875,
+    "WinLoseRate": 1.4646468192475914,
+    "Kelly": 0.78965519307636622,
+    "KeepTimeRange": 229
+  },
+  {
+    "StockNo": "8936",
+    "TradeCount": 22,
+    "WinFisrtRate": 0.35637766174241137,
+    "WinRate": 0.45454545454545453,
+    "WinLoseRate": 1.8227314454893255,
+    "Kelly": 0.15529426929577328,
+    "KeepTimeRange": 256
+  },
+  {
+    "StockNo": "5309",
+    "TradeCount": 24,
+    "WinFisrtRate": 0.14450932192166971,
+    "WinRate": 0.45833333333333331,
+    "WinLoseRate": 1.3489080707994512,
+    "Kelly": 0.056773969583927,
+    "KeepTimeRange": 366
+  },
+  {
+    "StockNo": "8038",
+    "TradeCount": 18,
+    "WinFisrtRate": -0.12096396942570302,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 1.7640096564182881,
+    "Kelly": -0.0445935471919649,
+    "KeepTimeRange": 176
+  },
+  {
+    "StockNo": "4953",
+    "TradeCount": 22,
+    "WinFisrtRate": -0.38499797245301826,
+    "WinRate": 0.40909090909090912,
+    "WinLoseRate": 0.86944951020280414,
+    "Kelly": -0.27054498002616895,
+    "KeepTimeRange": 440
+  },
+  {
+    "StockNo": "6160",
+    "TradeCount": 30,
+    "WinFisrtRate": 0.18854361451372309,
+    "WinRate": 0.4,
+    "WinLoseRate": 1.7053108514449693,
+    "Kelly": 0.048157988620315728,
+    "KeepTimeRange": 463
+  },
+  {
+    "StockNo": "3548",
+    "TradeCount": 31,
+    "WinFisrtRate": -0.52859617709269657,
+    "WinRate": 0.38709677419354838,
+    "WinLoseRate": 0.89075628790739547,
+    "Kelly": -0.30097383965113333,
+    "KeepTimeRange": 328
+  },
+  {
+    "StockNo": "2495",
+    "TradeCount": 21,
+    "WinFisrtRate": 1.1300052003783683,
+    "WinRate": 0.52380952380952384,
+    "WinLoseRate": 2.5820531103636144,
+    "Kelly": 0.33938633193977286,
+    "KeepTimeRange": 397
+  },
+  {
+    "StockNo": "5426",
+    "TradeCount": 27,
+    "WinFisrtRate": -0.051073401456290857,
+    "WinRate": 0.44444444444444442,
+    "WinLoseRate": 1.1740698482681777,
+    "Kelly": -0.028743378558618637,
+    "KeepTimeRange": 339
+  },
+  {
+    "StockNo": "8261",
+    "TradeCount": 34,
+    "WinFisrtRate": -0.22758716807372828,
+    "WinRate": 0.29411764705882354,
+    "WinLoseRate": 2.0829872253838295,
+    "Kelly": -0.044762181074113894,
+    "KeepTimeRange": 376
+  },
+  {
+    "StockNo": "2101",
+    "TradeCount": 21,
+    "WinFisrtRate": -0.89878905004488507,
+    "WinRate": 0.095238095238095233,
+    "WinLoseRate": 1.7712984669469423,
+    "Kelly": -0.41555210847126423,
+    "KeepTimeRange": 364
+  },
+  {
+    "StockNo": "8215",
+    "TradeCount": 26,
+    "WinFisrtRate": 0.74399891210740154,
+    "WinRate": 0.5,
+    "WinLoseRate": 2.0099650918445926,
+    "Kelly": 0.25123946081016851,
+    "KeepTimeRange": 275
+  },
+  {
+    "StockNo": "3011",
+    "TradeCount": 32,
+    "WinFisrtRate": 0.62100068337712921,
+    "WinRate": 0.34375,
+    "WinLoseRate": 2.7614085520351619,
+    "Kelly": 0.10609954457704462,
+    "KeepTimeRange": 537
+  },
+  {
+    "StockNo": "3624",
+    "TradeCount": 23,
+    "WinFisrtRate": 0.71380980913619929,
+    "WinRate": 0.52173913043478259,
+    "WinLoseRate": 1.7596014526983554,
+    "Kelly": 0.24993845146182392,
+    "KeepTimeRange": 439
+  },
+  {
+    "StockNo": "8081",
+    "TradeCount": 23,
+    "WinFisrtRate": 0.2183647657865237,
+    "WinRate": 0.391304347826087,
+    "WinLoseRate": 2.0324816252617777,
+    "Kelly": 0.0918203846706932,
+    "KeepTimeRange": 320
+  },
+  {
+    "StockNo": "4138",
+    "TradeCount": 25,
+    "WinFisrtRate": -0.11322468629970041,
+    "WinRate": 0.24,
+    "WinLoseRate": 2.800201744632782,
+    "Kelly": -0.031409015959907693,
+    "KeepTimeRange": 187
+  },
+  {
+    "StockNo": "2230",
+    "TradeCount": 22,
+    "WinFisrtRate": -0.3639623692502108,
+    "WinRate": 0.27272727272727271,
+    "WinLoseRate": 1.8864672295748926,
+    "Kelly": -0.11279372433590723,
+    "KeepTimeRange": 205
+  },
+  {
+    "StockNo": "8433",
+    "TradeCount": 20,
+    "WinFisrtRate": 0.79242151792711746,
+    "WinRate": 0.7,
+    "WinLoseRate": 1.1461828522334538,
+    "Kelly": 0.43826165745245654,
+    "KeepTimeRange": 247
+  },
+  {
+    "StockNo": "6756",
+    "TradeCount": 3,
+    "WinFisrtRate": 0.20226948183651597,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 5.9562616987475536,
+    "Kelly": 0.22140630588139154,
+    "KeepTimeRange": 20
+  },
+  {
+    "StockNo": "4951",
+    "TradeCount": 3,
+    "WinFisrtRate": -0.065574405440977285,
+    "WinRate": 0.66666666666666663,
+    "WinLoseRate": 0.17039920571515568,
+    "Kelly": -1.2895239853633855,
+    "KeepTimeRange": 12
+  },
+  {
+    "StockNo": "5443",
+    "TradeCount": 34,
+    "WinFisrtRate": -0.39863477318802576,
+    "WinRate": 0.35294117647058826,
+    "WinLoseRate": 1.3048422125404295,
+    "Kelly": -0.14294929772677611,
+    "KeepTimeRange": 378
+  },
+  {
+    "StockNo": "1710",
+    "TradeCount": 14,
+    "WinFisrtRate": -0.019171206922859257,
+    "WinRate": 0.35714285714285715,
+    "WinLoseRate": 1.7312661048907851,
+    "Kelly": -0.014179114124925896,
+    "KeepTimeRange": 271
+  },
+  {
+    "StockNo": "6167",
+    "TradeCount": 21,
+    "WinFisrtRate": 0.42280743399588266,
+    "WinRate": 0.52380952380952384,
+    "WinLoseRate": 1.4263566533268604,
+    "Kelly": 0.18995860715428142,
+    "KeepTimeRange": 223
+  },
+  {
+    "StockNo": "6546",
+    "TradeCount": 1,
+    "WinFisrtRate": 0.049693057247259545,
+    "WinRate": 1.0,
+    "WinLoseRate": 10.0,
+    "Kelly": 1.0,
+    "KeepTimeRange": 6
+  },
+  {
+    "StockNo": "2809",
+    "TradeCount": 15,
+    "WinFisrtRate": 0.357364605885696,
+    "WinRate": 0.66666666666666663,
+    "WinLoseRate": 1.5324700679210022,
+    "Kelly": 0.4491529022474085,
+    "KeepTimeRange": 236
+  },
+  {
+    "StockNo": "6438",
+    "TradeCount": 16,
+    "WinFisrtRate": -0.25471602175532204,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.5938408000469162,
+    "Kelly": -0.34197650272682112,
+    "KeepTimeRange": 181
+  },
+  {
+    "StockNo": "8422",
+    "TradeCount": 5,
+    "WinFisrtRate": 0.23983296549230238,
+    "WinRate": 0.8,
+    "WinLoseRate": 3.4766356052268206,
+    "Kelly": 0.7424731197887644,
+    "KeepTimeRange": 104
+  },
+  {
+    "StockNo": "5905",
+    "TradeCount": 29,
+    "WinFisrtRate": 0.60424006626740856,
+    "WinRate": 0.51724137931034486,
+    "WinLoseRate": 1.6017326382025,
+    "Kelly": 0.2158436246692097,
+    "KeepTimeRange": 457
+  },
+  {
+    "StockNo": "1608",
+    "TradeCount": 33,
+    "WinFisrtRate": 0.34359608349028342,
+    "WinRate": 0.39393939393939392,
+    "WinLoseRate": 2.0193303094738297,
+    "Kelly": 0.093809889015295966,
+    "KeepTimeRange": 367
+  },
+  {
+    "StockNo": "6146",
+    "TradeCount": 13,
+    "WinFisrtRate": 0.05383288353650828,
+    "WinRate": 0.53846153846153844,
+    "WinLoseRate": 1.0130006131069487,
+    "Kelly": 0.082846353666251316,
+    "KeepTimeRange": 158
+  },
+  {
+    "StockNo": "6276",
+    "TradeCount": 32,
+    "WinFisrtRate": 0.61203194156232987,
+    "WinRate": 0.46875,
+    "WinLoseRate": 1.7952979517781809,
+    "Kelly": 0.1728381155833687,
+    "KeepTimeRange": 288
+  },
+  {
+    "StockNo": "1104",
+    "TradeCount": 18,
+    "WinFisrtRate": 0.7807943812065975,
+    "WinRate": 0.66666666666666663,
+    "WinLoseRate": 2.0607720981224906,
+    "Kelly": 0.50491499425367947,
+    "KeepTimeRange": 265
+  },
+  {
+    "StockNo": "5511",
+    "TradeCount": 15,
+    "WinFisrtRate": 0.75613371139514673,
+    "WinRate": 0.66666666666666663,
+    "WinLoseRate": 1.39283406990395,
+    "Kelly": 0.42734646296406764,
+    "KeepTimeRange": 209
+  },
+  {
+    "StockNo": "8027",
+    "TradeCount": 14,
+    "WinFisrtRate": 1.1638431306854979,
+    "WinRate": 0.7142857142857143,
+    "WinLoseRate": 1.9283109231393012,
+    "Kelly": 0.56611755204290481,
+    "KeepTimeRange": 182
+  },
+  {
+    "StockNo": "6753",
+    "TradeCount": 3,
+    "WinFisrtRate": 0.679947191249557,
+    "WinRate": 1.0,
+    "WinLoseRate": 10.0,
+    "Kelly": 1.0,
+    "KeepTimeRange": 102
+  },
+  {
+    "StockNo": "2031",
+    "TradeCount": 21,
+    "WinFisrtRate": 1.1732258350658369,
+    "WinRate": 0.66666666666666663,
+    "WinLoseRate": 1.991041116278083,
+    "Kelly": 0.49925006707557229,
+    "KeepTimeRange": 277
+  },
+  {
+    "StockNo": "1589",
+    "TradeCount": 16,
+    "WinFisrtRate": 0.29652317842386472,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.57881672620313,
+    "Kelly": 0.18330713014268502,
+    "KeepTimeRange": 155
+  },
+  {
+    "StockNo": "6579",
+    "TradeCount": 8,
+    "WinFisrtRate": 0.22842482756046056,
+    "WinRate": 0.625,
+    "WinLoseRate": 1.3724135913262514,
+    "Kelly": 0.35175875379694149,
+    "KeepTimeRange": 110
+  },
+  {
+    "StockNo": "2489",
+    "TradeCount": 23,
+    "WinFisrtRate": -0.27060386513056045,
+    "WinRate": 0.2608695652173913,
+    "WinLoseRate": 1.9696827771485563,
+    "Kelly": -0.11438397477275014,
+    "KeepTimeRange": 256
+  },
+  {
+    "StockNo": "6275",
+    "TradeCount": 33,
+    "WinFisrtRate": -1.0025430696698772,
+    "WinRate": 0.30303030303030304,
+    "WinLoseRate": 1.0372493859650904,
+    "Kelly": -0.36891002916012178,
+    "KeepTimeRange": 454
+  },
+  {
+    "StockNo": "6589",
+    "TradeCount": 4,
+    "WinFisrtRate": 0.51444798341335429,
+    "WinRate": 0.75,
+    "WinLoseRate": 2.7092701233779715,
+    "Kelly": 0.65772422511776163,
+    "KeepTimeRange": 25
+  },
+  {
+    "StockNo": "6180",
+    "TradeCount": 24,
+    "WinFisrtRate": 0.45724372962875887,
+    "WinRate": 0.41666666666666669,
+    "WinLoseRate": 2.3070077834609046,
+    "Kelly": 0.16381388588487239,
+    "KeepTimeRange": 230
+  },
+  {
+    "StockNo": "2542",
+    "TradeCount": 8,
+    "WinFisrtRate": -0.18663400845475162,
+    "WinRate": 0.25,
+    "WinLoseRate": 0.790876193383607,
+    "Kelly": -0.69831530683870213,
+    "KeepTimeRange": 103
+  },
+  {
+    "StockNo": "9917",
+    "TradeCount": 2,
+    "WinFisrtRate": -0.027650609452600148,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.32964136512918363,
+    "Kelly": -1.0167999313558669,
+    "KeepTimeRange": 197
+  },
+  {
+    "StockNo": "6412",
+    "TradeCount": 17,
+    "WinFisrtRate": -0.050712941864262333,
+    "WinRate": 0.35294117647058826,
+    "WinLoseRate": 1.6241037346216249,
+    "Kelly": -0.0454686108698491,
+    "KeepTimeRange": 227
+  },
+  {
+    "StockNo": "1904",
+    "TradeCount": 21,
+    "WinFisrtRate": -0.033495377641936989,
+    "WinRate": 0.38095238095238093,
+    "WinLoseRate": 1.5410566799001768,
+    "Kelly": -0.020750961385240518,
+    "KeepTimeRange": 263
+  },
+  {
+    "StockNo": "1103",
+    "TradeCount": 25,
+    "WinFisrtRate": 0.35357416994954294,
+    "WinRate": 0.64,
+    "WinLoseRate": 0.93395150083826917,
+    "Kelly": 0.25454101237924925,
+    "KeepTimeRange": 335
+  },
+  {
+    "StockNo": "2706",
+    "TradeCount": 19,
+    "WinFisrtRate": -0.013708781206651428,
+    "WinRate": 0.52631578947368418,
+    "WinLoseRate": 0.86425822180505074,
+    "Kelly": -0.021766020540226139,
+    "KeepTimeRange": 196
+  },
+  {
+    "StockNo": "4551",
+    "TradeCount": 14,
+    "WinFisrtRate": -0.092394540408991713,
+    "WinRate": 0.5714285714285714,
+    "WinLoseRate": 0.57260623902055519,
+    "Kelly": -0.17702891884345462,
+    "KeepTimeRange": 147
+  },
+  {
+    "StockNo": "2845",
+    "TradeCount": 10,
+    "WinFisrtRate": -0.16374070470809649,
+    "WinRate": 0.3,
+    "WinLoseRate": 0.65744109337755452,
+    "Kelly": -0.76473417474378147,
+    "KeepTimeRange": 147
+  },
+  {
+    "StockNo": "2732",
+    "TradeCount": 18,
+    "WinFisrtRate": -0.02124956123045782,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.96540955352248992,
+    "Kelly": -0.01791490790167749,
+    "KeepTimeRange": 175
+  },
+  {
+    "StockNo": "4114",
+    "TradeCount": 33,
+    "WinFisrtRate": -1.3750603582126098,
+    "WinRate": 0.15151515151515152,
+    "WinLoseRate": 1.2778612944320844,
+    "Kelly": -0.51247307019707888,
+    "KeepTimeRange": 308
+  },
+  {
+    "StockNo": "1727",
+    "TradeCount": 28,
+    "WinFisrtRate": 0.75904016313463973,
+    "WinRate": 0.4642857142857143,
+    "WinLoseRate": 2.161112524559853,
+    "Kelly": 0.21639751798580487,
+    "KeepTimeRange": 366
+  },
+  {
+    "StockNo": "2723",
+    "TradeCount": 9,
+    "WinFisrtRate": 0.15419631915083168,
+    "WinRate": 0.55555555555555558,
+    "WinLoseRate": 1.2115541645817438,
+    "Kelly": 0.18871727672558947,
+    "KeepTimeRange": 113
+  },
+  {
+    "StockNo": "3128",
+    "TradeCount": 35,
+    "WinFisrtRate": -0.90717837501335086,
+    "WinRate": 0.31428571428571428,
+    "WinLoseRate": 1.2598827829360286,
+    "Kelly": -0.22998260575299467,
+    "KeepTimeRange": 326
+  },
+  {
+    "StockNo": "2702",
+    "TradeCount": 26,
+    "WinFisrtRate": 0.46234911249885841,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.5627195311535618,
+    "Kelly": 0.18004495366426238,
+    "KeepTimeRange": 282
+  },
+  {
+    "StockNo": "6811",
+    "TradeCount": 1,
+    "WinFisrtRate": -0.12727751196172249,
+    "WinRate": 0.0,
+    "WinLoseRate": 0.0,
+    "Kelly": 0.0,
+    "KeepTimeRange": 9
+  },
+  {
+    "StockNo": "4564",
+    "TradeCount": 7,
+    "WinFisrtRate": 0.01934981770136196,
+    "WinRate": 0.42857142857142855,
+    "WinLoseRate": 1.4192836469136427,
+    "Kelly": 0.025953831538451266,
+    "KeepTimeRange": 93
+  },
+  {
+    "StockNo": "8271",
+    "TradeCount": 16,
+    "WinFisrtRate": 0.57188101440621975,
+    "WinRate": 0.5625,
+    "WinLoseRate": 2.0771242116307906,
+    "Kelly": 0.35187224959863606,
+    "KeepTimeRange": 254
+  },
+  {
+    "StockNo": "2633",
+    "TradeCount": 6,
+    "WinFisrtRate": -0.021309379713624198,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.87163664069644142,
+    "Kelly": -0.07363352646637,
+    "KeepTimeRange": 223
+  },
+  {
+    "StockNo": "4128",
+    "TradeCount": 27,
+    "WinFisrtRate": -1.2475530394173475,
+    "WinRate": 0.22222222222222221,
+    "WinLoseRate": 0.77443273974140248,
+    "Kelly": -0.78209711742435861,
+    "KeepTimeRange": 429
+  },
+  {
+    "StockNo": "8436",
+    "TradeCount": 11,
+    "WinFisrtRate": 0.35018970067149469,
+    "WinRate": 0.72727272727272729,
+    "WinLoseRate": 0.87713456307594428,
+    "Kelly": 0.416342929031885,
+    "KeepTimeRange": 103
+  },
+  {
+    "StockNo": "1524",
+    "TradeCount": 31,
+    "WinFisrtRate": 92.861363697638083,
+    "WinRate": 0.41935483870967744,
+    "WinLoseRate": 104.70741479675185,
+    "Kelly": 0.41380943237510776,
+    "KeepTimeRange": 614
+  },
+  {
+    "StockNo": "6577",
+    "TradeCount": 13,
+    "WinFisrtRate": 0.25043627813594393,
+    "WinRate": 0.46153846153846156,
+    "WinLoseRate": 2.0754731158182831,
+    "Kelly": 0.2020980793154219,
+    "KeepTimeRange": 220
+  },
+  {
+    "StockNo": "4768",
+    "TradeCount": 3,
+    "WinFisrtRate": 0.3068001790523609,
+    "WinRate": 0.66666666666666663,
+    "WinLoseRate": 4.6027614034310647,
+    "Kelly": 0.59424637282200754,
+    "KeepTimeRange": 14
+  },
+  {
+    "StockNo": "4137",
+    "TradeCount": 7,
+    "WinFisrtRate": 0.039756198052197947,
+    "WinRate": 0.5714285714285714,
+    "WinLoseRate": 0.8583059666162014,
+    "Kelly": 0.072106132530662781,
+    "KeepTimeRange": 178
+  },
+  {
+    "StockNo": "4510",
+    "TradeCount": 33,
+    "WinFisrtRate": 0.41179003736549447,
+    "WinRate": 0.45454545454545453,
+    "WinLoseRate": 1.6549946814004628,
+    "Kelly": 0.12496460961308309,
+    "KeepTimeRange": 624
+  },
+  {
+    "StockNo": "1762",
+    "TradeCount": 27,
+    "WinFisrtRate": -0.0744357812945,
+    "WinRate": 0.37037037037037035,
+    "WinLoseRate": 1.5679332879366137,
+    "Kelly": -0.031196223357744635,
+    "KeepTimeRange": 266
+  },
+  {
+    "StockNo": "6417",
+    "TradeCount": 8,
+    "WinFisrtRate": 0.23579825422223832,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.8690641760800058,
+    "Kelly": 0.23248644621253639,
+    "KeepTimeRange": 274
+  },
+  {
+    "StockNo": "3491",
+    "TradeCount": 30,
+    "WinFisrtRate": -0.46672618321175807,
+    "WinRate": 0.4,
+    "WinLoseRate": 0.973885190364002,
+    "Kelly": -0.21608904821290309,
+    "KeepTimeRange": 334
+  },
+  {
+    "StockNo": "8150",
+    "TradeCount": 14,
+    "WinFisrtRate": -0.17893403130483337,
+    "WinRate": 0.35714285714285715,
+    "WinLoseRate": 1.160452335960755,
+    "Kelly": -0.19682831680020035,
+    "KeepTimeRange": 161
+  },
+  {
+    "StockNo": "3704",
+    "TradeCount": 19,
+    "WinFisrtRate": 0.49872275348112272,
+    "WinRate": 0.47368421052631576,
+    "WinLoseRate": 1.9255431523348296,
+    "Kelly": 0.20035053382553825,
+    "KeepTimeRange": 295
+  },
+  {
+    "StockNo": "1752",
+    "TradeCount": 37,
+    "WinFisrtRate": -0.11319922445627891,
+    "WinRate": 0.3783783783783784,
+    "WinLoseRate": 1.5061388149147419,
+    "Kelly": -0.034346939810044885,
+    "KeepTimeRange": 388
+  },
+  {
+    "StockNo": "3552",
+    "TradeCount": 19,
+    "WinFisrtRate": -0.33886804262995929,
+    "WinRate": 0.31578947368421051,
+    "WinLoseRate": 1.3590352444277571,
+    "Kelly": -0.18766364066374519,
+    "KeepTimeRange": 252
+  },
+  {
+    "StockNo": "5474",
+    "TradeCount": 24,
+    "WinFisrtRate": 1.1761569680337833,
+    "WinRate": 0.58333333333333337,
+    "WinLoseRate": 1.9142573675054331,
+    "Kelly": 0.3656684186047322,
+    "KeepTimeRange": 301
+  },
+  {
+    "StockNo": "1218",
+    "TradeCount": 25,
+    "WinFisrtRate": 0.062875975114503352,
+    "WinRate": 0.48,
+    "WinLoseRate": 1.1604681252250144,
+    "Kelly": 0.031904969471546474,
+    "KeepTimeRange": 349
+  },
+  {
+    "StockNo": "6456",
+    "TradeCount": 9,
+    "WinFisrtRate": -0.073759478858694216,
+    "WinRate": 0.44444444444444442,
+    "WinLoseRate": 0.98521822294454942,
+    "Kelly": -0.11944642015522877,
+    "KeepTimeRange": 216
+  },
+  {
+    "StockNo": "6505",
+    "TradeCount": 4,
+    "WinFisrtRate": -0.01021759921070229,
+    "WinRate": 0.25,
+    "WinLoseRate": 2.7008367797305319,
+    "Kelly": -0.0276917160002646,
+    "KeepTimeRange": 23
+  },
+  {
+    "StockNo": "6829",
+    "TradeCount": 6,
+    "WinFisrtRate": -0.10698146396031821,
+    "WinRate": 0.16666666666666666,
+    "WinLoseRate": 2.9496496335357048,
+    "Kelly": -0.11585276338998998,
+    "KeepTimeRange": 42
+  },
+  {
+    "StockNo": "4566",
+    "TradeCount": 14,
+    "WinFisrtRate": -0.36380955635785112,
+    "WinRate": 0.14285714285714285,
+    "WinLoseRate": 3.2773289844792366,
+    "Kelly": -0.11867987744265357,
+    "KeepTimeRange": 252
+  },
+  {
+    "StockNo": "5371",
+    "TradeCount": 15,
+    "WinFisrtRate": 0.17670368648298246,
+    "WinRate": 0.4,
+    "WinLoseRate": 2.0073728061640077,
+    "Kelly": 0.10110185902808411,
+    "KeepTimeRange": 221
+  },
+  {
+    "StockNo": "6441",
+    "TradeCount": 12,
+    "WinFisrtRate": 0.20914619616370606,
+    "WinRate": 0.58333333333333337,
+    "WinLoseRate": 1.0432115986271278,
+    "Kelly": 0.18392570863379754,
+    "KeepTimeRange": 166
+  },
+  {
+    "StockNo": "8085",
+    "TradeCount": 28,
+    "WinFisrtRate": 0.93348869363074571,
+    "WinRate": 0.39285714285714285,
+    "WinLoseRate": 2.7391164071851644,
+    "Kelly": 0.17120067891489524,
+    "KeepTimeRange": 312
+  },
+  {
+    "StockNo": "6266",
+    "TradeCount": 29,
+    "WinFisrtRate": 0.056992058872820758,
+    "WinRate": 0.34482758620689657,
+    "WinLoseRate": 1.9890296089570425,
+    "Kelly": 0.015434594346586228,
+    "KeepTimeRange": 470
+  },
+  {
+    "StockNo": "1815",
+    "TradeCount": 29,
+    "WinFisrtRate": -0.14179646948503982,
+    "WinRate": 0.41379310344827586,
+    "WinLoseRate": 1.2017829344974824,
+    "Kelly": -0.0739879090162111,
+    "KeepTimeRange": 330
+  },
+  {
+    "StockNo": "6799",
+    "TradeCount": 5,
+    "WinFisrtRate": 0.32923949781888423,
+    "WinRate": 0.6,
+    "WinLoseRate": 1.4295769791942072,
+    "Kelly": 0.32019694929232612,
+    "KeepTimeRange": 48
+  },
+  {
+    "StockNo": "6470",
+    "TradeCount": 18,
+    "WinFisrtRate": -0.11672267680348596,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.83047636023424876,
+    "Kelly": -0.10206409711525954,
+    "KeepTimeRange": 214
+  },
+  {
+    "StockNo": "9919",
+    "TradeCount": 35,
+    "WinFisrtRate": 0.6024410960163572,
+    "WinRate": 0.25714285714285712,
+    "WinLoseRate": 4.0862747392721976,
+    "Kelly": 0.075349612621698842,
+    "KeepTimeRange": 428
+  },
+  {
+    "StockNo": "6191",
+    "TradeCount": 30,
+    "WinFisrtRate": -0.9888930226509276,
+    "WinRate": 0.26666666666666666,
+    "WinLoseRate": 0.72483484474545135,
+    "Kelly": -0.74505805745426956,
+    "KeepTimeRange": 306
+  },
+  {
+    "StockNo": "1785",
+    "TradeCount": 24,
+    "WinFisrtRate": -0.23728992878923727,
+    "WinRate": 0.25,
+    "WinLoseRate": 2.3662868104861876,
+    "Kelly": -0.066952280119374763,
+    "KeepTimeRange": 279
+  },
+  {
+    "StockNo": "6205",
+    "TradeCount": 21,
+    "WinFisrtRate": 1.080602764339144,
+    "WinRate": 0.5714285714285714,
+    "WinLoseRate": 2.7435053664575912,
+    "Kelly": 0.41521548950382225,
+    "KeepTimeRange": 323
+  },
+  {
+    "StockNo": "2915",
+    "TradeCount": 9,
+    "WinFisrtRate": 0.26259200857507436,
+    "WinRate": 0.55555555555555558,
+    "WinLoseRate": 1.9637444875880297,
+    "Kelly": 0.32923056915656967,
+    "KeepTimeRange": 166
+  },
+  {
+    "StockNo": "1536",
+    "TradeCount": 16,
+    "WinFisrtRate": -0.30710484774355595,
+    "WinRate": 0.375,
+    "WinLoseRate": 0.79589346608858325,
+    "Kelly": -0.41028097871133584,
+    "KeepTimeRange": 170
+  },
+  {
+    "StockNo": "2338",
+    "TradeCount": 23,
+    "WinFisrtRate": -0.034028885139070653,
+    "WinRate": 0.391304347826087,
+    "WinLoseRate": 1.4915574855717402,
+    "Kelly": -0.016789646580430528,
+    "KeepTimeRange": 358
+  },
+  {
+    "StockNo": "3071",
+    "TradeCount": 34,
+    "WinFisrtRate": -0.36244287885600535,
+    "WinRate": 0.38235294117647056,
+    "WinLoseRate": 1.182234580911147,
+    "Kelly": -0.14008741778131728,
+    "KeepTimeRange": 364
+  },
+  {
+    "StockNo": "4123",
+    "TradeCount": 24,
+    "WinFisrtRate": 0.48718649082493387,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.7708968653543942,
+    "Kelly": 0.21765718841004367,
+    "KeepTimeRange": 237
+  },
+  {
+    "StockNo": "9941",
+    "TradeCount": 12,
+    "WinFisrtRate": -0.001056437852967558,
+    "WinRate": 0.41666666666666669,
+    "WinLoseRate": 1.3952728253167019,
+    "Kelly": -0.0014116637852483738,
+    "KeepTimeRange": 148
+  },
+  {
+    "StockNo": "3498",
+    "TradeCount": 29,
+    "WinFisrtRate": 1.6698553314254805,
+    "WinRate": 0.41379310344827586,
+    "WinLoseRate": 3.0671554912851287,
+    "Kelly": 0.22266914569088633,
+    "KeepTimeRange": 323
+  },
+  {
+    "StockNo": "2637",
+    "TradeCount": 17,
+    "WinFisrtRate": 0.25295882193745889,
+    "WinRate": 0.41176470588235292,
+    "WinLoseRate": 2.363554007389904,
+    "Kelly": 0.16288725595801584,
+    "KeepTimeRange": 276
+  },
+  {
+    "StockNo": "8086",
+    "TradeCount": 14,
+    "WinFisrtRate": -0.21594133770486348,
+    "WinRate": 0.35714285714285715,
+    "WinLoseRate": 1.0792390513844221,
+    "Kelly": -0.23851492787937773,
+    "KeepTimeRange": 143
+  },
+  {
+    "StockNo": "3228",
+    "TradeCount": 26,
+    "WinFisrtRate": 1.3537192332146681,
+    "WinRate": 0.42307692307692307,
+    "WinLoseRate": 2.9716895156480971,
+    "Kelly": 0.22893716726287886,
+    "KeepTimeRange": 348
+  },
+  {
+    "StockNo": "6462",
+    "TradeCount": 12,
+    "WinFisrtRate": -0.097174649089058318,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.79788574743010354,
+    "Kelly": -0.12665613668428266,
+    "KeepTimeRange": 128
+  },
+  {
+    "StockNo": "6411",
+    "TradeCount": 15,
+    "WinFisrtRate": -0.045571442449838157,
+    "WinRate": 0.46666666666666667,
+    "WinLoseRate": 1.0576550920465671,
+    "Kelly": -0.037593500323435114,
+    "KeepTimeRange": 158
+  },
+  {
+    "StockNo": "6683",
+    "TradeCount": 8,
+    "WinFisrtRate": 0.43732264131525089,
+    "WinRate": 0.625,
+    "WinLoseRate": 1.6906571678049787,
+    "Kelly": 0.40319276010471616,
+    "KeepTimeRange": 63
+  },
+  {
+    "StockNo": "9904",
+    "TradeCount": 2,
+    "WinFisrtRate": 0.15715984909346231,
+    "WinRate": 1.0,
+    "WinLoseRate": 10.0,
+    "Kelly": 1.0,
+    "KeepTimeRange": 58
+  },
+  {
+    "StockNo": "6596",
+    "TradeCount": 10,
+    "WinFisrtRate": -0.17244625193523261,
+    "WinRate": 0.4,
+    "WinLoseRate": 0.85133436655114325,
+    "Kelly": -0.30477596532449558,
+    "KeepTimeRange": 121
+  },
+  {
+    "StockNo": "4915",
+    "TradeCount": 15,
+    "WinFisrtRate": -0.021326124804807868,
+    "WinRate": 0.46666666666666667,
+    "WinLoseRate": 1.0892791089858314,
+    "Kelly": -0.022953788672728404,
+    "KeepTimeRange": 158
+  },
+  {
+    "StockNo": "3042",
+    "TradeCount": 15,
+    "WinFisrtRate": 0.091494234515967443,
+    "WinRate": 0.46666666666666667,
+    "WinLoseRate": 1.3385674044263156,
+    "Kelly": 0.068230748109461281,
+    "KeepTimeRange": 227
+  },
+  {
+    "StockNo": "2739",
+    "TradeCount": 15,
+    "WinFisrtRate": 0.53741028998544615,
+    "WinRate": 0.53333333333333333,
+    "WinLoseRate": 1.738614302484401,
+    "Kelly": 0.26492034144673654,
+    "KeepTimeRange": 257
+  },
+  {
+    "StockNo": "4541",
+    "TradeCount": 20,
+    "WinFisrtRate": -0.20961803905847631,
+    "WinRate": 0.4,
+    "WinLoseRate": 1.1234950593309252,
+    "Kelly": -0.1340477423704185,
+    "KeepTimeRange": 437
+  },
+  {
+    "StockNo": "2753",
+    "TradeCount": 3,
+    "WinFisrtRate": -0.033458195535985724,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 0.92826888700566978,
+    "Kelly": -0.38484937859310314,
+    "KeepTimeRange": 47
+  },
+  {
+    "StockNo": "4746",
+    "TradeCount": 27,
+    "WinFisrtRate": 0.25561626551414973,
+    "WinRate": 0.44444444444444442,
+    "WinLoseRate": 1.5942108481526676,
+    "Kelly": 0.095961333694495776,
+    "KeepTimeRange": 298
+  },
+  {
+    "StockNo": "3088",
+    "TradeCount": 21,
+    "WinFisrtRate": -0.13270289175359173,
+    "WinRate": 0.38095238095238093,
+    "WinLoseRate": 1.2428827193813821,
+    "Kelly": -0.11712166046299621,
+    "KeepTimeRange": 196
+  },
+  {
+    "StockNo": "1734",
+    "TradeCount": 29,
+    "WinFisrtRate": 0.012860058788068271,
+    "WinRate": 0.44827586206896552,
+    "WinLoseRate": 1.2486948394479218,
+    "Kelly": 0.0064352133361133546,
+    "KeepTimeRange": 449
+  },
+  {
+    "StockNo": "1612",
+    "TradeCount": 27,
+    "WinFisrtRate": -0.099004157202993021,
+    "WinRate": 0.37037037037037035,
+    "WinLoseRate": 1.4885401397011158,
+    "Kelly": -0.052614279379184337,
+    "KeepTimeRange": 376
+  },
+  {
+    "StockNo": "3701",
+    "TradeCount": 14,
+    "WinFisrtRate": 0.17787133118625936,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.3255670134576452,
+    "Kelly": 0.12280292514537883,
+    "KeepTimeRange": 517
+  },
+  {
+    "StockNo": "6269",
+    "TradeCount": 5,
+    "WinFisrtRate": 0.1052284280057727,
+    "WinRate": 0.8,
+    "WinLoseRate": 0.54175219284312259,
+    "Kelly": 0.4308275210656789,
+    "KeepTimeRange": 40
+  },
+  {
+    "StockNo": "4536",
+    "TradeCount": 19,
+    "WinFisrtRate": 0.18301558043974775,
+    "WinRate": 0.52631578947368418,
+    "WinLoseRate": 1.2419952008789903,
+    "Kelly": 0.14492606253184259,
+    "KeepTimeRange": 220
+  },
+  {
+    "StockNo": "8464",
+    "TradeCount": 1,
+    "WinFisrtRate": -0.060218181818181823,
+    "WinRate": 0.0,
+    "WinLoseRate": 0.0,
+    "Kelly": 0.0,
+    "KeepTimeRange": 3
+  },
+  {
+    "StockNo": "3019",
+    "TradeCount": 25,
+    "WinFisrtRate": 0.454627391791159,
+    "WinRate": 0.44,
+    "WinLoseRate": 1.895805941210682,
+    "Kelly": 0.14461111666187837,
+    "KeepTimeRange": 267
+  },
+  {
+    "StockNo": "2329",
+    "TradeCount": 22,
+    "WinFisrtRate": 0.040927728575470071,
+    "WinRate": 0.36363636363636365,
+    "WinLoseRate": 1.8380595872846672,
+    "Kelly": 0.017421452669453663,
+    "KeepTimeRange": 321
+  },
+  {
+    "StockNo": "3563",
+    "TradeCount": 22,
+    "WinFisrtRate": 0.11260945611729027,
+    "WinRate": 0.54545454545454541,
+    "WinLoseRate": 0.96994743315480847,
+    "Kelly": 0.076825587834625786,
+    "KeepTimeRange": 306
+  },
+  {
+    "StockNo": "8088",
+    "TradeCount": 32,
+    "WinFisrtRate": 0.033522788816976068,
+    "WinRate": 0.375,
+    "WinLoseRate": 1.7071198971506427,
+    "Kelly": 0.0088862893911618168,
+    "KeepTimeRange": 426
+  },
+  {
+    "StockNo": "3252",
+    "TradeCount": 23,
+    "WinFisrtRate": 0.14568390385021565,
+    "WinRate": 0.391304347826087,
+    "WinLoseRate": 1.7709190237182515,
+    "Kelly": 0.047586964918377606,
+    "KeepTimeRange": 274
+  },
+  {
+    "StockNo": "9914",
+    "TradeCount": 6,
+    "WinFisrtRate": -0.011485023699939478,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.93820170707750827,
+    "Kelly": -0.03293443854146938,
+    "KeepTimeRange": 87
+  },
+  {
+    "StockNo": "8147",
+    "TradeCount": 21,
+    "WinFisrtRate": 0.51313852800375326,
+    "WinRate": 0.52380952380952384,
+    "WinLoseRate": 1.7903289885973386,
+    "Kelly": 0.25783020982681548,
+    "KeepTimeRange": 210
+  },
+  {
+    "StockNo": "2504",
+    "TradeCount": 15,
+    "WinFisrtRate": -0.12007611908677146,
+    "WinRate": 0.26666666666666666,
+    "WinLoseRate": 2.0701716455946264,
+    "Kelly": -0.087571270508197019,
+    "KeepTimeRange": 209
+  },
+  {
+    "StockNo": "2880",
+    "TradeCount": 3,
+    "WinFisrtRate": 0.0431902490003428,
+    "WinRate": 0.66666666666666663,
+    "WinLoseRate": 1.7323302550103683,
+    "Kelly": 0.47424762164378886,
+    "KeepTimeRange": 50
+  },
+  {
+    "StockNo": "2481",
+    "TradeCount": 15,
+    "WinFisrtRate": 0.228559399366509,
+    "WinRate": 0.53333333333333333,
+    "WinLoseRate": 1.2662620457499516,
+    "Kelly": 0.16479455557167305,
+    "KeepTimeRange": 282
+  },
+  {
+    "StockNo": "6150",
+    "TradeCount": 30,
+    "WinFisrtRate": 2.6847388819497136,
+    "WinRate": 0.4,
+    "WinLoseRate": 5.6903970338678818,
+    "Kelly": 0.2945592027359526,
+    "KeepTimeRange": 310
+  },
+  {
+    "StockNo": "8255",
+    "TradeCount": 18,
+    "WinFisrtRate": 0.35906287885701949,
+    "WinRate": 0.44444444444444442,
+    "WinLoseRate": 2.0690356502922751,
+    "Kelly": 0.17593502776180919,
+    "KeepTimeRange": 249
+  },
+  {
+    "StockNo": "6491",
+    "TradeCount": 3,
+    "WinFisrtRate": 0.19144425162853013,
+    "WinRate": 0.66666666666666663,
+    "WinLoseRate": 1.7376840073732616,
+    "Kelly": 0.47484045895631855,
+    "KeepTimeRange": 32
+  },
+  {
+    "StockNo": "3162",
+    "TradeCount": 23,
+    "WinFisrtRate": 0.059166409490372066,
+    "WinRate": 0.2608695652173913,
+    "WinLoseRate": 2.9613492673944566,
+    "Kelly": 0.011277109872557006,
+    "KeepTimeRange": 349
+  },
+  {
+    "StockNo": "1760",
+    "TradeCount": 11,
+    "WinFisrtRate": -0.17303611997087987,
+    "WinRate": 0.45454545454545453,
+    "WinLoseRate": 0.780151843426139,
+    "Kelly": -0.2446191376435613,
+    "KeepTimeRange": 79
+  },
+  {
+    "StockNo": "1611",
+    "TradeCount": 30,
+    "WinFisrtRate": 0.57867647929324806,
+    "WinRate": 0.43333333333333335,
+    "WinLoseRate": 2.0197925344931829,
+    "Kelly": 0.15277646573957443,
+    "KeepTimeRange": 441
+  },
+  {
+    "StockNo": "3029",
+    "TradeCount": 27,
+    "WinFisrtRate": -0.24073170711355221,
+    "WinRate": 0.44444444444444442,
+    "WinLoseRate": 0.96029858683459568,
+    "Kelly": -0.1340793221965304,
+    "KeepTimeRange": 297
+  },
+  {
+    "StockNo": "2228",
+    "TradeCount": 9,
+    "WinFisrtRate": 0.16776771073057156,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 3.2441082721636234,
+    "Kelly": 0.12783258837143952,
+    "KeepTimeRange": 99
+  },
+  {
+    "StockNo": "2207",
+    "TradeCount": 4,
+    "WinFisrtRate": -0.15351409415823511,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.26001301079068651,
+    "Kelly": -1.4229806942334351,
+    "KeepTimeRange": 59
+  },
+  {
+    "StockNo": "6670",
+    "TradeCount": 3,
+    "WinFisrtRate": 0.024671254563665142,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 2.9061936484559641,
+    "Kelly": 0.10393820440898891,
+    "KeepTimeRange": 16
+  },
+  {
+    "StockNo": "1810",
+    "TradeCount": 34,
+    "WinFisrtRate": -0.035728676117542074,
+    "WinRate": 0.41176470588235292,
+    "WinLoseRate": 1.3823505376510021,
+    "Kelly": -0.013767948893636361,
+    "KeepTimeRange": 421
+  },
+  {
+    "StockNo": "2480",
+    "TradeCount": 24,
+    "WinFisrtRate": -0.20097382439523848,
+    "WinRate": 0.375,
+    "WinLoseRate": 1.1600686403487257,
+    "Kelly": -0.1637612234842587,
+    "KeepTimeRange": 336
+  },
+  {
+    "StockNo": "1326",
+    "TradeCount": 2,
+    "WinFisrtRate": -0.0119796153908701,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.83705787934751119,
+    "Kelly": -0.097330259156931054,
+    "KeepTimeRange": 54
+  },
+  {
+    "StockNo": "3023",
+    "TradeCount": 19,
+    "WinFisrtRate": 0.066830012536102351,
+    "WinRate": 0.52631578947368418,
+    "WinLoseRate": 1.0018292072769068,
+    "Kelly": 0.053496463499103253,
+    "KeepTimeRange": 350
+  },
+  {
+    "StockNo": "6409",
+    "TradeCount": 2,
+    "WinFisrtRate": -0.080394061582737042,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.0084053367161292455,
+    "Kelly": -58.9860166684977,
+    "KeepTimeRange": 13
+  },
+  {
+    "StockNo": "5386",
+    "TradeCount": 21,
+    "WinFisrtRate": 1.2736971151403695,
+    "WinRate": 0.38095238095238093,
+    "WinLoseRate": 4.2026973673871639,
+    "Kelly": 0.23365468974781919,
+    "KeepTimeRange": 163
+  },
+  {
+    "StockNo": "3479",
+    "TradeCount": 20,
+    "WinFisrtRate": 0.66848470547356409,
+    "WinRate": 0.5,
+    "WinLoseRate": 2.3803175286095035,
+    "Kelly": 0.28994399108925517,
+    "KeepTimeRange": 329
+  },
+  {
+    "StockNo": "4747",
+    "TradeCount": 15,
+    "WinFisrtRate": -0.065228817823822366,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 1.8146566184601278,
+    "Kelly": -0.034045629653274789,
+    "KeepTimeRange": 88
+  },
+  {
+    "StockNo": "6741",
+    "TradeCount": 3,
+    "WinFisrtRate": -0.11190271813591174,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 0.91974422379537635,
+    "Kelly": -0.39150586589058695,
+    "KeepTimeRange": 19
+  },
+  {
+    "StockNo": "6664",
+    "TradeCount": 13,
+    "WinFisrtRate": 0.11841800934742844,
+    "WinRate": 0.53846153846153844,
+    "WinLoseRate": 1.1121503818637248,
+    "Kelly": 0.12346508738356249,
+    "KeepTimeRange": 208
+  },
+  {
+    "StockNo": "8112",
+    "TradeCount": 19,
+    "WinFisrtRate": 0.2424375833709479,
+    "WinRate": 0.42105263157894735,
+    "WinLoseRate": 1.9812914998470794,
+    "Kelly": 0.12884556943501896,
+    "KeepTimeRange": 278
+  },
+  {
+    "StockNo": "1402",
+    "TradeCount": 2,
+    "WinFisrtRate": -0.023099355446846971,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.11626063412344813,
+    "Kelly": -3.8006818582211492,
+    "KeepTimeRange": 7
+  },
+  {
+    "StockNo": "2328",
+    "TradeCount": 21,
+    "WinFisrtRate": -0.81492550564233879,
+    "WinRate": 0.19047619047619047,
+    "WinLoseRate": 1.1902694424211828,
+    "Kelly": -0.48964192452566935,
+    "KeepTimeRange": 225
+  },
+  {
+    "StockNo": "3545",
+    "TradeCount": 11,
+    "WinFisrtRate": -0.29478937186040438,
+    "WinRate": 0.36363636363636365,
+    "WinLoseRate": 0.86371929640061706,
+    "Kelly": -0.37313499138089556,
+    "KeepTimeRange": 143
+  },
+  {
+    "StockNo": "2458",
+    "TradeCount": 14,
+    "WinFisrtRate": -0.18976128293818098,
+    "WinRate": 0.35714285714285715,
+    "WinLoseRate": 1.1907146377854996,
+    "Kelly": -0.18274900481722894,
+    "KeepTimeRange": 272
+  },
+  {
+    "StockNo": "6788",
+    "TradeCount": 3,
+    "WinFisrtRate": -0.086946568627450982,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 0.78457237225302034,
+    "Kelly": -0.51638645064558863,
+    "KeepTimeRange": 29
+  },
+  {
+    "StockNo": "2439",
+    "TradeCount": 14,
+    "WinFisrtRate": -0.027290151785251095,
+    "WinRate": 0.42857142857142855,
+    "WinLoseRate": 1.2630988784829975,
+    "Kelly": -0.02383066057844585,
+    "KeepTimeRange": 281
+  },
+  {
+    "StockNo": "2606",
+    "TradeCount": 16,
+    "WinFisrtRate": -0.29104791830020965,
+    "WinRate": 0.3125,
+    "WinLoseRate": 1.270271362896211,
+    "Kelly": -0.22872293872114391,
+    "KeepTimeRange": 177
+  },
+  {
+    "StockNo": "2332",
+    "TradeCount": 24,
+    "WinFisrtRate": 0.21303204179182966,
+    "WinRate": 0.45833333333333331,
+    "WinLoseRate": 1.4657308725998191,
+    "Kelly": 0.0887793607777213,
+    "KeepTimeRange": 427
+  },
+  {
+    "StockNo": "5351",
+    "TradeCount": 26,
+    "WinFisrtRate": 0.013134207132983466,
+    "WinRate": 0.34615384615384615,
+    "WinLoseRate": 1.9132772161777552,
+    "Kelly": 0.0044123837470688154,
+    "KeepTimeRange": 227
+  },
+  {
+    "StockNo": "6278",
+    "TradeCount": 17,
+    "WinFisrtRate": 0.33647637290145072,
+    "WinRate": 0.58823529411764708,
+    "WinLoseRate": 1.2213936800967751,
+    "Kelly": 0.2511083606872011,
+    "KeepTimeRange": 222
+  },
+  {
+    "StockNo": "2211",
+    "TradeCount": 9,
+    "WinFisrtRate": 0.08952732368840767,
+    "WinRate": 0.55555555555555558,
+    "WinLoseRate": 1.0837258585881726,
+    "Kelly": 0.14544774007586786,
+    "KeepTimeRange": 90
+  },
+  {
+    "StockNo": "6139",
+    "TradeCount": 26,
+    "WinFisrtRate": 0.6441332634656658,
+    "WinRate": 0.46153846153846156,
+    "WinLoseRate": 2.1941829986482815,
+    "Kelly": 0.21613434584106725,
+    "KeepTimeRange": 352
+  },
+  {
+    "StockNo": "8016",
+    "TradeCount": 16,
+    "WinFisrtRate": 0.42992827842826931,
+    "WinRate": 0.5625,
+    "WinLoseRate": 1.8404350134048764,
+    "Kelly": 0.32478446165528663,
+    "KeepTimeRange": 176
+  },
+  {
+    "StockNo": "6732",
+    "TradeCount": 3,
+    "WinFisrtRate": 0.031149278867401896,
+    "WinRate": 0.66666666666666663,
+    "WinLoseRate": 0.7203858212283788,
+    "Kelly": 0.20395165547315913,
+    "KeepTimeRange": 49
+  },
+  {
+    "StockNo": "6592",
+    "TradeCount": 4,
+    "WinFisrtRate": -0.11358393266911911,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.71221213549443563,
+    "Kelly": -0.20203802361902667,
+    "KeepTimeRange": 26
+  },
+  {
+    "StockNo": "4906",
+    "TradeCount": 22,
+    "WinFisrtRate": -0.31720732457016854,
+    "WinRate": 0.40909090909090912,
+    "WinLoseRate": 0.95606521654376675,
+    "Kelly": -0.20897267138873926,
+    "KeepTimeRange": 279
+  },
+  {
+    "StockNo": "2754",
+    "TradeCount": 8,
+    "WinFisrtRate": -0.0254145940247021,
+    "WinRate": 0.375,
+    "WinLoseRate": 1.5354984169630876,
+    "Kelly": -0.03203395919881602,
+    "KeepTimeRange": 33
+  },
+  {
+    "StockNo": "3265",
+    "TradeCount": 34,
+    "WinFisrtRate": -0.26715684994811989,
+    "WinRate": 0.41176470588235292,
+    "WinLoseRate": 1.1086357461243934,
+    "Kelly": -0.11882913088866953,
+    "KeepTimeRange": 351
+  },
+  {
+    "StockNo": "4129",
+    "TradeCount": 28,
+    "WinFisrtRate": 0.10212556349585771,
+    "WinRate": 0.39285714285714285,
+    "WinLoseRate": 1.7259093510565344,
+    "Kelly": 0.041075714260566776,
+    "KeepTimeRange": 325
+  },
+  {
+    "StockNo": "1525",
+    "TradeCount": 26,
+    "WinFisrtRate": 0.694096806051413,
+    "WinRate": 0.46153846153846156,
+    "WinLoseRate": 2.0183239831114075,
+    "Kelly": 0.19475198772792052,
+    "KeepTimeRange": 337
+  },
+  {
+    "StockNo": "9802",
+    "TradeCount": 18,
+    "WinFisrtRate": 0.66938337611051035,
+    "WinRate": 0.72222222222222221,
+    "WinLoseRate": 1.2168870203813782,
+    "Kelly": 0.49395306236979736,
+    "KeepTimeRange": 338
+  },
+  {
+    "StockNo": "5340",
+    "TradeCount": 27,
+    "WinFisrtRate": 1.6751816107206259,
+    "WinRate": 0.66666666666666663,
+    "WinLoseRate": 1.8753545129794305,
+    "Kelly": 0.48892249561723822,
+    "KeepTimeRange": 480
+  },
+  {
+    "StockNo": "8155",
+    "TradeCount": 23,
+    "WinFisrtRate": 0.274292799326157,
+    "WinRate": 0.52173913043478259,
+    "WinLoseRate": 1.2828135523067268,
+    "Kelly": 0.14891732113504502,
+    "KeepTimeRange": 231
+  },
+  {
+    "StockNo": "5880",
+    "TradeCount": 4,
+    "WinFisrtRate": 0.053821079946535164,
+    "WinRate": 0.5,
+    "WinLoseRate": 2.4794685870959112,
+    "Kelly": 0.29834388602372763,
+    "KeepTimeRange": 56
+  },
+  {
+    "StockNo": "3308",
+    "TradeCount": 34,
+    "WinFisrtRate": -0.062113069328489603,
+    "WinRate": 0.3235294117647059,
+    "WinLoseRate": 2.0129783963607775,
+    "Kelly": -0.012525157652567287,
+    "KeepTimeRange": 326
+  },
+  {
+    "StockNo": "9945",
+    "TradeCount": 6,
+    "WinFisrtRate": -0.14222728202313775,
+    "WinRate": 0.16666666666666666,
+    "WinLoseRate": 1.3147860051577436,
+    "Kelly": -0.4671500381539424,
+    "KeepTimeRange": 98
+  },
+  {
+    "StockNo": "2354",
+    "TradeCount": 6,
+    "WinFisrtRate": -0.15017114301524737,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 0.36277999815128337,
+    "Kelly": -1.5043277010786555,
+    "KeepTimeRange": 66
+  },
+  {
+    "StockNo": "2347",
+    "TradeCount": 4,
+    "WinFisrtRate": -0.02390845417084456,
+    "WinRate": 0.75,
+    "WinLoseRate": 0.23621386909409964,
+    "Kelly": -0.30836291898850532,
+    "KeepTimeRange": 54
+  },
+  {
+    "StockNo": "2405",
+    "TradeCount": 35,
+    "WinFisrtRate": 0.26711963642240855,
+    "WinRate": 0.42857142857142855,
+    "WinLoseRate": 1.5638048131539459,
+    "Kelly": 0.06316228887445402,
+    "KeepTimeRange": 385
+  },
+  {
+    "StockNo": "6625",
+    "TradeCount": 11,
+    "WinFisrtRate": 0.41597373842651386,
+    "WinRate": 0.63636363636363635,
+    "WinLoseRate": 1.2607828762621447,
+    "Kelly": 0.3479425525411467,
+    "KeepTimeRange": 129
+  },
+  {
+    "StockNo": "5469",
+    "TradeCount": 20,
+    "WinFisrtRate": 0.35195914099074455,
+    "WinRate": 0.7,
+    "WinLoseRate": 0.88030273545758164,
+    "Kelly": 0.35920814747433449,
+    "KeepTimeRange": 205
+  },
+  {
+    "StockNo": "6121",
+    "TradeCount": 5,
+    "WinFisrtRate": 0.17215358376243337,
+    "WinRate": 0.8,
+    "WinLoseRate": 0.91502150462408238,
+    "Kelly": 0.58142590202602307,
+    "KeepTimeRange": 49
+  },
+  {
+    "StockNo": "2515",
+    "TradeCount": 26,
+    "WinFisrtRate": -0.10153292848225072,
+    "WinRate": 0.42307692307692307,
+    "WinLoseRate": 1.1781225417774475,
+    "Kelly": -0.066620079114942443,
+    "KeepTimeRange": 277
+  },
+  {
+    "StockNo": "2402",
+    "TradeCount": 24,
+    "WinFisrtRate": -0.22206639953558005,
+    "WinRate": 0.41666666666666669,
+    "WinLoseRate": 1.0407267226698949,
+    "Kelly": -0.14383910360589997,
+    "KeepTimeRange": 311
+  },
+  {
+    "StockNo": "2492",
+    "TradeCount": 18,
+    "WinFisrtRate": 0.71356663184648184,
+    "WinRate": 0.55555555555555558,
+    "WinLoseRate": 2.2825258453683603,
+    "Kelly": 0.36083949337106858,
+    "KeepTimeRange": 232
+  },
+  {
+    "StockNo": "3714",
+    "TradeCount": 3,
+    "WinFisrtRate": -0.1406928421727566,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 0.50230788634306167,
+    "Kelly": -0.99387391304334982,
+    "KeepTimeRange": 36
+  },
+  {
+    "StockNo": "3141",
+    "TradeCount": 16,
+    "WinFisrtRate": 0.097545660899942335,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.178165618876803,
+    "Kelly": 0.075611448858377062,
+    "KeepTimeRange": 174
+  },
+  {
+    "StockNo": "3147",
+    "TradeCount": 14,
+    "WinFisrtRate": 0.51891528801248776,
+    "WinRate": 0.42857142857142855,
+    "WinLoseRate": 2.8143569026669439,
+    "Kelly": 0.22553087927681931,
+    "KeepTimeRange": 160
+  },
+  {
+    "StockNo": "2399",
+    "TradeCount": 31,
+    "WinFisrtRate": 0.14366722412081756,
+    "WinRate": 0.45161290322580644,
+    "WinLoseRate": 1.3660924270307617,
+    "Kelly": 0.050185381981048882,
+    "KeepTimeRange": 350
+  },
+  {
+    "StockNo": "1215",
+    "TradeCount": 23,
+    "WinFisrtRate": -0.29297976814340815,
+    "WinRate": 0.391304347826087,
+    "WinLoseRate": 0.97488725908198248,
+    "Kelly": -0.23307108277201177,
+    "KeepTimeRange": 403
+  },
+  {
+    "StockNo": "2428",
+    "TradeCount": 27,
+    "WinFisrtRate": -0.52705382671418377,
+    "WinRate": 0.37037037037037035,
+    "WinLoseRate": 0.84859352690340928,
+    "Kelly": -0.37159808645630643,
+    "KeepTimeRange": 282
+  },
+  {
+    "StockNo": "2014",
+    "TradeCount": 26,
+    "WinFisrtRate": 0.32133645197374067,
+    "WinRate": 0.46153846153846156,
+    "WinLoseRate": 1.7110658753207761,
+    "Kelly": 0.14684482745462346,
+    "KeepTimeRange": 280
+  },
+  {
+    "StockNo": "2912",
+    "TradeCount": 2,
+    "WinFisrtRate": -0.042824653279603719,
+    "WinRate": 0.0,
+    "WinLoseRate": 0.0,
+    "Kelly": 0.0,
+    "KeepTimeRange": 72
+  },
+  {
+    "StockNo": "1102",
+    "TradeCount": 3,
+    "WinFisrtRate": 0.013817768900571396,
+    "WinRate": 0.66666666666666663,
+    "WinLoseRate": 0.60716340913793321,
+    "Kelly": 0.11766564269750335,
+    "KeepTimeRange": 75
+  },
+  {
+    "StockNo": "4147",
+    "TradeCount": 7,
+    "WinFisrtRate": -0.15699637485297663,
+    "WinRate": 0.42857142857142855,
+    "WinLoseRate": 0.84424569783601677,
+    "Kelly": -0.2482796029390259,
+    "KeepTimeRange": 90
+  },
+  {
+    "StockNo": "2834",
+    "TradeCount": 9,
+    "WinFisrtRate": -0.054626573106450735,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 1.5990112540075432,
+    "Kelly": -0.083590978484875955,
+    "KeepTimeRange": 212
+  },
+  {
+    "StockNo": "6679",
+    "TradeCount": 9,
+    "WinFisrtRate": 0.14394765712158408,
+    "WinRate": 0.55555555555555558,
+    "WinLoseRate": 1.301989177899167,
+    "Kelly": 0.21419753815514936,
+    "KeepTimeRange": 112
+  },
+  {
+    "StockNo": "6830",
+    "TradeCount": 5,
+    "WinFisrtRate": -0.2275516472626975,
+    "WinRate": 0.2,
+    "WinLoseRate": 0.79139401204253079,
+    "Kelly": -0.81087446686039222,
+    "KeepTimeRange": 45
+  },
+  {
+    "StockNo": "3576",
+    "TradeCount": 9,
+    "WinFisrtRate": 0.20900575331895155,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 2.95939015900577,
+    "Kelly": 0.10806169598672585,
+    "KeepTimeRange": 126
+  },
+  {
+    "StockNo": "3056",
+    "TradeCount": 18,
+    "WinFisrtRate": 0.11579255452335699,
+    "WinRate": 0.55555555555555558,
+    "WinLoseRate": 0.95103107972261292,
+    "Kelly": 0.088226512456274886,
+    "KeepTimeRange": 247
+  },
+  {
+    "StockNo": "6469",
+    "TradeCount": 9,
+    "WinFisrtRate": 0.46412486619520321,
+    "WinRate": 0.55555555555555558,
+    "WinLoseRate": 2.1267170536664266,
+    "Kelly": 0.34657409105926573,
+    "KeepTimeRange": 273
+  },
+  {
+    "StockNo": "2313",
+    "TradeCount": 18,
+    "WinFisrtRate": -0.056193296468549134,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 1.8620301123506382,
+    "Kelly": -0.024698828576799614,
+    "KeepTimeRange": 150
+  },
+  {
+    "StockNo": "5904",
+    "TradeCount": 13,
+    "WinFisrtRate": -0.16352267325305722,
+    "WinRate": 0.30769230769230771,
+    "WinLoseRate": 1.6672658189868106,
+    "Kelly": -0.1075430341612213,
+    "KeepTimeRange": 177
+  },
+  {
+    "StockNo": "3058",
+    "TradeCount": 29,
+    "WinFisrtRate": 0.21145320059349329,
+    "WinRate": 0.44827586206896552,
+    "WinLoseRate": 1.4838867536280755,
+    "Kelly": 0.07646572454864653,
+    "KeepTimeRange": 469
+  },
+  {
+    "StockNo": "6689",
+    "TradeCount": 5,
+    "WinFisrtRate": -0.039997549313674496,
+    "WinRate": 0.4,
+    "WinLoseRate": 1.2860089920021633,
+    "Kelly": -0.066559723712251162,
+    "KeepTimeRange": 53
+  },
+  {
+    "StockNo": "9943",
+    "TradeCount": 19,
+    "WinFisrtRate": 0.45851085120607515,
+    "WinRate": 0.631578947368421,
+    "WinLoseRate": 1.491225911032769,
+    "Kelly": 0.38451976612308986,
+    "KeepTimeRange": 320
+  },
+  {
+    "StockNo": "5704",
+    "TradeCount": 22,
+    "WinFisrtRate": 0.53152234189978576,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.6644251663591068,
+    "Kelly": 0.1995959865869254,
+    "KeepTimeRange": 204
+  },
+  {
+    "StockNo": "3038",
+    "TradeCount": 28,
+    "WinFisrtRate": 0.56736336771751616,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.6524112452073105,
+    "Kelly": 0.197411887355396,
+    "KeepTimeRange": 374
+  },
+  {
+    "StockNo": "6532",
+    "TradeCount": 22,
+    "WinFisrtRate": -0.89968856974151412,
+    "WinRate": 0.22727272727272727,
+    "WinLoseRate": 0.89291330096944677,
+    "Kelly": -0.63812738703659411,
+    "KeepTimeRange": 237
+  },
+  {
+    "StockNo": "6691",
+    "TradeCount": 7,
+    "WinFisrtRate": 0.44940349734197738,
+    "WinRate": 0.5714285714285714,
+    "WinLoseRate": 2.6140087278374335,
+    "Kelly": 0.40747677432574181,
+    "KeepTimeRange": 157
+  },
+  {
+    "StockNo": "3413",
+    "TradeCount": 9,
+    "WinFisrtRate": -0.021210261783029025,
+    "WinRate": 0.44444444444444442,
+    "WinLoseRate": 1.194881648191725,
+    "Kelly": -0.020501649920889542,
+    "KeepTimeRange": 146
+  },
+  {
+    "StockNo": "2913",
+    "TradeCount": 29,
+    "WinFisrtRate": -0.59324752072700759,
+    "WinRate": 0.34482758620689657,
+    "WinLoseRate": 0.73693145012895966,
+    "Kelly": -0.54422717414896993,
+    "KeepTimeRange": 346
+  },
+  {
+    "StockNo": "5876",
+    "TradeCount": 4,
+    "WinFisrtRate": 0.14342952384883018,
+    "WinRate": 0.5,
+    "WinLoseRate": 3.3465543840180545,
+    "Kelly": 0.35059259685489619,
+    "KeepTimeRange": 79
+  },
+  {
+    "StockNo": "6166",
+    "TradeCount": 22,
+    "WinFisrtRate": -0.1620197630524727,
+    "WinRate": 0.31818181818181818,
+    "WinLoseRate": 1.730275534682987,
+    "Kelly": -0.075869977703454772,
+    "KeepTimeRange": 245
+  },
+  {
+    "StockNo": "6517",
+    "TradeCount": 1,
+    "WinFisrtRate": 0.0847443820224719,
+    "WinRate": 1.0,
+    "WinLoseRate": 10.0,
+    "Kelly": 1.0,
+    "KeepTimeRange": 9
+  },
+  {
+    "StockNo": "4755",
+    "TradeCount": 24,
+    "WinFisrtRate": -0.44681319296110389,
+    "WinRate": 0.41666666666666669,
+    "WinLoseRate": 0.75678001186812083,
+    "Kelly": -0.35414297971044589,
+    "KeepTimeRange": 413
+  },
+  {
+    "StockNo": "6217",
+    "TradeCount": 30,
+    "WinFisrtRate": -0.74661074576422293,
+    "WinRate": 0.3,
+    "WinLoseRate": 1.1118645675935586,
+    "Kelly": -0.32957307967375088,
+    "KeepTimeRange": 370
+  },
+  {
+    "StockNo": "3592",
+    "TradeCount": 1,
+    "WinFisrtRate": 0.1365089605734767,
+    "WinRate": 1.0,
+    "WinLoseRate": 10.0,
+    "Kelly": 1.0,
+    "KeepTimeRange": 6
+  },
+  {
+    "StockNo": "9910",
+    "TradeCount": 10,
+    "WinFisrtRate": 0.40617188733841442,
+    "WinRate": 0.8,
+    "WinLoseRate": 2.5101802969828624,
+    "Kelly": 0.72032444831138542,
+    "KeepTimeRange": 240
+  },
+  {
+    "StockNo": "3702",
+    "TradeCount": 5,
+    "WinFisrtRate": 0.095549835737485669,
+    "WinRate": 0.6,
+    "WinLoseRate": 1.425976510173427,
+    "Kelly": 0.31949047046269219,
+    "KeepTimeRange": 97
+  },
+  {
+    "StockNo": "3687",
+    "TradeCount": 27,
+    "WinFisrtRate": -0.006396167866125145,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 1.9897540320176934,
+    "Kelly": -0.0017164547003358233,
+    "KeepTimeRange": 288
+  },
+  {
+    "StockNo": "6743",
+    "TradeCount": 6,
+    "WinFisrtRate": -0.14960435545227416,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.53936428772702716,
+    "Kelly": -0.42701725230471788,
+    "KeepTimeRange": 81
+  },
+  {
+    "StockNo": "9939",
+    "TradeCount": 9,
+    "WinFisrtRate": 0.044066384906977014,
+    "WinRate": 0.66666666666666663,
+    "WinLoseRate": 0.62124308118372618,
+    "Kelly": 0.13010804182340097,
+    "KeepTimeRange": 184
+  },
+  {
+    "StockNo": "3587",
+    "TradeCount": 25,
+    "WinFisrtRate": 0.19784399636673847,
+    "WinRate": 0.48,
+    "WinLoseRate": 1.3244679274470699,
+    "Kelly": 0.087389511498170314,
+    "KeepTimeRange": 329
+  },
+  {
+    "StockNo": "3033",
+    "TradeCount": 16,
+    "WinFisrtRate": -0.064087544180462683,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.86996497531880534,
+    "Kelly": -0.0747357815373787,
+    "KeepTimeRange": 359
+  },
+  {
+    "StockNo": "3715",
+    "TradeCount": 1,
+    "WinFisrtRate": 0.21008696757478096,
+    "WinRate": 1.0,
+    "WinLoseRate": 10.0,
+    "Kelly": 1.0,
+    "KeepTimeRange": 13
+  },
+  {
+    "StockNo": "6443",
+    "TradeCount": 10,
+    "WinFisrtRate": 0.29125206519744906,
+    "WinRate": 0.4,
+    "WinLoseRate": 2.7847628887350249,
+    "Kelly": 0.184541799796625,
+    "KeepTimeRange": 82
+  },
+  {
+    "StockNo": "2425",
+    "TradeCount": 28,
+    "WinFisrtRate": 1.2031858841231984,
+    "WinRate": 0.35714285714285715,
+    "WinLoseRate": 3.7167393762157617,
+    "Kelly": 0.18418019342451089,
+    "KeepTimeRange": 332
+  },
+  {
+    "StockNo": "2471",
+    "TradeCount": 27,
+    "WinFisrtRate": 0.35285585253044444,
+    "WinRate": 0.55555555555555558,
+    "WinLoseRate": 1.2244718444136533,
+    "Kelly": 0.192587271333986,
+    "KeepTimeRange": 366
+  },
+  {
+    "StockNo": "2104",
+    "TradeCount": 23,
+    "WinFisrtRate": -0.37153318889868264,
+    "WinRate": 0.43478260869565216,
+    "WinLoseRate": 0.61841736461207708,
+    "Kelly": -0.47919138952624346,
+    "KeepTimeRange": 268
+  },
+  {
+    "StockNo": "3596",
+    "TradeCount": 19,
+    "WinFisrtRate": 0.26139479807952776,
+    "WinRate": 0.47368421052631576,
+    "WinLoseRate": 1.6868227035040315,
+    "Kelly": 0.16166814127353052,
+    "KeepTimeRange": 161
+  },
+  {
+    "StockNo": "9958",
+    "TradeCount": 26,
+    "WinFisrtRate": 1.6790804689988534,
+    "WinRate": 0.53846153846153844,
+    "WinLoseRate": 2.7472181362046064,
+    "Kelly": 0.37045942190005721,
+    "KeepTimeRange": 391
+  },
+  {
+    "StockNo": "3652",
+    "TradeCount": 30,
+    "WinFisrtRate": 0.49289846666498,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.4937623521094756,
+    "Kelly": 0.16527473443556451,
+    "KeepTimeRange": 314
+  },
+  {
+    "StockNo": "3218",
+    "TradeCount": 32,
+    "WinFisrtRate": 0.10601302556215721,
+    "WinRate": 0.46875,
+    "WinLoseRate": 1.2507151114272004,
+    "Kelly": 0.043992998868234157,
+    "KeepTimeRange": 251
+  },
+  {
+    "StockNo": "2436",
+    "TradeCount": 32,
+    "WinFisrtRate": -0.5841229167043388,
+    "WinRate": 0.3125,
+    "WinLoseRate": 1.4006574545126143,
+    "Kelly": -0.17834092458511125,
+    "KeepTimeRange": 279
+  },
+  {
+    "StockNo": "3558",
+    "TradeCount": 14,
+    "WinFisrtRate": -0.11561729497198302,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.74662509096532281,
+    "Kelly": -0.16968014610055826,
+    "KeepTimeRange": 318
+  },
+  {
+    "StockNo": "2351",
+    "TradeCount": 25,
+    "WinFisrtRate": 0.060387765666344045,
+    "WinRate": 0.52,
+    "WinLoseRate": 0.99435078196479565,
+    "Kelly": 0.037272969754657437,
+    "KeepTimeRange": 336
+  },
+  {
+    "StockNo": "7402",
+    "TradeCount": 14,
+    "WinFisrtRate": -0.19627394221009703,
+    "WinRate": 0.42857142857142855,
+    "WinLoseRate": 0.95094579333088536,
+    "Kelly": -0.17233408616566709,
+    "KeepTimeRange": 163
+  },
+  {
+    "StockNo": "3380",
+    "TradeCount": 21,
+    "WinFisrtRate": 0.065391286565730941,
+    "WinRate": 0.42857142857142855,
+    "WinLoseRate": 1.4518418952424887,
+    "Kelly": 0.0349827235608664,
+    "KeepTimeRange": 325
+  },
+  {
+    "StockNo": "6485",
+    "TradeCount": 17,
+    "WinFisrtRate": 0.29138653200914721,
+    "WinRate": 0.47058823529411764,
+    "WinLoseRate": 1.4843547127556498,
+    "Kelly": 0.1139270139860053,
+    "KeepTimeRange": 168
+  },
+  {
+    "StockNo": "1528",
+    "TradeCount": 34,
+    "WinFisrtRate": -0.58626503923311768,
+    "WinRate": 0.35294117647058826,
+    "WinLoseRate": 1.0629193733449573,
+    "Kelly": -0.2558150845928901,
+    "KeepTimeRange": 352
+  },
+  {
+    "StockNo": "5243",
+    "TradeCount": 25,
+    "WinFisrtRate": -0.28982786821705631,
+    "WinRate": 0.4,
+    "WinLoseRate": 1.0814258305956854,
+    "Kelly": -0.15482307063952772,
+    "KeepTimeRange": 205
+  },
+  {
+    "StockNo": "2340",
+    "TradeCount": 26,
+    "WinFisrtRate": -0.035921244314136347,
+    "WinRate": 0.42307692307692307,
+    "WinLoseRate": 1.3186694562344425,
+    "Kelly": -0.014427012572366227,
+    "KeepTimeRange": 360
+  },
+  {
+    "StockNo": "6605",
+    "TradeCount": 19,
+    "WinFisrtRate": 0.20734763472141837,
+    "WinRate": 0.42105263157894735,
+    "WinLoseRate": 1.9337541726290228,
+    "Kelly": 0.12166226613557324,
+    "KeepTimeRange": 171
+  },
+  {
+    "StockNo": "8234",
+    "TradeCount": 34,
+    "WinFisrtRate": -0.34952496926315291,
+    "WinRate": 0.3235294117647059,
+    "WinLoseRate": 1.4983790896720983,
+    "Kelly": -0.12793884009359474,
+    "KeepTimeRange": 344
+  },
+  {
+    "StockNo": "6143",
+    "TradeCount": 19,
+    "WinFisrtRate": 0.034233077501266494,
+    "WinRate": 0.57894736842105265,
+    "WinLoseRate": 0.78639100935420436,
+    "Kelly": 0.043523353432984746,
+    "KeepTimeRange": 183
+  },
+  {
+    "StockNo": "1584",
+    "TradeCount": 29,
+    "WinFisrtRate": 0.87750106848936715,
+    "WinRate": 0.44827586206896552,
+    "WinLoseRate": 2.2071140510335336,
+    "Kelly": 0.1983004982346061,
+    "KeepTimeRange": 399
+  },
+  {
+    "StockNo": "6182",
+    "TradeCount": 17,
+    "WinFisrtRate": 0.50296228383323949,
+    "WinRate": 0.52941176470588236,
+    "WinLoseRate": 1.8940295085067092,
+    "Kelly": 0.28095299826082376,
+    "KeepTimeRange": 143
+  },
+  {
+    "StockNo": "3163",
+    "TradeCount": 20,
+    "WinFisrtRate": -0.42929624570313785,
+    "WinRate": 0.35,
+    "WinLoseRate": 0.9342312847254679,
+    "Kelly": -0.34575918793065064,
+    "KeepTimeRange": 235
+  },
+  {
+    "StockNo": "1533",
+    "TradeCount": 41,
+    "WinFisrtRate": 0.25870057782981415,
+    "WinRate": 0.34146341463414637,
+    "WinLoseRate": 2.27489795702366,
+    "Kelly": 0.051983799369361761,
+    "KeepTimeRange": 571
+  },
+  {
+    "StockNo": "3325",
+    "TradeCount": 30,
+    "WinFisrtRate": 1.638020946164648,
+    "WinRate": 0.5,
+    "WinLoseRate": 3.2468243903893304,
+    "Kelly": 0.34600337441100582,
+    "KeepTimeRange": 433
+  },
+  {
+    "StockNo": "3055",
+    "TradeCount": 25,
+    "WinFisrtRate": 0.079156283188923426,
+    "WinRate": 0.36,
+    "WinLoseRate": 1.9037836769090071,
+    "Kelly": 0.023827351939949781,
+    "KeepTimeRange": 450
+  },
+  {
+    "StockNo": "6187",
+    "TradeCount": 29,
+    "WinFisrtRate": 0.20551810084995409,
+    "WinRate": 0.41379310344827586,
+    "WinLoseRate": 1.7125768811625277,
+    "Kelly": 0.0714978739612373,
+    "KeepTimeRange": 315
+  },
+  {
+    "StockNo": "6120",
+    "TradeCount": 24,
+    "WinFisrtRate": 0.020116507332576503,
+    "WinRate": 0.375,
+    "WinLoseRate": 1.696804116734969,
+    "Kelly": 0.0066604881872635024,
+    "KeepTimeRange": 279
+  },
+  {
+    "StockNo": "6290",
+    "TradeCount": 28,
+    "WinFisrtRate": 0.268504231361051,
+    "WinRate": 0.4642857142857143,
+    "WinLoseRate": 1.5665412255777849,
+    "Kelly": 0.12231304419738065,
+    "KeepTimeRange": 250
+  },
+  {
+    "StockNo": "8033",
+    "TradeCount": 31,
+    "WinFisrtRate": 0.42549434822598842,
+    "WinRate": 0.5161290322580645,
+    "WinLoseRate": 1.3262467172396273,
+    "Kelly": 0.15128668320476291,
+    "KeepTimeRange": 441
+  },
+  {
+    "StockNo": "5388",
+    "TradeCount": 15,
+    "WinFisrtRate": -0.1423150738102815,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 1.428044898902177,
+    "Kelly": -0.13350539644272136,
+    "KeepTimeRange": 155
+  },
+  {
+    "StockNo": "3178",
+    "TradeCount": 18,
+    "WinFisrtRate": 0.10976966861548283,
+    "WinRate": 0.3888888888888889,
+    "WinLoseRate": 1.7884727620871153,
+    "Kelly": 0.047194497972945837,
+    "KeepTimeRange": 200
+  },
+  {
+    "StockNo": "3532",
+    "TradeCount": 20,
+    "WinFisrtRate": 1.0300152044354805,
+    "WinRate": 0.55,
+    "WinLoseRate": 2.2054318711313887,
+    "Kelly": 0.34595833093263978,
+    "KeepTimeRange": 229
+  },
+  {
+    "StockNo": "6244",
+    "TradeCount": 16,
+    "WinFisrtRate": 0.50740130202165812,
+    "WinRate": 0.625,
+    "WinLoseRate": 1.2025353559275389,
+    "Kelly": 0.31315885690882228,
+    "KeepTimeRange": 176
+  },
+  {
+    "StockNo": "3289",
+    "TradeCount": 27,
+    "WinFisrtRate": -0.47623245990147,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 1.2435866518552372,
+    "Kelly": -0.20275047367127236,
+    "KeepTimeRange": 375
+  },
+  {
+    "StockNo": "8454",
+    "TradeCount": 6,
+    "WinFisrtRate": 0.097644877321685447,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.7986304439493193,
+    "Kelly": 0.22201071004773415,
+    "KeepTimeRange": 60
+  },
+  {
+    "StockNo": "6550",
+    "TradeCount": 4,
+    "WinFisrtRate": 1.4459148536705964,
+    "WinRate": 1.0,
+    "WinLoseRate": 10.0,
+    "Kelly": 1.0,
+    "KeepTimeRange": 189
+  },
+  {
+    "StockNo": "6147",
+    "TradeCount": 5,
+    "WinFisrtRate": -0.032119116886486596,
+    "WinRate": 0.6,
+    "WinLoseRate": 0.48755180069876997,
+    "Kelly": -0.22042564385304542,
+    "KeepTimeRange": 35
+  },
+  {
+    "StockNo": "4770",
+    "TradeCount": 8,
+    "WinFisrtRate": 0.38743201833663665,
+    "WinRate": 0.5,
+    "WinLoseRate": 3.5646444216319266,
+    "Kelly": 0.35973355519956873,
+    "KeepTimeRange": 63
+  },
+  {
+    "StockNo": "3346",
+    "TradeCount": 20,
+    "WinFisrtRate": -0.18071967533355748,
+    "WinRate": 0.4,
+    "WinLoseRate": 1.196892745558312,
+    "Kelly": -0.1012980504950084,
+    "KeepTimeRange": 122
+  },
+  {
+    "StockNo": "6104",
+    "TradeCount": 28,
+    "WinFisrtRate": -0.26584411191461743,
+    "WinRate": 0.32142857142857145,
+    "WinLoseRate": 1.6405759141653498,
+    "Kelly": -0.092189245773538819,
+    "KeepTimeRange": 253
+  },
+  {
+    "StockNo": "5284",
+    "TradeCount": 17,
+    "WinFisrtRate": 0.21071202530922706,
+    "WinRate": 0.52941176470588236,
+    "WinLoseRate": 1.40952027113048,
+    "Kelly": 0.19554765155148907,
+    "KeepTimeRange": 211
+  },
+  {
+    "StockNo": "2427",
+    "TradeCount": 32,
+    "WinFisrtRate": 0.21037304352074926,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.2189808926495802,
+    "Kelly": 0.089821298254151749,
+    "KeepTimeRange": 487
+  },
+  {
+    "StockNo": "8028",
+    "TradeCount": 16,
+    "WinFisrtRate": -0.19931911898698054,
+    "WinRate": 0.375,
+    "WinLoseRate": 1.2344639452914947,
+    "Kelly": -0.13129263202370678,
+    "KeepTimeRange": 185
+  },
+  {
+    "StockNo": "2892",
+    "TradeCount": 4,
+    "WinFisrtRate": 0.10103002013726295,
+    "WinRate": 0.5,
+    "WinLoseRate": 3.4229021197470826,
+    "Kelly": 0.35392512478944482,
+    "KeepTimeRange": 40
+  },
+  {
+    "StockNo": "4543",
+    "TradeCount": 14,
+    "WinFisrtRate": 0.58011157019446258,
+    "WinRate": 0.42857142857142855,
+    "WinLoseRate": 2.6468620050725589,
+    "Kelly": 0.21268236056053058,
+    "KeepTimeRange": 210
+  },
+  {
+    "StockNo": "3207",
+    "TradeCount": 29,
+    "WinFisrtRate": 0.523237281856467,
+    "WinRate": 0.51724137931034486,
+    "WinLoseRate": 1.4492001084017765,
+    "Kelly": 0.18412063367221726,
+    "KeepTimeRange": 412
+  },
+  {
+    "StockNo": "6112",
+    "TradeCount": 21,
+    "WinFisrtRate": 0.15416024503051867,
+    "WinRate": 0.23809523809523808,
+    "WinLoseRate": 3.927331762059278,
+    "Kelly": 0.044094626976695694,
+    "KeepTimeRange": 310
+  },
+  {
+    "StockNo": "2890",
+    "TradeCount": 2,
+    "WinFisrtRate": -0.08039471939998577,
+    "WinRate": 0.0,
+    "WinLoseRate": 0.0,
+    "Kelly": 0.0,
+    "KeepTimeRange": 4
+  },
+  {
+    "StockNo": "3005",
+    "TradeCount": 17,
+    "WinFisrtRate": 0.12324505169210123,
+    "WinRate": 0.47058823529411764,
+    "WinLoseRate": 1.4160757452950512,
+    "Kelly": 0.096729868985064749,
+    "KeepTimeRange": 118
+  },
+  {
+    "StockNo": "3675",
+    "TradeCount": 24,
+    "WinFisrtRate": 0.82836408518231952,
+    "WinRate": 0.54166666666666663,
+    "WinLoseRate": 1.6022326220563472,
+    "Kelly": 0.25560749709046837,
+    "KeepTimeRange": 287
+  },
+  {
+    "StockNo": "2887",
+    "TradeCount": 2,
+    "WinFisrtRate": -0.026093081574805933,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.52112070520723219,
+    "Kelly": -0.4594706082560408,
+    "KeepTimeRange": 31
+  },
+  {
+    "StockNo": "3362",
+    "TradeCount": 35,
+    "WinFisrtRate": 0.40127292302736262,
+    "WinRate": 0.4,
+    "WinLoseRate": 1.8873652291469769,
+    "Kelly": 0.0820965064238367,
+    "KeepTimeRange": 359
+  },
+  {
+    "StockNo": "8114",
+    "TradeCount": 20,
+    "WinFisrtRate": -0.38530509401974022,
+    "WinRate": 0.4,
+    "WinLoseRate": 0.81481702296885639,
+    "Kelly": -0.3363616408182637,
+    "KeepTimeRange": 303
+  },
+  {
+    "StockNo": "2486",
+    "TradeCount": 31,
+    "WinFisrtRate": 1.0841361235247744,
+    "WinRate": 0.5161290322580645,
+    "WinLoseRate": 1.884349428478316,
+    "Kelly": 0.25934493455879659,
+    "KeepTimeRange": 414
+  },
+  {
+    "StockNo": "2331",
+    "TradeCount": 26,
+    "WinFisrtRate": -0.78938854971118233,
+    "WinRate": 0.30769230769230771,
+    "WinLoseRate": 1.0479740371487156,
+    "Kelly": -0.35292300124348841,
+    "KeepTimeRange": 271
+  },
+  {
+    "StockNo": "3003",
+    "TradeCount": 31,
+    "WinFisrtRate": -0.11133036714225536,
+    "WinRate": 0.41935483870967744,
+    "WinLoseRate": 1.2317620340741542,
+    "Kelly": -0.052039103649295038,
+    "KeepTimeRange": 436
+  },
+  {
+    "StockNo": "2884",
+    "TradeCount": 2,
+    "WinFisrtRate": 0.13298096999674383,
+    "WinRate": 1.0,
+    "WinLoseRate": 10.0,
+    "Kelly": 1.0,
+    "KeepTimeRange": 27
+  },
+  {
+    "StockNo": "6138",
+    "TradeCount": 33,
+    "WinFisrtRate": -0.18022683642621612,
+    "WinRate": 0.45454545454545453,
+    "WinLoseRate": 1.0381461854086114,
+    "Kelly": -0.070866624332296235,
+    "KeepTimeRange": 376
+  },
+  {
+    "StockNo": "6239",
+    "TradeCount": 4,
+    "WinFisrtRate": -0.059036192924758958,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.61927108942905251,
+    "Kelly": -0.30740084356429986,
+    "KeepTimeRange": 79
+  },
+  {
+    "StockNo": "5439",
+    "TradeCount": 28,
+    "WinFisrtRate": -0.298713617854577,
+    "WinRate": 0.4642857142857143,
+    "WinLoseRate": 0.75052749417040643,
+    "Kelly": -0.24949797768473914,
+    "KeepTimeRange": 357
+  },
+  {
+    "StockNo": "2105",
+    "TradeCount": 5,
+    "WinFisrtRate": 0.074991232174947464,
+    "WinRate": 0.6,
+    "WinLoseRate": 1.1001057357708357,
+    "Kelly": 0.23639858697789346,
+    "KeepTimeRange": 106
+  },
+  {
+    "StockNo": "6806",
+    "TradeCount": 5,
+    "WinFisrtRate": 0.094423843444048763,
+    "WinRate": 0.8,
+    "WinLoseRate": 0.39780391192345615,
+    "Kelly": 0.29723973544412219,
+    "KeepTimeRange": 39
+  },
+  {
+    "StockNo": "5347",
+    "TradeCount": 8,
+    "WinFisrtRate": 0.037421690544505726,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.1361474382447974,
+    "Kelly": 0.059916272158799966,
+    "KeepTimeRange": 69
+  },
+  {
+    "StockNo": "9921",
+    "TradeCount": 1,
+    "WinFisrtRate": -0.006,
+    "WinRate": 0.0,
+    "WinLoseRate": 0.0,
+    "Kelly": 0.0,
+    "KeepTimeRange": 23
+  },
+  {
+    "StockNo": "3363",
+    "TradeCount": 25,
+    "WinFisrtRate": 0.78686642497490467,
+    "WinRate": 0.52,
+    "WinLoseRate": 1.763744586888403,
+    "Kelly": 0.24785175156975781,
+    "KeepTimeRange": 382
+  },
+  {
+    "StockNo": "4977",
+    "TradeCount": 13,
+    "WinFisrtRate": 0.24252921886607473,
+    "WinRate": 0.61538461538461542,
+    "WinLoseRate": 1.3719115019291093,
+    "Kelly": 0.33503461899304149,
+    "KeepTimeRange": 109
+  },
+  {
+    "StockNo": "6274",
+    "TradeCount": 12,
+    "WinFisrtRate": -0.14385831338282651,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.6096620877090716,
+    "Kelly": -0.32012644394348178,
+    "KeepTimeRange": 143
+  },
+  {
+    "StockNo": "5222",
+    "TradeCount": 10,
+    "WinFisrtRate": 0.35076147718214296,
+    "WinRate": 0.6,
+    "WinLoseRate": 1.3000776104561609,
+    "Kelly": 0.29232606054983806,
+    "KeepTimeRange": 81
+  },
+  {
+    "StockNo": "1303",
+    "TradeCount": 1,
+    "WinFisrtRate": -0.060259382697659916,
+    "WinRate": 0.0,
+    "WinLoseRate": 0.0,
+    "Kelly": 0.0,
+    "KeepTimeRange": 2
+  },
+  {
+    "StockNo": "6203",
+    "TradeCount": 32,
+    "WinFisrtRate": -0.47522113709047026,
+    "WinRate": 0.34375,
+    "WinLoseRate": 1.3241684740473878,
+    "Kelly": -0.15184403721049083,
+    "KeepTimeRange": 320
+  },
+  {
+    "StockNo": "2359",
+    "TradeCount": 30,
+    "WinFisrtRate": 0.31124300313934578,
+    "WinRate": 0.46666666666666667,
+    "WinLoseRate": 1.5615134160780213,
+    "Kelly": 0.12511767461709389,
+    "KeepTimeRange": 460
+  },
+  {
+    "StockNo": "3014",
+    "TradeCount": 21,
+    "WinFisrtRate": -0.17395313826894129,
+    "WinRate": 0.42857142857142855,
+    "WinLoseRate": 1.0277638274136449,
+    "Kelly": -0.12742067407589303,
+    "KeepTimeRange": 391
+  },
+  {
+    "StockNo": "3189",
+    "TradeCount": 9,
+    "WinFisrtRate": -0.0037973126610001406,
+    "WinRate": 0.44444444444444442,
+    "WinLoseRate": 1.239123588279065,
+    "Kelly": -0.0039011126981882693,
+    "KeepTimeRange": 122
+  },
+  {
+    "StockNo": "4958",
+    "TradeCount": 5,
+    "WinFisrtRate": -0.0078624641642326062,
+    "WinRate": 0.4,
+    "WinLoseRate": 1.3781849565097393,
+    "Kelly": -0.035355209158212775,
+    "KeepTimeRange": 48
+  },
+  {
+    "StockNo": "2883",
+    "TradeCount": 7,
+    "WinFisrtRate": 0.390020329286598,
+    "WinRate": 0.7142857142857143,
+    "WinLoseRate": 2.8661931072777698,
+    "Kelly": 0.61460147284754785,
+    "KeepTimeRange": 85
+  },
+  {
+    "StockNo": "2002",
+    "TradeCount": 5,
+    "WinFisrtRate": 0.26608282894022772,
+    "WinRate": 0.4,
+    "WinLoseRate": 4.6986938292573353,
+    "Kelly": 0.272304937967232,
+    "KeepTimeRange": 79
+  },
+  {
+    "StockNo": "2722",
+    "TradeCount": 27,
+    "WinFisrtRate": -0.33482255081794327,
+    "WinRate": 0.22222222222222221,
+    "WinLoseRate": 2.402787808869649,
+    "Kelly": -0.10147584837173101,
+    "KeepTimeRange": 455
+  },
+  {
+    "StockNo": "2736",
+    "TradeCount": 20,
+    "WinFisrtRate": 0.32083857274883654,
+    "WinRate": 0.4,
+    "WinLoseRate": 2.0409868878972586,
+    "Kelly": 0.10602456901712176,
+    "KeepTimeRange": 221
+  },
+  {
+    "StockNo": "3025",
+    "TradeCount": 39,
+    "WinFisrtRate": 0.53440851006823253,
+    "WinRate": 0.38461538461538464,
+    "WinLoseRate": 2.0580695043901782,
+    "Kelly": 0.0856047758522182,
+    "KeepTimeRange": 504
+  },
+  {
+    "StockNo": "2027",
+    "TradeCount": 27,
+    "WinFisrtRate": 0.085922666650098831,
+    "WinRate": 0.37037037037037035,
+    "WinLoseRate": 1.8654787857395694,
+    "Kelly": 0.032853999536910095,
+    "KeepTimeRange": 440
+  },
+  {
+    "StockNo": "2498",
+    "TradeCount": 5,
+    "WinFisrtRate": 1.072176213135748,
+    "WinRate": 0.6,
+    "WinLoseRate": 4.8143544528991411,
+    "Kelly": 0.51691513287744628,
+    "KeepTimeRange": 75
+  },
+  {
+    "StockNo": "3044",
+    "TradeCount": 7,
+    "WinFisrtRate": -0.27769852665846045,
+    "WinRate": 0.14285714285714285,
+    "WinLoseRate": 0.18342305721646732,
+    "Kelly": -4.530180533814538,
+    "KeepTimeRange": 85
+  },
+  {
+    "StockNo": "3483",
+    "TradeCount": 30,
+    "WinFisrtRate": 0.41811067973655491,
+    "WinRate": 0.56666666666666665,
+    "WinLoseRate": 1.0808335318744946,
+    "Kelly": 0.16574152828591959,
+    "KeepTimeRange": 291
+  },
+  {
+    "StockNo": "6176",
+    "TradeCount": 11,
+    "WinFisrtRate": 0.079095574440487842,
+    "WinRate": 0.63636363636363635,
+    "WinLoseRate": 0.77899030255477542,
+    "Kelly": 0.16955889894420717,
+    "KeepTimeRange": 195
+  },
+  {
+    "StockNo": "6510",
+    "TradeCount": 10,
+    "WinFisrtRate": 0.14843018207385778,
+    "WinRate": 0.3,
+    "WinLoseRate": 3.35336936122081,
+    "Kelly": 0.091254727828382842,
+    "KeepTimeRange": 126
+  },
+  {
+    "StockNo": "2615",
+    "TradeCount": 9,
+    "WinFisrtRate": 0.12507323194682268,
+    "WinRate": 0.55555555555555558,
+    "WinLoseRate": 1.2512638191744536,
+    "Kelly": 0.2003591232494768,
+    "KeepTimeRange": 129
+  },
+  {
+    "StockNo": "3045",
+    "TradeCount": 1,
+    "WinFisrtRate": -0.028903225806451615,
+    "WinRate": 0.0,
+    "WinLoseRate": 0.0,
+    "Kelly": 0.0,
+    "KeepTimeRange": 6
+  },
+  {
+    "StockNo": "2401",
+    "TradeCount": 25,
+    "WinFisrtRate": -0.525905055771528,
+    "WinRate": 0.28,
+    "WinLoseRate": 1.2167558393951232,
+    "Kelly": -0.311737451909767,
+    "KeepTimeRange": 267
+  },
+  {
+    "StockNo": "3006",
+    "TradeCount": 26,
+    "WinFisrtRate": 0.72163900622266808,
+    "WinRate": 0.53846153846153844,
+    "WinLoseRate": 1.6994627121159378,
+    "Kelly": 0.26688249277372972,
+    "KeepTimeRange": 309
+  },
+  {
+    "StockNo": "1319",
+    "TradeCount": 9,
+    "WinFisrtRate": -0.40208423249273767,
+    "WinRate": 0.11111111111111111,
+    "WinLoseRate": 2.0559914795194025,
+    "Kelly": -0.32122963433627311,
+    "KeepTimeRange": 72
+  },
+  {
+    "StockNo": "3013",
+    "TradeCount": 29,
+    "WinFisrtRate": -0.694237341204475,
+    "WinRate": 0.2413793103448276,
+    "WinLoseRate": 1.8094544681890858,
+    "Kelly": -0.17787450509624567,
+    "KeepTimeRange": 410
+  },
+  {
+    "StockNo": "6116",
+    "TradeCount": 14,
+    "WinFisrtRate": 0.28036903712859468,
+    "WinRate": 0.5714285714285714,
+    "WinLoseRate": 1.2846890672174167,
+    "Kelly": 0.23782922859326838,
+    "KeepTimeRange": 157
+  },
+  {
+    "StockNo": "6188",
+    "TradeCount": 24,
+    "WinFisrtRate": 0.10555762559307189,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 2.1829288106422191,
+    "Kelly": 0.027933238095901813,
+    "KeepTimeRange": 305
+  },
+  {
+    "StockNo": "1529",
+    "TradeCount": 23,
+    "WinFisrtRate": -0.067535100976713613,
+    "WinRate": 0.391304347826087,
+    "WinLoseRate": 1.4509365833344308,
+    "Kelly": -0.028214781517978238,
+    "KeepTimeRange": 195
+  },
+  {
+    "StockNo": "2474",
+    "TradeCount": 2,
+    "WinFisrtRate": -0.021907746068724514,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.57035294117647062,
+    "Kelly": -0.37665016501650161,
+    "KeepTimeRange": 11
+  },
+  {
+    "StockNo": "6111",
+    "TradeCount": 20,
+    "WinFisrtRate": 1.1709930382394651,
+    "WinRate": 0.5,
+    "WinLoseRate": 2.79389438605589,
+    "Kelly": 0.32103833183692942,
+    "KeepTimeRange": 146
+  },
+  {
+    "StockNo": "8996",
+    "TradeCount": 31,
+    "WinFisrtRate": 0.57407374702423009,
+    "WinRate": 0.5161290322580645,
+    "WinLoseRate": 1.4017687894974042,
+    "Kelly": 0.17094302771346015,
+    "KeepTimeRange": 407
+  },
+  {
+    "StockNo": "2645",
+    "TradeCount": 1,
+    "WinFisrtRate": 0.1077710843373494,
+    "WinRate": 1.0,
+    "WinLoseRate": 10.0,
+    "Kelly": 1.0,
+    "KeepTimeRange": 28
+  },
+  {
+    "StockNo": "2204",
+    "TradeCount": 9,
+    "WinFisrtRate": 0.29513537839735127,
+    "WinRate": 0.55555555555555558,
+    "WinLoseRate": 1.7699055347439345,
+    "Kelly": 0.30444359747653554,
+    "KeepTimeRange": 134
+  },
+  {
+    "StockNo": "1476",
+    "TradeCount": 3,
+    "WinFisrtRate": 0.62175574185471083,
+    "WinRate": 0.66666666666666663,
+    "WinLoseRate": 52.312978487892572,
+    "Kelly": 0.66029476158750011,
+    "KeepTimeRange": 31
+  },
+  {
+    "StockNo": "2049",
+    "TradeCount": 4,
+    "WinFisrtRate": -0.0538222265873578,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.54552894543444252,
+    "Kelly": -0.416541650419329,
+    "KeepTimeRange": 46
+  },
+  {
+    "StockNo": "2312",
+    "TradeCount": 27,
+    "WinFisrtRate": -0.41391207236065219,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 1.1740882745490517,
+    "Kelly": -0.2344831427512461,
+    "KeepTimeRange": 422
+  },
+  {
+    "StockNo": "2404",
+    "TradeCount": 20,
+    "WinFisrtRate": 0.49816705359570246,
+    "WinRate": 0.6,
+    "WinLoseRate": 1.6489848654236967,
+    "Kelly": 0.357426518346351,
+    "KeepTimeRange": 266
+  },
+  {
+    "StockNo": "6214",
+    "TradeCount": 16,
+    "WinFisrtRate": -0.1965336846024309,
+    "WinRate": 0.1875,
+    "WinLoseRate": 3.1152042653473542,
+    "Kelly": -0.073317567900127389,
+    "KeepTimeRange": 351
+  },
+  {
+    "StockNo": "6288",
+    "TradeCount": 11,
+    "WinFisrtRate": 0.14945390094857486,
+    "WinRate": 0.45454545454545453,
+    "WinLoseRate": 1.6193296121838865,
+    "Kelly": 0.11770572695044951,
+    "KeepTimeRange": 162
+  },
+  {
+    "StockNo": "2247",
+    "TradeCount": 4,
+    "WinFisrtRate": -0.11641351885216897,
+    "WinRate": 0.25,
+    "WinLoseRate": 0.30979186833565259,
+    "Kelly": -2.1709802666201417,
+    "KeepTimeRange": 44
+  },
+  {
+    "StockNo": "2801",
+    "TradeCount": 6,
+    "WinFisrtRate": 0.034123245824926346,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.3365873576483451,
+    "Kelly": 0.12591296622786885,
+    "KeepTimeRange": 54
+  },
+  {
+    "StockNo": "2455",
+    "TradeCount": 16,
+    "WinFisrtRate": 0.34558234183475411,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.8766531590386713,
+    "Kelly": 0.23356824216994443,
+    "KeepTimeRange": 256
+  },
+  {
+    "StockNo": "6770",
+    "TradeCount": 2,
+    "WinFisrtRate": 0.15825922584177846,
+    "WinRate": 0.5,
+    "WinLoseRate": 3.0134013895421994,
+    "Kelly": 0.3340745438907623,
+    "KeepTimeRange": 35
+  },
+  {
+    "StockNo": "3356",
+    "TradeCount": 26,
+    "WinFisrtRate": -0.25512694802328623,
+    "WinRate": 0.42307692307692307,
+    "WinLoseRate": 1.056885293635689,
+    "Kelly": -0.12279411931260581,
+    "KeepTimeRange": 462
+  },
+  {
+    "StockNo": "6196",
+    "TradeCount": 31,
+    "WinFisrtRate": 0.065065321150264754,
+    "WinRate": 0.38709677419354838,
+    "WinLoseRate": 1.6688253606411383,
+    "Kelly": 0.019830527969328049,
+    "KeepTimeRange": 394
+  },
+  {
+    "StockNo": "1905",
+    "TradeCount": 27,
+    "WinFisrtRate": 0.13387668132111613,
+    "WinRate": 0.37037037037037035,
+    "WinLoseRate": 1.9822411477773505,
+    "Kelly": 0.052735136970225527,
+    "KeepTimeRange": 227
+  },
+  {
+    "StockNo": "3617",
+    "TradeCount": 30,
+    "WinFisrtRate": 0.73616199838994145,
+    "WinRate": 0.46666666666666667,
+    "WinLoseRate": 1.9840182028813087,
+    "Kelly": 0.19785192869763235,
+    "KeepTimeRange": 378
+  },
+  {
+    "StockNo": "6414",
+    "TradeCount": 10,
+    "WinFisrtRate": 0.25271335795874489,
+    "WinRate": 0.6,
+    "WinLoseRate": 1.2260454980215316,
+    "Kelly": 0.27374783346500625,
+    "KeepTimeRange": 157
+  },
+  {
+    "StockNo": "4743",
+    "TradeCount": 19,
+    "WinFisrtRate": 0.93565310248183264,
+    "WinRate": 0.57894736842105265,
+    "WinLoseRate": 1.6989386193345846,
+    "Kelly": 0.33111461755695193,
+    "KeepTimeRange": 181
+  },
+  {
+    "StockNo": "2885",
+    "TradeCount": 4,
+    "WinFisrtRate": -0.13065546297491254,
+    "WinRate": 0.25,
+    "WinLoseRate": 0.74554952036339528,
+    "Kelly": -0.7559693950771178,
+    "KeepTimeRange": 112
+  },
+  {
+    "StockNo": "3293",
+    "TradeCount": 22,
+    "WinFisrtRate": 0.618075289073568,
+    "WinRate": 0.45454545454545453,
+    "WinLoseRate": 2.4615071304069716,
+    "Kelly": 0.23295172494924449,
+    "KeepTimeRange": 320
+  },
+  {
+    "StockNo": "8076",
+    "TradeCount": 24,
+    "WinFisrtRate": -0.31476125135366462,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 1.4835919950038929,
+    "Kelly": -0.11602651014905041,
+    "KeepTimeRange": 379
+  },
+  {
+    "StockNo": "8926",
+    "TradeCount": 15,
+    "WinFisrtRate": 0.14937475625664576,
+    "WinRate": 0.53333333333333333,
+    "WinLoseRate": 1.3736523912606578,
+    "Kelly": 0.19360643471206906,
+    "KeepTimeRange": 357
+  },
+  {
+    "StockNo": "2468",
+    "TradeCount": 32,
+    "WinFisrtRate": 0.054481486427546549,
+    "WinRate": 0.40625,
+    "WinLoseRate": 1.527199420377283,
+    "Kelly": 0.017466457996481832,
+    "KeepTimeRange": 328
+  },
+  {
+    "StockNo": "4533",
+    "TradeCount": 31,
+    "WinFisrtRate": 0.15128554125078286,
+    "WinRate": 0.35483870967741937,
+    "WinLoseRate": 2.0457475547397626,
+    "Kelly": 0.039471699301277974,
+    "KeepTimeRange": 526
+  },
+  {
+    "StockNo": "6446",
+    "TradeCount": 7,
+    "WinFisrtRate": -0.338353883998579,
+    "WinRate": 0.2857142857142857,
+    "WinLoseRate": 0.88681354402632318,
+    "Kelly": -0.51973768228645589,
+    "KeepTimeRange": 106
+  },
+  {
+    "StockNo": "6148",
+    "TradeCount": 30,
+    "WinFisrtRate": 0.3993224431696647,
+    "WinRate": 0.36666666666666664,
+    "WinLoseRate": 2.3117521343982412,
+    "Kelly": 0.092704192961330312,
+    "KeepTimeRange": 393
+  },
+  {
+    "StockNo": "2385",
+    "TradeCount": 2,
+    "WinFisrtRate": 0.090296358164227084,
+    "WinRate": 1.0,
+    "WinLoseRate": 10.0,
+    "Kelly": 1.0,
+    "KeepTimeRange": 53
+  },
+  {
+    "StockNo": "1101",
+    "TradeCount": 3,
+    "WinFisrtRate": -0.16509806636955338,
+    "WinRate": 0.0,
+    "WinLoseRate": 0.0,
+    "Kelly": 0.0,
+    "KeepTimeRange": 22
+  },
+  {
+    "StockNo": "6122",
+    "TradeCount": 29,
+    "WinFisrtRate": 0.014471765725192459,
+    "WinRate": 0.41379310344827586,
+    "WinLoseRate": 1.4391753242583167,
+    "Kelly": 0.0064717113490695422,
+    "KeepTimeRange": 342
+  },
+  {
+    "StockNo": "6245",
+    "TradeCount": 19,
+    "WinFisrtRate": 0.24838557108173831,
+    "WinRate": 0.36842105263157893,
+    "WinLoseRate": 2.2827192770213869,
+    "Kelly": 0.09174272703714198,
+    "KeepTimeRange": 199
+  },
+  {
+    "StockNo": "3406",
+    "TradeCount": 9,
+    "WinFisrtRate": 0.55707476106056941,
+    "WinRate": 0.55555555555555558,
+    "WinLoseRate": 2.0168373681882468,
+    "Kelly": 0.335188533675306,
+    "KeepTimeRange": 92
+  },
+  {
+    "StockNo": "8222",
+    "TradeCount": 20,
+    "WinFisrtRate": 0.22916482853592918,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.3243756897079781,
+    "Kelly": 0.12246362275779249,
+    "KeepTimeRange": 391
+  },
+  {
+    "StockNo": "8446",
+    "TradeCount": 19,
+    "WinFisrtRate": 0.057746219956167855,
+    "WinRate": 0.36842105263157893,
+    "WinLoseRate": 1.8505638111032954,
+    "Kelly": 0.02713103951288659,
+    "KeepTimeRange": 248
+  },
+  {
+    "StockNo": "4961",
+    "TradeCount": 11,
+    "WinFisrtRate": 1.0107790899343689,
+    "WinRate": 0.54545454545454541,
+    "WinLoseRate": 3.4702543501990988,
+    "Kelly": 0.41447122012008514,
+    "KeepTimeRange": 100
+  },
+  {
+    "StockNo": "3707",
+    "TradeCount": 21,
+    "WinFisrtRate": 0.354297963356675,
+    "WinRate": 0.47619047619047616,
+    "WinLoseRate": 1.5993983916214394,
+    "Kelly": 0.14868638055455657,
+    "KeepTimeRange": 170
+  },
+  {
+    "StockNo": "4572",
+    "TradeCount": 10,
+    "WinFisrtRate": 0.25919944431090852,
+    "WinRate": 0.7,
+    "WinLoseRate": 1.3753383929453262,
+    "Kelly": 0.48187186401628651,
+    "KeepTimeRange": 95
+  },
+  {
+    "StockNo": "8050",
+    "TradeCount": 15,
+    "WinFisrtRate": -0.080791051387992835,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 1.7004373389757879,
+    "Kelly": -0.0587226697818507,
+    "KeepTimeRange": 201
+  },
+  {
+    "StockNo": "6488",
+    "TradeCount": 2,
+    "WinFisrtRate": 0.18892942422058034,
+    "WinRate": 1.0,
+    "WinLoseRate": 10.0,
+    "Kelly": 1.0,
+    "KeepTimeRange": 33
+  },
+  {
+    "StockNo": "5483",
+    "TradeCount": 8,
+    "WinFisrtRate": -0.29555459257264494,
+    "WinRate": 0.375,
+    "WinLoseRate": 0.43446310589680359,
+    "Kelly": -1.0635571329696609,
+    "KeepTimeRange": 68
+  },
+  {
+    "StockNo": "1907",
+    "TradeCount": 25,
+    "WinFisrtRate": -0.35578234091675737,
+    "WinRate": 0.32,
+    "WinLoseRate": 1.3443664912246143,
+    "Kelly": -0.18581445196582697,
+    "KeepTimeRange": 475
+  },
+  {
+    "StockNo": "2705",
+    "TradeCount": 26,
+    "WinFisrtRate": -0.29428982675385085,
+    "WinRate": 0.34615384615384615,
+    "WinLoseRate": 1.3785994765349767,
+    "Kelly": -0.12812905107280531,
+    "KeepTimeRange": 302
+  },
+  {
+    "StockNo": "3027",
+    "TradeCount": 25,
+    "WinFisrtRate": 0.51786553248224487,
+    "WinRate": 0.44,
+    "WinLoseRate": 1.870017003709584,
+    "Kelly": 0.14053748233886715,
+    "KeepTimeRange": 293
+  },
+  {
+    "StockNo": "2727",
+    "TradeCount": 13,
+    "WinFisrtRate": 0.89083026877449312,
+    "WinRate": 0.61538461538461542,
+    "WinLoseRate": 2.3857474400350056,
+    "Kelly": 0.45417082629647071,
+    "KeepTimeRange": 211
+  },
+  {
+    "StockNo": "8358",
+    "TradeCount": 21,
+    "WinFisrtRate": 0.74554260052859567,
+    "WinRate": 0.52380952380952384,
+    "WinLoseRate": 2.7000111037594841,
+    "Kelly": 0.34744340608229279,
+    "KeepTimeRange": 222
+  },
+  {
+    "StockNo": "3022",
+    "TradeCount": 20,
+    "WinFisrtRate": 0.40962945663963618,
+    "WinRate": 0.4,
+    "WinLoseRate": 2.684531745772087,
+    "Kelly": 0.17649733479779117,
+    "KeepTimeRange": 324
+  },
+  {
+    "StockNo": "6271",
+    "TradeCount": 12,
+    "WinFisrtRate": -0.089547491754322667,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.76947226657553558,
+    "Kelly": -0.1497959987891484,
+    "KeepTimeRange": 115
+  },
+  {
+    "StockNo": "3032",
+    "TradeCount": 24,
+    "WinFisrtRate": 0.82264667009726922,
+    "WinRate": 0.58333333333333337,
+    "WinLoseRate": 1.5567545781337049,
+    "Kelly": 0.31568249580300017,
+    "KeepTimeRange": 431
+  },
+  {
+    "StockNo": "4919",
+    "TradeCount": 22,
+    "WinFisrtRate": -0.092533825623572846,
+    "WinRate": 0.36363636363636365,
+    "WinLoseRate": 1.5464005146894209,
+    "Kelly": -0.047876456178911453,
+    "KeepTimeRange": 211
+  },
+  {
+    "StockNo": "2059",
+    "TradeCount": 2,
+    "WinFisrtRate": 0.034623057453646147,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.4720978853699889,
+    "Kelly": 0.16034867316290397,
+    "KeepTimeRange": 36
+  },
+  {
+    "StockNo": "5289",
+    "TradeCount": 14,
+    "WinFisrtRate": 0.11391177555002653,
+    "WinRate": 0.42857142857142855,
+    "WinLoseRate": 1.6678225477621611,
+    "Kelly": 0.08595190217439147,
+    "KeepTimeRange": 244
+  },
+  {
+    "StockNo": "3131",
+    "TradeCount": 22,
+    "WinFisrtRate": 0.21525139028873852,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.2885300320647861,
+    "Kelly": 0.11196092635979754,
+    "KeepTimeRange": 237
+  },
+  {
+    "StockNo": "1802",
+    "TradeCount": 11,
+    "WinFisrtRate": 0.26560501739594317,
+    "WinRate": 0.45454545454545453,
+    "WinLoseRate": 2.1217290025706497,
+    "Kelly": 0.19746524081708383,
+    "KeepTimeRange": 151
+  },
+  {
+    "StockNo": "2323",
+    "TradeCount": 22,
+    "WinFisrtRate": 0.036462107165775082,
+    "WinRate": 0.27272727272727271,
+    "WinLoseRate": 2.7690733273991612,
+    "Kelly": 0.010086077899898904,
+    "KeepTimeRange": 264
+  },
+  {
+    "StockNo": "4916",
+    "TradeCount": 20,
+    "WinFisrtRate": 0.56127568494386981,
+    "WinRate": 0.5,
+    "WinLoseRate": 2.2067211004983922,
+    "Kelly": 0.273419486546318,
+    "KeepTimeRange": 214
+  },
+  {
+    "StockNo": "2201",
+    "TradeCount": 12,
+    "WinFisrtRate": -0.028720927900485319,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.936216342236138,
+    "Kelly": -0.034064593238949281,
+    "KeepTimeRange": 134
+  },
+  {
+    "StockNo": "1590",
+    "TradeCount": 5,
+    "WinFisrtRate": 0.016219075757309492,
+    "WinRate": 0.4,
+    "WinLoseRate": 1.6019599670978633,
+    "Kelly": 0.025458805261551143,
+    "KeepTimeRange": 67
+  },
+  {
+    "StockNo": "2882",
+    "TradeCount": 7,
+    "WinFisrtRate": -0.035034759251239965,
+    "WinRate": 0.42857142857142855,
+    "WinLoseRate": 1.1026349773457811,
+    "Kelly": -0.089667683345818483,
+    "KeepTimeRange": 339
+  },
+  {
+    "StockNo": "2630",
+    "TradeCount": 10,
+    "WinFisrtRate": 0.051002088113490454,
+    "WinRate": 0.4,
+    "WinLoseRate": 1.7304662280352003,
+    "Kelly": 0.053272632381130169,
+    "KeepTimeRange": 86
+  },
+  {
+    "StockNo": "2360",
+    "TradeCount": 11,
+    "WinFisrtRate": -0.36544419571003978,
+    "WinRate": 0.36363636363636365,
+    "WinLoseRate": 0.54934563562677718,
+    "Kelly": -0.7947666436753732,
+    "KeepTimeRange": 125
+  },
+  {
+    "StockNo": "2707",
+    "TradeCount": 8,
+    "WinFisrtRate": 0.17788784404030789,
+    "WinRate": 0.625,
+    "WinLoseRate": 1.600746109950177,
+    "Kelly": 0.39073424250790662,
+    "KeepTimeRange": 243
+  },
+  {
+    "StockNo": "6285",
+    "TradeCount": 10,
+    "WinFisrtRate": 0.11224388460263714,
+    "WinRate": 0.6,
+    "WinLoseRate": 0.90222731837289283,
+    "Kelly": 0.15665275052702515,
+    "KeepTimeRange": 144
+  },
+  {
+    "StockNo": "2891",
+    "TradeCount": 1,
+    "WinFisrtRate": -0.023137833947676517,
+    "WinRate": 0.0,
+    "WinLoseRate": 0.0,
+    "Kelly": 0.0,
+    "KeepTimeRange": 3
+  },
+  {
+    "StockNo": "5465",
+    "TradeCount": 27,
+    "WinFisrtRate": 0.39304473143584323,
+    "WinRate": 0.44444444444444442,
+    "WinLoseRate": 1.6210594100582974,
+    "Kelly": 0.10173303478946055,
+    "KeepTimeRange": 348
+  },
+  {
+    "StockNo": "6223",
+    "TradeCount": 29,
+    "WinFisrtRate": 0.33002231150464273,
+    "WinRate": 0.41379310344827586,
+    "WinLoseRate": 1.7902371360102241,
+    "Kelly": 0.086346596636244,
+    "KeepTimeRange": 299
+  },
+  {
+    "StockNo": "5269",
+    "TradeCount": 8,
+    "WinFisrtRate": 0.48768588016576758,
+    "WinRate": 0.75,
+    "WinLoseRate": 1.4171866447647026,
+    "Kelly": 0.57359416035739752,
+    "KeepTimeRange": 68
+  },
+  {
+    "StockNo": "5871",
+    "TradeCount": 6,
+    "WinFisrtRate": 0.063518686521569542,
+    "WinRate": 0.66666666666666663,
+    "WinLoseRate": 0.76166626950928618,
+    "Kelly": 0.22902967698076665,
+    "KeepTimeRange": 146
+  },
+  {
+    "StockNo": "2743",
+    "TradeCount": 8,
+    "WinFisrtRate": 1.954051164662725,
+    "WinRate": 0.5,
+    "WinLoseRate": 7.9172464206390067,
+    "Kelly": 0.4368467301085161,
+    "KeepTimeRange": 71
+  },
+  {
+    "StockNo": "3454",
+    "TradeCount": 20,
+    "WinFisrtRate": 0.14103920802474726,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.2406374342606108,
+    "Kelly": 0.096981369260401518,
+    "KeepTimeRange": 226
+  },
+  {
+    "StockNo": "2352",
+    "TradeCount": 12,
+    "WinFisrtRate": 0.75344510217203831,
+    "WinRate": 0.66666666666666663,
+    "WinLoseRate": 2.6778961456092887,
+    "Kelly": 0.5421908411646692,
+    "KeepTimeRange": 168
+  },
+  {
+    "StockNo": "3264",
+    "TradeCount": 12,
+    "WinFisrtRate": 0.031036196917542874,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.0873647649781291,
+    "Kelly": 0.040172703674045518,
+    "KeepTimeRange": 170
+  },
+  {
+    "StockNo": "1522",
+    "TradeCount": 21,
+    "WinFisrtRate": -0.097361270558810831,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 1.8055710213332066,
+    "Kelly": -0.035894273218753492,
+    "KeepTimeRange": 386
+  },
+  {
+    "StockNo": "2881",
+    "TradeCount": 2,
+    "WinFisrtRate": 0.118649547397882,
+    "WinRate": 1.0,
+    "WinLoseRate": 10.0,
+    "Kelly": 1.0,
+    "KeepTimeRange": 63
+  },
+  {
+    "StockNo": "2379",
+    "TradeCount": 4,
+    "WinFisrtRate": -0.069316405556899136,
+    "WinRate": 0.25,
+    "WinLoseRate": 1.3630473988100533,
+    "Kelly": -0.30023765179021178,
+    "KeepTimeRange": 37
+  },
+  {
+    "StockNo": "4904",
+    "TradeCount": 1,
+    "WinFisrtRate": -0.026841919451612895,
+    "WinRate": 0.0,
+    "WinLoseRate": 0.0,
+    "Kelly": 0.0,
+    "KeepTimeRange": 2
+  },
+  {
+    "StockNo": "3217",
+    "TradeCount": 31,
+    "WinFisrtRate": 0.80135590032875625,
+    "WinRate": 0.5161290322580645,
+    "WinLoseRate": 1.6541501103961511,
+    "Kelly": 0.22360965043119174,
+    "KeepTimeRange": 363
+  },
+  {
+    "StockNo": "1301",
+    "TradeCount": 3,
+    "WinFisrtRate": 0.005417534780817912,
+    "WinRate": 0.66666666666666663,
+    "WinLoseRate": 0.55433518247546731,
+    "Kelly": 0.065345762146799879,
+    "KeepTimeRange": 25
+  },
+  {
+    "StockNo": "1514",
+    "TradeCount": 24,
+    "WinFisrtRate": 0.26372530772739511,
+    "WinRate": 0.41666666666666669,
+    "WinLoseRate": 1.8286837945521475,
+    "Kelly": 0.0976758520320381,
+    "KeepTimeRange": 365
+  },
+  {
+    "StockNo": "5009",
+    "TradeCount": 21,
+    "WinFisrtRate": -0.44795441511083822,
+    "WinRate": 0.2857142857142857,
+    "WinLoseRate": 1.3085776659201864,
+    "Kelly": -0.26013464086313032,
+    "KeepTimeRange": 233
+  },
+  {
+    "StockNo": "3105",
+    "TradeCount": 5,
+    "WinFisrtRate": 0.18330779953333115,
+    "WinRate": 0.4,
+    "WinLoseRate": 3.9401066726534331,
+    "Kelly": 0.24771985891540985,
+    "KeepTimeRange": 46
+  },
+  {
+    "StockNo": "2888",
+    "TradeCount": 9,
+    "WinFisrtRate": 0.054825113897616795,
+    "WinRate": 0.44444444444444442,
+    "WinLoseRate": 1.6248064436160712,
+    "Kelly": 0.10252337579140247,
+    "KeepTimeRange": 251
+  },
+  {
+    "StockNo": "8299",
+    "TradeCount": 2,
+    "WinFisrtRate": -0.069716625684911618,
+    "WinRate": 0.0,
+    "WinLoseRate": 0.0,
+    "Kelly": 0.0,
+    "KeepTimeRange": 13
+  },
+  {
+    "StockNo": "1216",
+    "TradeCount": 1,
+    "WinFisrtRate": -0.022402640805367684,
+    "WinRate": 0.0,
+    "WinLoseRate": 0.0,
+    "Kelly": 0.0,
+    "KeepTimeRange": 2
+  },
+  {
+    "StockNo": "2388",
+    "TradeCount": 27,
+    "WinFisrtRate": 0.665696588007649,
+    "WinRate": 0.44444444444444442,
+    "WinLoseRate": 1.9901752498165921,
+    "Kelly": 0.1652953817642841,
+    "KeepTimeRange": 267
+  },
+  {
+    "StockNo": "1560",
+    "TradeCount": 30,
+    "WinFisrtRate": -0.2744321147914795,
+    "WinRate": 0.26666666666666666,
+    "WinLoseRate": 2.0810445545334524,
+    "Kelly": -0.085720470713839259,
+    "KeepTimeRange": 511
+  },
+  {
+    "StockNo": "6789",
+    "TradeCount": 2,
+    "WinFisrtRate": -0.071594605394605382,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.043049691414898082,
+    "Kelly": -11.11448511166253,
+    "KeepTimeRange": 14
+  },
+  {
+    "StockNo": "4967",
+    "TradeCount": 6,
+    "WinFisrtRate": 0.40753557572605714,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 9.1268290966167775,
+    "Kelly": 0.26028861433954903,
+    "KeepTimeRange": 41
+  },
+  {
+    "StockNo": "2449",
+    "TradeCount": 12,
+    "WinFisrtRate": -0.15433334750687744,
+    "WinRate": 0.58333333333333337,
+    "WinLoseRate": 0.35838853256585679,
+    "Kelly": -0.57927827056920156,
+    "KeepTimeRange": 154
+  },
+  {
+    "StockNo": "6125",
+    "TradeCount": 27,
+    "WinFisrtRate": 0.54852869087850264,
+    "WinRate": 0.40740740740740738,
+    "WinLoseRate": 2.2822100455017424,
+    "Kelly": 0.14775006615584374,
+    "KeepTimeRange": 311
+  },
+  {
+    "StockNo": "2344",
+    "TradeCount": 17,
+    "WinFisrtRate": 0.57553005933203016,
+    "WinRate": 0.47058823529411764,
+    "WinLoseRate": 2.483361586693797,
+    "Kelly": 0.25740471520483804,
+    "KeepTimeRange": 236
+  },
+  {
+    "StockNo": "2357",
+    "TradeCount": 5,
+    "WinFisrtRate": 0.13975770349902683,
+    "WinRate": 0.8,
+    "WinLoseRate": 18.711443366137829,
+    "Kelly": 0.789311353694823,
+    "KeepTimeRange": 113
+  },
+  {
+    "StockNo": "2337",
+    "TradeCount": 13,
+    "WinFisrtRate": 0.17021525525113734,
+    "WinRate": 0.46153846153846156,
+    "WinLoseRate": 1.6337926322651357,
+    "Kelly": 0.13196081023335049,
+    "KeepTimeRange": 126
+  },
+  {
+    "StockNo": "3046",
+    "TradeCount": 25,
+    "WinFisrtRate": 0.76712672409105886,
+    "WinRate": 0.56,
+    "WinLoseRate": 1.4851818162984041,
+    "Kelly": 0.26373997636421731,
+    "KeepTimeRange": 208
+  },
+  {
+    "StockNo": "2731",
+    "TradeCount": 19,
+    "WinFisrtRate": 0.54032015143818,
+    "WinRate": 0.52631578947368418,
+    "WinLoseRate": 1.7761952817601523,
+    "Kelly": 0.25963103054508818,
+    "KeepTimeRange": 233
+  },
+  {
+    "StockNo": "2377",
+    "TradeCount": 10,
+    "WinFisrtRate": 0.541663162129872,
+    "WinRate": 0.8,
+    "WinLoseRate": 1.6027883060528345,
+    "Kelly": 0.67521745744917672,
+    "KeepTimeRange": 150
+  },
+  {
+    "StockNo": "4938",
+    "TradeCount": 6,
+    "WinFisrtRate": -0.1360394411109955,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 0.47840816581586576,
+    "Kelly": -1.0601768830521865,
+    "KeepTimeRange": 76
+  },
+  {
+    "StockNo": "3653",
+    "TradeCount": 22,
+    "WinFisrtRate": 0.96768917844247337,
+    "WinRate": 0.63636363636363635,
+    "WinLoseRate": 1.5268139895512869,
+    "Kelly": 0.39819686154699208,
+    "KeepTimeRange": 310
+  },
+  {
+    "StockNo": "3583",
+    "TradeCount": 23,
+    "WinFisrtRate": 0.2727736391372047,
+    "WinRate": 0.47826086956521741,
+    "WinLoseRate": 1.4223954995621582,
+    "Kelly": 0.11145773316933849,
+    "KeepTimeRange": 271
+  },
+  {
+    "StockNo": "2453",
+    "TradeCount": 35,
+    "WinFisrtRate": 0.69948188101167252,
+    "WinRate": 0.34285714285714286,
+    "WinLoseRate": 2.8149729872211768,
+    "Kelly": 0.10941161420517487,
+    "KeepTimeRange": 494
+  },
+  {
+    "StockNo": "3008",
+    "TradeCount": 1,
+    "WinFisrtRate": 0.0696062639821029,
+    "WinRate": 1.0,
+    "WinLoseRate": 10.0,
+    "Kelly": 1.0,
+    "KeepTimeRange": 7
+  },
+  {
+    "StockNo": "3665",
+    "TradeCount": 12,
+    "WinFisrtRate": 0.0084056591847617348,
+    "WinRate": 0.41666666666666669,
+    "WinLoseRate": 1.4329864914292052,
+    "Kelly": 0.0095914173029834071,
+    "KeepTimeRange": 123
+  },
+  {
+    "StockNo": "6279",
+    "TradeCount": 26,
+    "WinFisrtRate": 0.2762484865559478,
+    "WinRate": 0.53846153846153844,
+    "WinLoseRate": 1.124977402360642,
+    "Kelly": 0.12819688730501422,
+    "KeepTimeRange": 334
+  },
+  {
+    "StockNo": "2408",
+    "TradeCount": 6,
+    "WinFisrtRate": 0.22565521830686097,
+    "WinRate": 0.66666666666666663,
+    "WinLoseRate": 3.9524004309510152,
+    "Kelly": 0.58232973290787549,
+    "KeepTimeRange": 78
+  },
+  {
+    "StockNo": "2383",
+    "TradeCount": 12,
+    "WinFisrtRate": 0.3220584732121422,
+    "WinRate": 0.5,
+    "WinLoseRate": 2.4389304320717207,
+    "Kelly": 0.29499210251139435,
+    "KeepTimeRange": 212
+  },
+  {
+    "StockNo": "6472",
+    "TradeCount": 9,
+    "WinFisrtRate": 2.414865388544158,
+    "WinRate": 0.55555555555555558,
+    "WinLoseRate": 8.3896712978397616,
+    "Kelly": 0.50258036395789629,
+    "KeepTimeRange": 172
+  },
+  {
+    "StockNo": "2482",
+    "TradeCount": 28,
+    "WinFisrtRate": 0.609693044495984,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.6685055328611866,
+    "Kelly": 0.20033063112317645,
+    "KeepTimeRange": 376
+  },
+  {
+    "StockNo": "2327",
+    "TradeCount": 10,
+    "WinFisrtRate": 0.10104809820039383,
+    "WinRate": 0.6,
+    "WinLoseRate": 0.92298686085405335,
+    "Kelly": 0.16662438333101065,
+    "KeepTimeRange": 109
+  },
+  {
+    "StockNo": "6533",
+    "TradeCount": 8,
+    "WinFisrtRate": 0.1930218047800138,
+    "WinRate": 0.625,
+    "WinLoseRate": 0.806329949551218,
+    "Kelly": 0.15992983832646285,
+    "KeepTimeRange": 153
+  },
+  {
+    "StockNo": "4966",
+    "TradeCount": 6,
+    "WinFisrtRate": -0.28776164173258112,
+    "WinRate": 0.16666666666666666,
+    "WinLoseRate": 0.92732037017414515,
+    "Kelly": -0.73197997168641782,
+    "KeepTimeRange": 43
+  },
+  {
+    "StockNo": "2324",
+    "TradeCount": 4,
+    "WinFisrtRate": -0.070413093105667512,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.36710172658372103,
+    "Kelly": -0.86202028972470734,
+    "KeepTimeRange": 43
+  },
+  {
+    "StockNo": "3533",
+    "TradeCount": 12,
+    "WinFisrtRate": 0.52273468962671477,
+    "WinRate": 0.58333333333333337,
+    "WinLoseRate": 1.9089686458883561,
+    "Kelly": 0.36506538662603322,
+    "KeepTimeRange": 137
+  },
+  {
+    "StockNo": "3374",
+    "TradeCount": 12,
+    "WinFisrtRate": 1.3744121460876728,
+    "WinRate": 0.75,
+    "WinLoseRate": 2.0898388600508269,
+    "Kelly": 0.63037355186613775,
+    "KeepTimeRange": 198
+  },
+  {
+    "StockNo": "3680",
+    "TradeCount": 23,
+    "WinFisrtRate": 1.1232221146194577,
+    "WinRate": 0.47826086956521741,
+    "WinLoseRate": 2.8179425450024351,
+    "Kelly": 0.29311190995989239,
+    "KeepTimeRange": 328
+  },
+  {
+    "StockNo": "6282",
+    "TradeCount": 22,
+    "WinFisrtRate": -0.04599290516496065,
+    "WinRate": 0.45454545454545453,
+    "WinLoseRate": 1.1301297770203638,
+    "Kelly": -0.028102252422023133,
+    "KeepTimeRange": 338
+  },
+  {
+    "StockNo": "5274",
+    "TradeCount": 4,
+    "WinFisrtRate": -0.32256305783870337,
+    "WinRate": 0.0,
+    "WinLoseRate": 0.0,
+    "Kelly": 0.0,
+    "KeepTimeRange": 52
+  },
+  {
+    "StockNo": "6515",
+    "TradeCount": 4,
+    "WinFisrtRate": -0.0085666186180672343,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.94329024561966845,
+    "Kelly": -0.03005954670032529,
+    "KeepTimeRange": 35
+  },
+  {
+    "StockNo": "2345",
+    "TradeCount": 8,
+    "WinFisrtRate": 0.20899905417505538,
+    "WinRate": 0.375,
+    "WinLoseRate": 4.24693140865573,
+    "Kelly": 0.22783492011992967,
+    "KeepTimeRange": 96
+  },
+  {
+    "StockNo": "2409",
+    "TradeCount": 6,
+    "WinFisrtRate": 0.22137785400863133,
+    "WinRate": 0.5,
+    "WinLoseRate": 6.2315447491089415,
+    "Kelly": 0.41976307318157413,
+    "KeepTimeRange": 35
+  },
+  {
+    "StockNo": "5425",
+    "TradeCount": 17,
+    "WinFisrtRate": 0.57600697988648542,
+    "WinRate": 0.70588235294117652,
+    "WinLoseRate": 1.3135196848474622,
+    "Kelly": 0.48196667778859659,
+    "KeepTimeRange": 247
+  },
+  {
+    "StockNo": "3529",
+    "TradeCount": 9,
+    "WinFisrtRate": 0.006972638394758552,
+    "WinRate": 0.55555555555555558,
+    "WinLoseRate": 0.81631156666669213,
+    "Kelly": 0.0111011308078105,
+    "KeepTimeRange": 142
+  },
+  {
+    "StockNo": "3260",
+    "TradeCount": 21,
+    "WinFisrtRate": 0.067192853423679852,
+    "WinRate": 0.5714285714285714,
+    "WinLoseRate": 0.833441819964709,
+    "Kelly": 0.057209800177596914,
+    "KeepTimeRange": 249
+  },
+  {
+    "StockNo": "2353",
+    "TradeCount": 10,
+    "WinFisrtRate": 0.37104814582956291,
+    "WinRate": 0.6,
+    "WinLoseRate": 2.1763435622285292,
+    "Kelly": 0.41620548936197893,
+    "KeepTimeRange": 181
+  },
+  {
+    "StockNo": "3706",
+    "TradeCount": 20,
+    "WinFisrtRate": -0.39462265572301664,
+    "WinRate": 0.35,
+    "WinLoseRate": 0.79514680485095812,
+    "Kelly": -0.46745911073847013,
+    "KeepTimeRange": 237
+  },
+  {
+    "StockNo": "2421",
+    "TradeCount": 31,
+    "WinFisrtRate": -0.14646926180407577,
+    "WinRate": 0.41935483870967744,
+    "WinLoseRate": 1.2156070800384524,
+    "Kelly": -0.058303749188605758,
+    "KeepTimeRange": 408
+  },
+  {
+    "StockNo": "4968",
+    "TradeCount": 12,
+    "WinFisrtRate": -0.01233082800800904,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.96598005904560735,
+    "Kelly": -0.01760902859009561,
+    "KeepTimeRange": 105
+  },
+  {
+    "StockNo": "1503",
+    "TradeCount": 19,
+    "WinFisrtRate": -0.00297107330623686,
+    "WinRate": 0.36842105263157893,
+    "WinLoseRate": 1.7055418774784412,
+    "Kelly": -0.0018887918280476312,
+    "KeepTimeRange": 151
+  },
+  {
+    "StockNo": "6531",
+    "TradeCount": 6,
+    "WinFisrtRate": 0.63583644903575454,
+    "WinRate": 0.5,
+    "WinLoseRate": 4.3297420728415936,
+    "Kelly": 0.3845196800206041,
+    "KeepTimeRange": 90
+  },
+  {
+    "StockNo": "1504",
+    "TradeCount": 5,
+    "WinFisrtRate": 0.16789910668019459,
+    "WinRate": 0.6,
+    "WinLoseRate": 1.8133990548109547,
+    "Kelly": 0.37941975929743732,
+    "KeepTimeRange": 45
+  },
+  {
+    "StockNo": "3515",
+    "TradeCount": 23,
+    "WinFisrtRate": 0.72983716411621979,
+    "WinRate": 0.52173913043478259,
+    "WinLoseRate": 1.7088484314660204,
+    "Kelly": 0.24186593585606997,
+    "KeepTimeRange": 309
+  },
+  {
+    "StockNo": "8046",
+    "TradeCount": 13,
+    "WinFisrtRate": -0.75564858798732548,
+    "WinRate": 0.23076923076923078,
+    "WinLoseRate": 0.42410809314834969,
+    "Kelly": -1.5829918873467073,
+    "KeepTimeRange": 183
+  },
+  {
+    "StockNo": "5706",
+    "TradeCount": 25,
+    "WinFisrtRate": 0.42188484260998094,
+    "WinRate": 0.4,
+    "WinLoseRate": 2.251452023879732,
+    "Kelly": 0.13350531406568816,
+    "KeepTimeRange": 287
+  },
+  {
+    "StockNo": "2609",
+    "TradeCount": 14,
+    "WinFisrtRate": 0.2054049897995415,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.540722051568495,
+    "Kelly": 0.17547683276747611,
+    "KeepTimeRange": 124
+  },
+  {
+    "StockNo": "3324",
+    "TradeCount": 25,
+    "WinFisrtRate": 0.35363065092293339,
+    "WinRate": 0.48,
+    "WinLoseRate": 1.4861678321959768,
+    "Kelly": 0.13010681247780559,
+    "KeepTimeRange": 224
+  },
+  {
+    "StockNo": "6415",
+    "TradeCount": 3,
+    "WinFisrtRate": 0.097320180948686136,
+    "WinRate": 0.66666666666666663,
+    "WinLoseRate": 1.1064268178879242,
+    "Kelly": 0.36539655286949863,
+    "KeepTimeRange": 36
+  },
+  {
+    "StockNo": "8478",
+    "TradeCount": 13,
+    "WinFisrtRate": 0.37151729188287208,
+    "WinRate": 0.46153846153846156,
+    "WinLoseRate": 2.0598510192744066,
+    "Kelly": 0.20013045997764267,
+    "KeepTimeRange": 135
+  },
+  {
+    "StockNo": "2457",
+    "TradeCount": 29,
+    "WinFisrtRate": 0.52835810182747656,
+    "WinRate": 0.51724137931034486,
+    "WinLoseRate": 1.3898579374887117,
+    "Kelly": 0.16989751943216502,
+    "KeepTimeRange": 425
+  },
+  {
+    "StockNo": "2206",
+    "TradeCount": 23,
+    "WinFisrtRate": 0.35144188659805087,
+    "WinRate": 0.43478260869565216,
+    "WinLoseRate": 1.9852208857627054,
+    "Kelly": 0.1500700130555977,
+    "KeepTimeRange": 294
+  },
+  {
+    "StockNo": "1605",
+    "TradeCount": 14,
+    "WinFisrtRate": 0.69923720053217142,
+    "WinRate": 0.7142857142857143,
+    "WinLoseRate": 1.3203756046963646,
+    "Kelly": 0.49789707101023595,
+    "KeepTimeRange": 287
+  },
+  {
+    "StockNo": "1609",
+    "TradeCount": 23,
+    "WinFisrtRate": 0.810816297631533,
+    "WinRate": 0.52173913043478259,
+    "WinLoseRate": 2.323491491459778,
+    "Kelly": 0.315901979180684,
+    "KeepTimeRange": 632
+  },
+  {
+    "StockNo": "6643",
+    "TradeCount": 7,
+    "WinFisrtRate": -0.094563937055664488,
+    "WinRate": 0.2857142857142857,
+    "WinLoseRate": 1.6192598741027262,
+    "Kelly": -0.15540435478899889,
+    "KeepTimeRange": 67
+  },
+  {
+    "StockNo": "8210",
+    "TradeCount": 27,
+    "WinFisrtRate": 0.73633629763421249,
+    "WinRate": 0.59259259259259256,
+    "WinLoseRate": 1.5346169156907641,
+    "Kelly": 0.32711434636589526,
+    "KeepTimeRange": 358
+  },
+  {
+    "StockNo": "2748",
+    "TradeCount": 15,
+    "WinFisrtRate": -0.25694051486346092,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 1.3195303028930749,
+    "Kelly": -0.17189694838509156,
+    "KeepTimeRange": 168
+  },
+  {
+    "StockNo": "3034",
+    "TradeCount": 3,
+    "WinFisrtRate": -0.089130654494927047,
+    "WinRate": 0.33333333333333331,
+    "WinLoseRate": 0.34755867697774379,
+    "Kelly": -1.5848080074721427,
+    "KeepTimeRange": 44
+  },
+  {
+    "StockNo": "4763",
+    "TradeCount": 13,
+    "WinFisrtRate": 0.33813579035734564,
+    "WinRate": 0.69230769230769229,
+    "WinLoseRate": 0.94847951047736778,
+    "Kelly": 0.36790183609953148,
+    "KeepTimeRange": 223
+  },
+  {
+    "StockNo": "1795",
+    "TradeCount": 18,
+    "WinFisrtRate": 0.7434087985269634,
+    "WinRate": 0.55555555555555558,
+    "WinLoseRate": 2.2521754121178188,
+    "Kelly": 0.35821548956730564,
+    "KeepTimeRange": 160
+  },
+  {
+    "StockNo": "2368",
+    "TradeCount": 21,
+    "WinFisrtRate": 0.56556893641031847,
+    "WinRate": 0.42857142857142855,
+    "WinLoseRate": 2.6506872798619163,
+    "Kelly": 0.21299391561096376,
+    "KeepTimeRange": 195
+  },
+  {
+    "StockNo": "3481",
+    "TradeCount": 6,
+    "WinFisrtRate": 0.63478745731115427,
+    "WinRate": 1.0,
+    "WinLoseRate": 10.0,
+    "Kelly": 1.0,
+    "KeepTimeRange": 73
+  },
+  {
+    "StockNo": "8069",
+    "TradeCount": 7,
+    "WinFisrtRate": 0.22281582341657322,
+    "WinRate": 0.7142857142857143,
+    "WinLoseRate": 1.1850351186714687,
+    "Kelly": 0.47318375771703708,
+    "KeepTimeRange": 111
+  },
+  {
+    "StockNo": "3693",
+    "TradeCount": 21,
+    "WinFisrtRate": 0.89716765984946245,
+    "WinRate": 0.42857142857142855,
+    "WinLoseRate": 2.7578332553129017,
+    "Kelly": 0.221369426663689,
+    "KeepTimeRange": 283
+  },
+  {
+    "StockNo": "4979",
+    "TradeCount": 20,
+    "WinFisrtRate": 0.26028737342845676,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.2707249604807851,
+    "Kelly": 0.10652382258169973,
+    "KeepTimeRange": 300
+  },
+  {
+    "StockNo": "1477",
+    "TradeCount": 9,
+    "WinFisrtRate": 0.23130602716933163,
+    "WinRate": 0.77777777777777779,
+    "WinLoseRate": 1.0752242178611977,
+    "Kelly": 0.571102538761808,
+    "KeepTimeRange": 134
+  },
+  {
+    "StockNo": "3078",
+    "TradeCount": 32,
+    "WinFisrtRate": 0.313612135975287,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.3053821435038127,
+    "Kelly": 0.11697040020944666,
+    "KeepTimeRange": 315
+  },
+  {
+    "StockNo": "1519",
+    "TradeCount": 33,
+    "WinFisrtRate": 0.63534911446245546,
+    "WinRate": 0.54545454545454541,
+    "WinLoseRate": 1.5254714356555406,
+    "Kelly": 0.24748406634811571,
+    "KeepTimeRange": 569
+  },
+  {
+    "StockNo": "3035",
+    "TradeCount": 15,
+    "WinFisrtRate": -0.44357048186871961,
+    "WinRate": 0.26666666666666666,
+    "WinLoseRate": 0.95291052414182675,
+    "Kelly": -0.5029054125101895,
+    "KeepTimeRange": 128
+  },
+  {
+    "StockNo": "5258",
+    "TradeCount": 17,
+    "WinFisrtRate": 0.083054260513447359,
+    "WinRate": 0.52941176470588236,
+    "WinLoseRate": 0.9992290041489329,
+    "Kelly": 0.058460427885021315,
+    "KeepTimeRange": 153
+  },
+  {
+    "StockNo": "2634",
+    "TradeCount": 18,
+    "WinFisrtRate": -0.22711396371902889,
+    "WinRate": 0.3888888888888889,
+    "WinLoseRate": 0.85228807190490674,
+    "Kelly": -0.32813523858158838,
+    "KeepTimeRange": 234
+  },
+  {
+    "StockNo": "6235",
+    "TradeCount": 31,
+    "WinFisrtRate": 0.41031265325130917,
+    "WinRate": 0.41935483870967744,
+    "WinLoseRate": 1.8332110524512038,
+    "Kelly": 0.10261817027538212,
+    "KeepTimeRange": 455
+  },
+  {
+    "StockNo": "2303",
+    "TradeCount": 7,
+    "WinFisrtRate": 0.33830086336563708,
+    "WinRate": 0.7142857142857143,
+    "WinLoseRate": 1.2801230792270677,
+    "Kelly": 0.4910928898216802,
+    "KeepTimeRange": 186
+  },
+  {
+    "StockNo": "2371",
+    "TradeCount": 22,
+    "WinFisrtRate": 0.64136480413987029,
+    "WinRate": 0.40909090909090912,
+    "WinLoseRate": 2.4933664562021853,
+    "Kelly": 0.17209843273861861,
+    "KeepTimeRange": 334
+  },
+  {
+    "StockNo": "3037",
+    "TradeCount": 7,
+    "WinFisrtRate": 0.021216476065447139,
+    "WinRate": 0.42857142857142855,
+    "WinLoseRate": 1.4574819700619064,
+    "Kelly": 0.036505809122084676,
+    "KeepTimeRange": 48
+  },
+  {
+    "StockNo": "3017",
+    "TradeCount": 23,
+    "WinFisrtRate": 0.032259348083255562,
+    "WinRate": 0.52173913043478259,
+    "WinLoseRate": 0.95969839750661246,
+    "Kelly": 0.023394159965117789,
+    "KeepTimeRange": 376
+  },
+  {
+    "StockNo": "1513",
+    "TradeCount": 25,
+    "WinFisrtRate": 0.14806281854470843,
+    "WinRate": 0.48,
+    "WinLoseRate": 1.3072829925184022,
+    "Kelly": 0.082228436401324823,
+    "KeepTimeRange": 562
+  },
+  {
+    "StockNo": "2356",
+    "TradeCount": 6,
+    "WinFisrtRate": 0.0370030151301533,
+    "WinRate": 0.5,
+    "WinLoseRate": 1.334653291353576,
+    "Kelly": 0.12537087104253797,
+    "KeepTimeRange": 101
+  },
+  {
+    "StockNo": "2317",
+    "TradeCount": 5,
+    "WinFisrtRate": 0.21057318829441668,
+    "WinRate": 0.6,
+    "WinLoseRate": 2.0878350665385619,
+    "Kelly": 0.40841398517979527,
+    "KeepTimeRange": 77
+  },
+  {
+    "StockNo": "2603",
+    "TradeCount": 12,
+    "WinFisrtRate": 0.24236367823663374,
+    "WinRate": 0.41666666666666669,
+    "WinLoseRate": 2.1893858919309612,
+    "Kelly": 0.15022970117637852,
+    "KeepTimeRange": 159
+  },
+  {
+    "StockNo": "3661",
+    "TradeCount": 8,
+    "WinFisrtRate": -0.15046920720874307,
+    "WinRate": 0.375,
+    "WinLoseRate": 0.8922339342651614,
+    "Kelly": -0.32548893681088953,
+    "KeepTimeRange": 132
+  },
+  {
+    "StockNo": "2308",
+    "TradeCount": 2,
+    "WinFisrtRate": -0.0045596111990548471,
+    "WinRate": 0.5,
+    "WinLoseRate": 0.86612850122078389,
+    "Kelly": -0.077281545746692326,
+    "KeepTimeRange": 13
+  },
+  {
+    "StockNo": "2376",
+    "TradeCount": 11,
+    "WinFisrtRate": 0.3461716194030986,
+    "WinRate": 0.54545454545454541,
+    "WinLoseRate": 1.7278059125313041,
+    "Kelly": 0.28237785886101047,
+    "KeepTimeRange": 139
+  },
+  {
+    "StockNo": "3443",
+    "TradeCount": 14,
+    "WinFisrtRate": 0.64056187102447182,
+    "WinRate": 0.5,
+    "WinLoseRate": 3.1491936548341464,
+    "Kelly": 0.34122919870853963,
+    "KeepTimeRange": 142
+  },
+  {
+    "StockNo": "2610",
+    "TradeCount": 14,
+    "WinFisrtRate": 0.86488878011775783,
+    "WinRate": 0.5714285714285714,
+    "WinLoseRate": 2.1121436208842681,
+    "Kelly": 0.36852029173876355,
+    "KeepTimeRange": 198
+  },
+  {
+    "StockNo": "2454",
+    "TradeCount": 1,
+    "WinFisrtRate": 0.081002188183807444,
+    "WinRate": 1.0,
+    "WinLoseRate": 10.0,
+    "Kelly": 1.0,
+    "KeepTimeRange": 10
+  },
+  {
+    "StockNo": "2618",
+    "TradeCount": 15,
+    "WinFisrtRate": 0.18905222841469976,
+    "WinRate": 0.4,
+    "WinLoseRate": 2.11797324372406,
+    "Kelly": 0.11671030227699569,
+    "KeepTimeRange": 186
+  },
+  {
+    "StockNo": "3231",
+    "TradeCount": 7,
+    "WinFisrtRate": 0.18579649199016568,
+    "WinRate": 0.5714285714285714,
+    "WinLoseRate": 1.9352736269989774,
+    "Kelly": 0.349975944475755,
+    "KeepTimeRange": 133
+  },
+  {
+    "StockNo": "ALL",
+    "TradeCount": 10930,
+    "WinFisrtRate": 187.77614329925089,
+    "WinRate": 0.43549862763037511,
+    "WinLoseRate": 1.9173313133276708,
+    "Kelly": 0.14107826926784944,
+    "KeepTimeRange": 142885
+  }
+]

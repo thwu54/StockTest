@@ -1,0 +1,15 @@
+C:\程式\StockTest\MyText\bin\Debug\MyText.dll
+C:\程式\StockTest\MyText\bin\Debug\MyText.pdb
+C:\程式\StockTest\MyText\obj\Debug\MyText.UserControl1.resources
+C:\程式\StockTest\MyText\obj\Debug\MyText.csproj.GenerateResource.cache
+C:\程式\StockTest\MyText\obj\Debug\MyText.csproj.CoreCompileInputs.cache
+C:\程式\StockTest\MyText\obj\Debug\MyText.dll
+C:\程式\StockTest\MyText\obj\Debug\MyText.pdb
+C:\程式\StockTest\MyText\obj\Debug\MyText.csprojAssemblyReference.cache
+D:\1.SelfGit\StockTest\StockTest\MyText\bin\Debug\MyText.dll
+D:\1.SelfGit\StockTest\StockTest\MyText\bin\Debug\MyText.pdb
+D:\1.SelfGit\StockTest\StockTest\MyText\obj\Debug\MyText.UserControl1.resources
+D:\1.SelfGit\StockTest\StockTest\MyText\obj\Debug\MyText.csproj.GenerateResource.cache
+D:\1.SelfGit\StockTest\StockTest\MyText\obj\Debug\MyText.csproj.CoreCompileInputs.cache
+D:\1.SelfGit\StockTest\StockTest\MyText\obj\Debug\MyText.dll
+D:\1.SelfGit\StockTest\StockTest\MyText\obj\Debug\MyText.pdb
