@@ -37,3 +37,11 @@ D:\1.SelfGit\StockTest\StockTest\MyText\obj\Debug\MyText.csproj.GenerateResource
 D:\1.SelfGit\StockTest\StockTest\MyText\obj\Debug\MyText.csproj.CoreCompileInputs.cache
 D:\1.SelfGit\StockTest\StockTest\MyText\obj\Debug\MyText.dll
 D:\1.SelfGit\StockTest\StockTest\MyText\obj\Debug\MyText.pdb
+D:\1.SelfGit\StockTest\MyText\bin\Debug\MyText.dll
+D:\1.SelfGit\StockTest\MyText\bin\Debug\MyText.pdb
+D:\1.SelfGit\StockTest\MyText\obj\Debug\MyText.csproj.AssemblyReference.cache
+D:\1.SelfGit\StockTest\MyText\obj\Debug\MyText.UserControl1.resources
+D:\1.SelfGit\StockTest\MyText\obj\Debug\MyText.csproj.GenerateResource.cache
+D:\1.SelfGit\StockTest\MyText\obj\Debug\MyText.csproj.CoreCompileInputs.cache
+D:\1.SelfGit\StockTest\MyText\obj\Debug\MyText.dll
+D:\1.SelfGit\StockTest\MyText\obj\Debug\MyText.pdb

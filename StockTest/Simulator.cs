@@ -17,7 +17,6 @@ using ZedGraph;
 using System.IO;
 using Microsoft.Spark.Sql.Types;
 using MathNet.Numerics.LinearAlgebra.Factorization;
- 
 
 namespace StockTest
 {
@@ -27,8 +26,6 @@ namespace StockTest
         {
             InitializeComponent();
         }
-
-
         private bool IsMenu(string StockNo)
         {
             foreach (MenuData item in this.collapsePanel2.Menus)
@@ -38,7 +35,6 @@ namespace StockTest
             }
             return false;
         }
-
         private void AddMenu(string StockNo)
         {
             if (!IsMenu(StockNo))
@@ -47,27 +43,41 @@ namespace StockTest
                 
             }
         }
-
+        private void AddMenu(int ParentId,string Menun)
+        {
+            if (!IsMenu(Menun))
+            {
+                this.collapsePanel2.Menus.Add(new MenuData() { Id = this.collapsePanel2.Menus[this.collapsePanel2.Menus.Count - 1].Id + 1, ParentId = ParentId, Name = Menun, Path = Menun, BackColor = Color.White }); this.collapsePanel2.InitMenus();
+            }
+        }
         private void Simulator_Load(object sender, EventArgs e)
         {
 
             List<MenuData> menuList = new List<MenuData>()
             {
-                new MenuData(){ Id=1,ParentId=null,Name="常用",Path="it", BackColor=Color.White },
-                new MenuData(){ Id=2,ParentId=null,Name="過濾",Path="select" , BackColor=Color.White},
-                new MenuData(){ Id=3,ParentId=null,Name="系统管理",Path="sys" , BackColor=Color.White},
-                new MenuData(){ Id=4,ParentId=1,Name="show",Path="show", BackColor=Color.White },
-                new MenuData(){ Id=5,ParentId=1,Name="hidden",Path="hidden", BackColor=Color.White },
-                new MenuData(){ Id=6,ParentId=1,Name="volume",Path="volume" , BackColor=Color.White},
-                new MenuData(){ Id=7,ParentId=1,Name="hiddenV",Path="hiddenV" , BackColor=Color.White},
-                new MenuData(){ Id=8,ParentId=1,Name="KD",Path="KD", BackColor=Color.White },
-                new MenuData(){ Id=9,ParentId=2,Name="Over",Path="Over", BackColor=Color.White },
-                new MenuData(){ Id=10,ParentId=2,Name="KD",Path="KD" , BackColor=Color.White},
+                new MenuData(){ Id=1,ParentId=null,Name="標的",Path="it", BackColor=Color.White },
+                new MenuData(){ Id=2,ParentId=null,Name="條件",Path="condition" , BackColor=Color.White},
+                new MenuData(){ Id=3,ParentId=null,Name="組合條件",Path="conditions" , BackColor=Color.White},
+                new MenuData(){ Id=3,ParentId=null,Name="現有標的",Path="conditions" , BackColor=Color.White},
+                //new MenuData(){ Id=4,ParentId=1,Name="show",Path="show", BackColor=Color.White },
+                //new MenuData(){ Id=5,ParentId=1,Name="hidden",Path="hidden", BackColor=Color.White },
+                //new MenuData(){ Id=6,ParentId=1,Name="volume",Path="volume" , BackColor=Color.White},
+                //new MenuData(){ Id=7,ParentId=1,Name="hiddenV",Path="hiddenV" , BackColor=Color.White},
+                //new MenuData(){ Id=8,ParentId=1,Name="KD",Path="KD", BackColor=Color.White },
+               
             };
+            
+
             if (this.collapsePanel2 == null)
                 this.collapsePanel2 = new CollapsePanel();
             this.collapsePanel2.Menus.AddRange(menuList);
             this.collapsePanel2.InitMenus();
+            List<string> ConditionList = ConditionALL.GetConditionList();
+            foreach (string item in ConditionList)
+            {
+                AddMenu(2, item);
+            }
+
             collapsePanel2.AllowDrop = true;//可以當拖曳來源
             string StockList = iniFile.iniReadValue("StockNo", "StockList");
             if(StockList != "")
@@ -86,8 +96,6 @@ namespace StockTest
             RefreshTradeList();
             //lGraphic.Update("2344", "90");
         }
-
-
         private MyGraphic lGraphic;
         private bool IsinitGraphic = false;
         private void InitGraphic()
@@ -105,7 +113,6 @@ namespace StockTest
             lGraphic.DragDrop += LGraphic_DragDrop;
 
         }
-
         private void LGraphic_DragDrop(object sender, DragEventArgs e)
         {
             string str = (string)e.Data.GetData(DataFormats.StringFormat);
@@ -116,12 +123,10 @@ namespace StockTest
                 lGraphic.UpdateIndex();
             }
         }
-
         private void splitContainer2_SplitterMoved(object sender, SplitterEventArgs e)
         {
 
         }
-
         private void splitContainer1_SplitterMoved(object sender, SplitterEventArgs e)
         {
             ////splitContainer1.SplitterDistance = splitContainer1.SplitterDistance ==0 ?  50 : 0;
@@ -130,12 +135,10 @@ namespace StockTest
             //else
             //    splitContainer1.SplitterDistance = 1;
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             splitContainer1.SplitterDistance = 1;
         }
-
         private void splitContainer1_Click(object sender, EventArgs e)
         {
             if (splitContainer1.SplitterDistance > 10)
@@ -143,7 +146,6 @@ namespace StockTest
             else
                 splitContainer1.SplitterDistance = 100;
         }
-
         private void button2_Click(object sender, EventArgs e)
         {
             if (splitContainer1.SplitterDistance != 15)
@@ -151,7 +153,6 @@ namespace StockTest
             else
                 splitContainer1.SplitterDistance = 100;
         }
-
         private void button1_Click_1(object sender, EventArgs e)
         {
             if (splitContainer2.SplitterDistance != 15)
@@ -159,16 +160,10 @@ namespace StockTest
             else
                 splitContainer2.SplitterDistance = 100;
         }
-
-        
-
         private void splitContainer2_Panel2_DragDrop(object sender, DragEventArgs e)
         {
             string ss = "";
         }
-
-
-
         private Dictionary<string, My.Signal> TradeLog = new Dictionary<string, My.Signal>();
         private void button3_Click(object sender, EventArgs e)
         {
@@ -187,17 +182,14 @@ namespace StockTest
                 }
             }
         }
-
         private void button4_DragEnter(object sender, DragEventArgs e)
         {
             e.Effect = DragDropEffects.Move;
         }
-
         private void button3_MouseDown(object sender, MouseEventArgs e)
         {
             button3.DoDragDrop(button3.Text, DragDropEffects.Move);
         }
-
         private void button4_Click(object sender, EventArgs e)
         {
             DataTable lTable = MyData.JsonToDataTable("STOCHWEEKLY");
@@ -213,17 +205,14 @@ namespace StockTest
             dataGridView1.DataSource = lTable;
             //MyData.DataTableToJson(lTable, "StochWeekly");
         }
-
         private void splitContainer2_Panel2_DragEnter(object sender, DragEventArgs e)
         {
             e.Effect = DragDropEffects.Move;
         }
-
         private void button5_Click(object sender, EventArgs e)
         {
             splitContainer1.SplitterDistance = 900;
         }
-
         private void dataGridView1_DoubleClick(object sender, EventArgs e)
         {
             if (dataGridView1.SelectedRows.Count > 0)
@@ -245,7 +234,6 @@ namespace StockTest
             }
 
         }
-
         private void button6_Click(object sender, EventArgs e)
         {
             DataTable lTable = MyData.JsonToDataTable("StochWeeklyFilter");
@@ -260,12 +248,10 @@ namespace StockTest
             lTable = MyData.GetTableAvg(lTable2);
             dataGridView1.DataSource = lTable;
         }
-
         private void button7_Click(object sender, EventArgs e)
         {
             MessageBox.Show( MyBackTest.GetSimStock(msg.Text));
         }
-
         private void button8_Click(object sender, EventArgs e)
         {
             //BBANDS lBBANDS = new BBANDS();
@@ -316,7 +302,6 @@ namespace StockTest
             //lTable = MyData.GetTableAvg(lTable);
             dataGridView1.DataSource = lTable;
         }
-
         private void button4_Click_1(object sender, EventArgs e)
         {
             DataTable lTable = MyData.JsonToDataTable("BBondsWeeklyFilter");
@@ -331,7 +316,6 @@ namespace StockTest
             lTable = MyData.GetTableAvg(lTable2);
             dataGridView1.DataSource = lTable;
         }
-
         private void button9_Click(object sender, EventArgs e)
         {
             Dictionary<string, BBSignal> lTable = MyData.JsonToObj<Dictionary<string, BBSignal>>("BBondsWeeklylog");
@@ -370,7 +354,6 @@ namespace StockTest
 
             dataGridView1.DataSource = dataTableAll;
         }
-
         private (List<Trade>, double) GetUnitTradeLog(string stock, string Period, string Unit, int sYear, int YearCount)
         {
             string[] numberStrings = Unit.Split(',');
@@ -387,7 +370,6 @@ namespace StockTest
             double fitness = GASiganals.GenProfit(GAUNIT, df);
             return (GASiganals.Trades, fitness);
         }
-
         private void GetOneJob(string gaunit)
         {
             DateTime sDate = new DateTime(start_year, 1, 1);
@@ -404,7 +386,6 @@ namespace StockTest
             GetMaxDrowDown();
             return;
         }
-
         private void button10_Click(object sender, EventArgs e)
         {
             if (msg.Text != "")
@@ -412,7 +393,6 @@ namespace StockTest
                 GetOneJob(gaunit.Text);
             }
         }
-
         private IDictionary<string, List<Trade>> GALog = new Dictionary<string, List<Trade>>();
         DataTable gaTable = MyData.CreateTable("GACount,MaxFetness,MaxUnit,MaxGeneration,Period,Seconds", "string,string,string,string,string,string");
         List<int> OptimalConfig = new List<int>();
@@ -460,7 +440,6 @@ namespace StockTest
                 return;
             }
         }
-
         private void button12_Click(object sender, EventArgs e)
         {
             //DataTable lTable = MyData.CreateTable("StockNo,TradeCount,WinFisrtRate,WinRate,WinLoseRate,Kelly,KeepTimeRange", "string,int,double,double,double,double,int");
@@ -478,21 +457,16 @@ namespace StockTest
 
 
         }
-
         private void button13_Click(object sender, EventArgs e)
         {
             dataGridView1.DataSource = MyGraphic.GetDataTable(msg.Text, txtPeriod.Text.Trim());
         }
-
         private void button14_Click(object sender, EventArgs e)
         {
             int maxWorkerThreads, maxIOThreads;
             ThreadPool.GetMaxThreads(out maxWorkerThreads, out maxIOThreads);
             MSG2.Text = "maxWorkerThreads=" + maxWorkerThreads + "   maxIOThreads" + maxIOThreads;
         }
-
-      
-
         private void button16_Click(object sender, EventArgs e)
         {
             DataTable dt = MyGraphic.GetDataTable(msg.Text, txtPeriod.Text.Trim());
@@ -503,7 +477,6 @@ namespace StockTest
             dataGridView1.DataSource = AnalaysisTable;
             My.MLClass.Fit(AnalaysisTable);
         }
-
         private void button17_Click(object sender, EventArgs e)
         {
             DataTable dt = MyData.StockDataM();
@@ -517,7 +490,6 @@ namespace StockTest
             }
             FunLog.WriteFile("TX.csv", csvContent.ToString());
         }
-
         private void GetMaxDrowDown()
         {
             DataTable lTable = (DataTable)dataGridView1.DataSource;
@@ -578,12 +550,10 @@ namespace StockTest
             }
 
         }
-
         private void button18_Click(object sender, EventArgs e)
         {
 
         }
-
         private void button19_Click(object sender, EventArgs e)
         {
             DateTime sTime = DateTime.Now;
@@ -667,7 +637,6 @@ namespace StockTest
             string msg = DropDown2[2].ToString() + "--" + maxTagData.Value3 + "--" + maxTagData.Value + "--" + maxTagData.Text + "--" + (DateTime.Now - sTime).TotalSeconds.ToString();
             MessageBox.Show(msg);
         }
-
         private void dataGridView2_DoubleClick(object sender, EventArgs e)
         {
             if (dataGridView2.SelectedRows.Count > 0)
@@ -677,24 +646,20 @@ namespace StockTest
                 GetOneJob(value);
             }
         }
-
         private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
-
         public void RefreshTradeList()
         {
             string sql = "select unit,gainrate,lastmoney,tradecount from Anlysis_Unit order by lastmoney desc";
             dataGridView2.DataSource = MyDatas.lData.FineDataTable(sql);
         }
-
         private void button20_Click(object sender, EventArgs e)
         {
             RefreshTradeList();
         }
         public int start_year = 2015;
-
         private void r2015_CheckedChanged(object sender, EventArgs e)
         {
             if (r2015.Checked)
@@ -717,9 +682,7 @@ namespace StockTest
                 start_year = 2023;
             else if (r2024.Checked)
                 start_year = 2024;
-        }
-
-       
+        }                   
         private void ShowStock(string StockNo)
         {
             lGraphic.ZedGraphControl.Visible = true; 
@@ -754,7 +717,6 @@ namespace StockTest
                 } 
             }
         }
-
         private void collapsePanel2_MenuDoubleClick(object sender, EventArgs e)
         {
             TreeView tree = sender as TreeView;
@@ -802,7 +764,6 @@ namespace StockTest
 
             }
         }
-
         private void button15_Click(object sender, EventArgs e)
         {
             lGraphic.MoveNext();

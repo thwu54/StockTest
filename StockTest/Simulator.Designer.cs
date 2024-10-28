@@ -36,6 +36,7 @@ namespace StockTest
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.txtCurrentDate = new System.Windows.Forms.Label();
             this.button15 = new System.Windows.Forms.Button();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.txtStock = new System.Windows.Forms.TextBox();
@@ -89,7 +90,6 @@ namespace StockTest
             this.button5 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.txtCurrentDate = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -140,6 +140,15 @@ namespace StockTest
             this.splitContainer1.TabIndex = 0;
             this.splitContainer1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer1_SplitterMoved);
             this.splitContainer1.Click += new System.EventHandler(this.splitContainer1_Click);
+            // 
+            // txtCurrentDate
+            // 
+            this.txtCurrentDate.AutoSize = true;
+            this.txtCurrentDate.Location = new System.Drawing.Point(219, 40);
+            this.txtCurrentDate.Name = "txtCurrentDate";
+            this.txtCurrentDate.Size = new System.Drawing.Size(34, 16);
+            this.txtCurrentDate.TabIndex = 5;
+            this.txtCurrentDate.Text = "date";
             // 
             // button15
             // 
@@ -815,15 +824,6 @@ namespace StockTest
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "設定";
             this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // txtCurrentDate
-            // 
-            this.txtCurrentDate.AutoSize = true;
-            this.txtCurrentDate.Location = new System.Drawing.Point(220, 29);
-            this.txtCurrentDate.Name = "txtCurrentDate";
-            this.txtCurrentDate.Size = new System.Drawing.Size(34, 16);
-            this.txtCurrentDate.TabIndex = 5;
-            this.txtCurrentDate.Text = "date";
             // 
             // Simulator
             // 

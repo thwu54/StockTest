@@ -8,6 +8,35 @@ namespace My
 {
     public class ConditionALL
     {
+        public static List<string> GetConditionList()
+        {
+            List<string> ConditionList = new List<string>();
+            var assemblies = AppDomain.CurrentDomain.GetAssemblies();
+            try
+            {
+                foreach (var assembly in assemblies)
+                {
+                    var types = assembly.GetTypes()
+                        .Where(t => typeof(ConditionBase).IsAssignableFrom(t) && t.IsClass);
+                    bool IsCreate = false;
+                    // 建立類別實例並加入清單
+                    foreach (var type in types)
+                    {
+                        var instance = Activator.CreateInstance(type) as ConditionBase;
+                        if (instance != null)
+                        {
+                            ConditionList.Add( instance.ToString());
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                string xx = ex.Message;
+
+            }
+            return ConditionList;
+        }
         public List<ConditionBase> ConditionList = new List<ConditionBase>();
         public int index = 0;
         public ConditionALL()
