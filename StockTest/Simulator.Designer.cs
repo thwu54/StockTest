@@ -36,13 +36,11 @@ namespace StockTest
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.txtCurrentDate = new System.Windows.Forms.Label();
             this.button15 = new System.Windows.Forms.Button();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.txtStock = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
-            this.collapsePanel2 = new My.CollapsePanel();
             this.button1 = new System.Windows.Forms.Button();
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
@@ -90,6 +88,10 @@ namespace StockTest
             this.button5 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.btnBuy = new System.Windows.Forms.Button();
+            this.btnSell = new System.Windows.Forms.Button();
+            this.txtinfo = new GroupLabel.UserControl1();
+            this.collapsePanel2 = new My.CollapsePanel();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -124,9 +126,11 @@ namespace StockTest
             // splitContainer1.Panel1
             // 
             this.splitContainer1.Panel1.BackColor = System.Drawing.Color.White;
-            this.splitContainer1.Panel1.Controls.Add(this.txtCurrentDate);
-            this.splitContainer1.Panel1.Controls.Add(this.button15);
+            this.splitContainer1.Panel1.Controls.Add(this.btnSell);
             this.splitContainer1.Panel1.Controls.Add(this.groupBox6);
+            this.splitContainer1.Panel1.Controls.Add(this.btnBuy);
+            this.splitContainer1.Panel1.Controls.Add(this.txtinfo);
+            this.splitContainer1.Panel1.Controls.Add(this.button15);
             this.splitContainer1.Panel1.Controls.Add(this.button2);
             this.splitContainer1.Panel1MinSize = 1;
             // 
@@ -135,24 +139,15 @@ namespace StockTest
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
             this.splitContainer1.Panel2MinSize = 1;
             this.splitContainer1.Size = new System.Drawing.Size(1509, 717);
-            this.splitContainer1.SplitterDistance = 102;
+            this.splitContainer1.SplitterDistance = 71;
             this.splitContainer1.SplitterWidth = 1;
             this.splitContainer1.TabIndex = 0;
             this.splitContainer1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer1_SplitterMoved);
             this.splitContainer1.Click += new System.EventHandler(this.splitContainer1_Click);
             // 
-            // txtCurrentDate
-            // 
-            this.txtCurrentDate.AutoSize = true;
-            this.txtCurrentDate.Location = new System.Drawing.Point(219, 40);
-            this.txtCurrentDate.Name = "txtCurrentDate";
-            this.txtCurrentDate.Size = new System.Drawing.Size(34, 16);
-            this.txtCurrentDate.TabIndex = 5;
-            this.txtCurrentDate.Text = "date";
-            // 
             // button15
             // 
-            this.button15.Location = new System.Drawing.Point(135, 29);
+            this.button15.Location = new System.Drawing.Point(126, 18);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(50, 33);
             this.button15.TabIndex = 4;
@@ -164,7 +159,7 @@ namespace StockTest
             // 
             this.groupBox6.BackColor = System.Drawing.Color.White;
             this.groupBox6.Controls.Add(this.txtStock);
-            this.groupBox6.Location = new System.Drawing.Point(12, 14);
+            this.groupBox6.Location = new System.Drawing.Point(3, 1);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(117, 53);
             this.groupBox6.TabIndex = 3;
@@ -185,9 +180,9 @@ namespace StockTest
             this.button2.BackColor = System.Drawing.Color.MistyRose;
             this.button2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Location = new System.Drawing.Point(0, 78);
+            this.button2.Location = new System.Drawing.Point(0, 57);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(1505, 20);
+            this.button2.Size = new System.Drawing.Size(1505, 10);
             this.button2.TabIndex = 0;
             this.button2.Text = "^";
             this.button2.UseVisualStyleBackColor = false;
@@ -212,30 +207,20 @@ namespace StockTest
             this.splitContainer2.Panel2.AllowDrop = true;
             this.splitContainer2.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.splitContainer2.Panel2MinSize = 1;
-            this.splitContainer2.Size = new System.Drawing.Size(1509, 614);
+            this.splitContainer2.Size = new System.Drawing.Size(1509, 645);
             this.splitContainer2.SplitterDistance = 92;
             this.splitContainer2.SplitterWidth = 1;
             this.splitContainer2.TabIndex = 0;
             this.splitContainer2.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer2_SplitterMoved);
-            // 
-            // collapsePanel2
-            // 
-            this.collapsePanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.collapsePanel2.Location = new System.Drawing.Point(0, 0);
-            this.collapsePanel2.Margin = new System.Windows.Forms.Padding(4);
-            this.collapsePanel2.Name = "collapsePanel2";
-            this.collapsePanel2.Size = new System.Drawing.Size(63, 610);
-            this.collapsePanel2.TabIndex = 1;
-            this.collapsePanel2.MenuDoubleClick += new System.EventHandler(this.collapsePanel2_MenuDoubleClick);
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.button1.Dock = System.Windows.Forms.DockStyle.Right;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(63, 0);
+            this.button1.Location = new System.Drawing.Point(73, 0);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(25, 610);
+            this.button1.Size = new System.Drawing.Size(15, 641);
             this.button1.TabIndex = 0;
             this.button1.Text = "<";
             this.button1.UseVisualStyleBackColor = false;
@@ -825,6 +810,48 @@ namespace StockTest
             this.tabPage2.Text = "設定";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // btnBuy
+            // 
+            this.btnBuy.Location = new System.Drawing.Point(182, 18);
+            this.btnBuy.Name = "btnBuy";
+            this.btnBuy.Size = new System.Drawing.Size(56, 33);
+            this.btnBuy.TabIndex = 7;
+            this.btnBuy.Text = "B";
+            this.btnBuy.UseVisualStyleBackColor = true;
+            this.btnBuy.Click += new System.EventHandler(this.btnBuy_Click);
+            // 
+            // btnSell
+            // 
+            this.btnSell.Location = new System.Drawing.Point(244, 18);
+            this.btnSell.Name = "btnSell";
+            this.btnSell.Size = new System.Drawing.Size(56, 33);
+            this.btnSell.TabIndex = 8;
+            this.btnSell.Text = "S";
+            this.btnSell.UseVisualStyleBackColor = true;
+            // 
+            // txtinfo
+            // 
+            this.txtinfo.AutoSize = true;
+            this.txtinfo.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.txtinfo.CustomColor = System.Drawing.Color.Red;
+            this.txtinfo.CustomFontSize = 8F;
+            this.txtinfo.Dock = System.Windows.Forms.DockStyle.Right;
+            this.txtinfo.Lables = "Date,ID,O,H,L,C,V";
+            this.txtinfo.Location = new System.Drawing.Point(1269, 0);
+            this.txtinfo.Name = "txtinfo";
+            this.txtinfo.Size = new System.Drawing.Size(236, 57);
+            this.txtinfo.TabIndex = 6;
+            // 
+            // collapsePanel2
+            // 
+            this.collapsePanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.collapsePanel2.Location = new System.Drawing.Point(0, 0);
+            this.collapsePanel2.Margin = new System.Windows.Forms.Padding(4);
+            this.collapsePanel2.Name = "collapsePanel2";
+            this.collapsePanel2.Size = new System.Drawing.Size(73, 641);
+            this.collapsePanel2.TabIndex = 1;
+            this.collapsePanel2.MenuDoubleClick += new System.EventHandler(this.collapsePanel2_MenuDoubleClick);
+            // 
             // Simulator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -923,6 +950,8 @@ namespace StockTest
         private System.Windows.Forms.GroupBox groupBox6;
         private My.CollapsePanel collapsePanel2;
         private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Label txtCurrentDate;
+        private GroupLabel.UserControl1 txtinfo;
+        private System.Windows.Forms.Button btnSell;
+        private System.Windows.Forms.Button btnBuy;
     }
 }

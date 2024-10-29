@@ -581,20 +581,20 @@ namespace My
 
         public static DataFrame GetData(string StockNo , string Resample)
         {
-            //if (FunLog.checkFileExist2("database\\"+ DateTime.Now.ToString("yyyyMMdd") + "\\", StockNo + "_" + Resample))
-            //{
-            //    DataTable Table = MyData.JsonToDataTable("database\\"+ DateTime.Now.ToString("yyyyMMdd")+"\\" + StockNo + "_" + Resample);
-            //    return MyData.table_df(Table);
-            //}
-            //else
-            //{
+            if (FunLog.checkFileExist2("database\\" + DateTime.Now.ToString("yyyyMMdd") + "\\", StockNo + "_" + Resample))
+            {
+                DataTable Table = MyData.JsonToDataTable("database\\" + DateTime.Now.ToString("yyyyMMdd") + "\\" + StockNo + "_" + Resample);
+                return MyData.table_df(Table);
+            }
+            else
+            {
                 string url = "";
                 //url = "http://127.0.0.1:800/Talib/GetHistroy/?Resample=W-SAT&stockno=2330&start=2023-05-20&Indexs=MACD_BBANDS_STOCH_RSI_SMA,SMA,SMA&paras=_20,2.1,2.1_5,3,3_14_5_10_20";
                 DataTable Table = MyData.GetTableByWebApi("http://127.0.0.1:800/Talib/GetHistroy/?Resample=" + Resample + "&stockno=" + StockNo + "&start=2019-01-01&end=2023-01-01&Indexs=MACD_BBANDS_STOCH_RSI_SMA_SMA_SMA&paras=_20,2.1,2.1_5,3,3_14_5_10_20");
                 DataFrame df = MyData.table_df(Table);
                 MyData.DataTableToJson(Table, "database\\" + DateTime.Now.ToString("yyyyMMdd") + "\\" + StockNo+"_"+ Resample);
                 return df;
-            //}
+            }
         }
         public static Dictionary<string, DataFrame> dfData = new Dictionary<string, DataFrame>();
 
@@ -628,23 +628,23 @@ namespace My
 
         public static DataFrame GetData2(string StockNo, string Resample)
         {
-            //if (FunLog.checkFileExist2("database\\" + DateTime.Now.ToString("yyyyMMdd") + "\\", StockNo + "_" + Resample))
-            //{
-            //    DataTable Table = MyData.JsonToDataTable("database\\" + DateTime.Now.ToString("yyyyMMdd") + "\\" + StockNo + "_" + Resample);
-            //    return MyData.table_df(Table);
-            //}
-            //else
-            //{
+            if (FunLog.checkFileExist2("database\\" + DateTime.Now.ToString("yyyyMMdd") + "\\", StockNo + "_" + Resample))
+            {
+                DataTable Table = MyData.JsonToDataTable("database\\" + DateTime.Now.ToString("yyyyMMdd") + "\\" + StockNo + "_" + Resample);
+                return MyData.table_df(Table);
+            }
+            else
+            {
                 string url = "";
                 //url = "http://127.0.0.1:800/Talib/GetHistroy/?Resample=W-SAT&stockno=2330&start=2023-05-20&Indexs=MACD_BBANDS_STOCH_RSI_SMA,SMA,SMA&paras=_20,2.1,2.1_5,3,3_14_5_10_20";
                 DataTable Table = MyData.GetTableByWebApi("http://127.0.0.1:800/Talib/GetHistroy/?Resample=" + Resample + "&stockno=" + StockNo + "&start=2023-01-01&Indexs=MACD_BBANDS_STOCH_RSI_SMA_SMA_SMA&paras=_20,2.1,2.1_5,3,3_14_5_10_20");
                 DataFrame df = MyData.table_df(Table);
                 MyData.DataTableToJson(Table, "database\\" + DateTime.Now.ToString("yyyyMMdd") + "\\" + StockNo + "_" + Resample);
                 return df;
-            //}
+            }
         }
 
-        public static DataTable GetDataTable(string StockNo,  string Resample)
+            public static DataTable GetDataTable(string StockNo,  string Resample)
         {
             if (Resample == "T")
             {
@@ -849,11 +849,17 @@ namespace My
             this.ZedGraphControl.Invalidate();
         }
         public  string CurrentDate="";
+        public int CurrentIndex = 0;
+        public DataRow GetCurrentRow()
+        {
+            return _lTable.Rows[CurrentIndex];
+        }
         public void MoveNext()
         {
             double Min = this.ZedGraphControl.GraphPane.XAxis.Scale.Min;
             double Max = this.ZedGraphControl.GraphPane.XAxis.Scale.Max;
             CurrentDate = _lTable.Rows[(int)Max]["Date"].ToString();
+            CurrentIndex = (int) Max;
             //double MinorStep = this.ZedGraphControl.GraphPane.XAxis.Scale.MinorStep;
             //double MajorStep = this.ZedGraphControl.GraphPane.XAxis.Scale.MajorStep;
             this.ZedGraphControl.GraphPane.XAxis.Scale.Min += 1;
@@ -890,7 +896,8 @@ namespace My
             int Point = 0;
             for (int i = 0; i < _lTable.Rows.Count; i++)
             {
-                if (_lTable.Rows[i]["Date"].ToString().Substring(0,10).CompareTo(Date)>=0)
+                DateTime lDate = (DateTime)_lTable.Rows[i]["Date"];
+                if (lDate.ToString("yyyy-MM-dd").CompareTo(Date)>=0)
                 {
                     Point = i;
                     break;

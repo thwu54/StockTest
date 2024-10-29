@@ -47,7 +47,7 @@ namespace StockTest
         {
             if (!IsMenu(Menun))
             {
-                this.collapsePanel2.Menus.Add(new MenuData() { Id = this.collapsePanel2.Menus[this.collapsePanel2.Menus.Count - 1].Id + 1, ParentId = ParentId, Name = Menun, Path = Menun, BackColor = Color.White }); this.collapsePanel2.InitMenus();
+                this.collapsePanel2.Menus.Add(new MenuData() { Id = this.collapsePanel2.Menus[this.collapsePanel2.Menus.Count - 1].Id + 1, ParentId = ParentId, Name = Menun, Path = "StockNo", BackColor = Color.White  }); this.collapsePanel2.InitMenus();
             }
         }
         private void Simulator_Load(object sender, EventArgs e)
@@ -58,7 +58,8 @@ namespace StockTest
                 new MenuData(){ Id=1,ParentId=null,Name="標的",Path="it", BackColor=Color.White },
                 new MenuData(){ Id=2,ParentId=null,Name="條件",Path="condition" , BackColor=Color.White},
                 new MenuData(){ Id=3,ParentId=null,Name="組合條件",Path="conditions" , BackColor=Color.White},
-                new MenuData(){ Id=3,ParentId=null,Name="現有標的",Path="conditions" , BackColor=Color.White},
+                new MenuData(){ Id=4,ParentId=null,Name="現有標的",Path="current" , BackColor=Color.White},
+                new MenuData(){ Id=5,ParentId=null,Name="關注",Path="favorite" , BackColor=Color.White},
                 //new MenuData(){ Id=4,ParentId=1,Name="show",Path="show", BackColor=Color.White },
                 //new MenuData(){ Id=5,ParentId=1,Name="hidden",Path="hidden", BackColor=Color.White },
                 //new MenuData(){ Id=6,ParentId=1,Name="volume",Path="volume" , BackColor=Color.White},
@@ -86,7 +87,7 @@ namespace StockTest
                 string[] StockNos = StockList.Split(new string[]  { "," }, StringSplitOptions.None);
                 foreach (var item in StockNos)
                 {
-                    AddMenu(item.ToString());
+                    AddMenu(5,item.ToString());
                 }
             }
             //this.splitContainer2.Panel1.Controls.Add(collapsePanel1);
@@ -694,7 +695,7 @@ namespace StockTest
             if (e.KeyChar == (char)Keys.Enter)
             {
                 ShowStock(txtStock.Text);
-                AddMenu(txtStock.Text);
+                AddMenu(5,txtStock.Text);
 
                 string StockList = iniFile.iniReadValue("StockNo", "StockList");
                 if (StockList == "")
@@ -717,6 +718,8 @@ namespace StockTest
                 } 
             }
         }
+
+        //事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件
         private void collapsePanel2_MenuDoubleClick(object sender, EventArgs e)
         {
             TreeView tree = sender as TreeView;
@@ -767,7 +770,17 @@ namespace StockTest
         private void button15_Click(object sender, EventArgs e)
         {
             lGraphic.MoveNext();
-            txtCurrentDate.Text = lGraphic.CurrentDate;
+            txtinfo.SetData( lGraphic.GetCurrentRow()); 
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            txtinfo.SetData("O", "1955");
+        }
+
+        private void btnBuy_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

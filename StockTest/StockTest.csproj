@@ -345,6 +345,7 @@
     </Compile>
     <Compile Include="ThreadClass.cs" />
     <Compile Include="Trade.cs" />
+    <Compile Include="TradeManager.cs" />
     <Compile Include="WebAPI.cs" />
     <EmbeddedResource Include="CollapsePanel.resx">
       <DependentUpon>CollapsePanel.cs</DependentUpon>
@@ -383,6 +384,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\GroupLabel\GroupLabel.csproj">
+      <Project>{7A62E044-48A5-47C3-BF0A-EFA7728C9DEB}</Project>
+      <Name>GroupLabel</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MyText\MyText.csproj">
       <Project>{B85DA8EA-128D-4DB4-A2F1-7ADE0BEB7959}</Project>
       <Name>MyText</Name>

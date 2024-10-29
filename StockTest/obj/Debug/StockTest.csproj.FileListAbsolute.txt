@@ -764,3 +764,5 @@ D:\1.SelfGit\StockTest\StockTest\obj\Debug\StockTest.csproj.CoreCompileInputs.ca
 D:\1.SelfGit\StockTest\StockTest\obj\Debug\StockTest.csproj.Up2Date
 D:\1.SelfGit\StockTest\StockTest\obj\Debug\StockTest.exe
 D:\1.SelfGit\StockTest\StockTest\obj\Debug\StockTest.pdb
+D:\1.SelfGit\StockTest\StockTest\bin\Debug\GroupLabel.dll
+D:\1.SelfGit\StockTest\StockTest\bin\Debug\GroupLabel.pdb
