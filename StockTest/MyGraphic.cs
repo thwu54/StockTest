@@ -576,7 +576,12 @@ namespace My
         public string _StockNo = "";
         private string _Range = "";//圖寬
         private string _Pre = "";// 
+        //新增屬性
 
+        public string StockNo
+        {
+            get { return _StockNo; } set { _StockNo = value; }
+        }   
         private Dictionary<string, DataTable> stockdata = new Dictionary<string, DataTable>();
 
         public static DataFrame GetData(string StockNo , string Resample)
@@ -596,6 +601,7 @@ namespace My
                 return df;
             }
         }
+
         public static Dictionary<string, DataFrame> dfData = new Dictionary<string, DataFrame>();
 
         public static DataFrame GetDateData(string StockNo, string Resample,DateTime Date1,DateTime Date2)
@@ -644,7 +650,7 @@ namespace My
             }
         }
 
-            public static DataTable GetDataTable(string StockNo,  string Resample)
+        public static DataTable GetDataTable(string StockNo,  string Resample)
         {
             if (Resample == "T")
             {
@@ -851,69 +857,28 @@ namespace My
         public  string CurrentDate="";
         public int CurrentIndex = 0;
         public DataRow GetCurrentRow()
-        {
+        { 
+            if(CurrentIndex >= _lTable.Rows.Count)
+                CurrentIndex = _lTable.Rows.Count - 1;
             return _lTable.Rows[CurrentIndex];
         }
         public void MoveNext()
         {
             double Min = this.ZedGraphControl.GraphPane.XAxis.Scale.Min;
-            double Max = this.ZedGraphControl.GraphPane.XAxis.Scale.Max;
-            CurrentDate = _lTable.Rows[(int)Max]["Date"].ToString();
-            CurrentIndex = (int) Max;
-            //double MinorStep = this.ZedGraphControl.GraphPane.XAxis.Scale.MinorStep;
-            //double MajorStep = this.ZedGraphControl.GraphPane.XAxis.Scale.MajorStep;
-            this.ZedGraphControl.GraphPane.XAxis.Scale.Min += 1;
-            this.ZedGraphControl.GraphPane.XAxis.Scale.Max += 1;
+            MoveByIndex(Min+1);
+        }
+
+        public void MoveByIndex(double Min)
+        {
+            double width = this.ZedGraphControl.GraphPane.XAxis.Scale.Max - this.ZedGraphControl.GraphPane.XAxis.Scale.Min;
+
+            this.ZedGraphControl.GraphPane.XAxis.Scale.Min = Min;
+            this.ZedGraphControl.GraphPane.XAxis.Scale.Max = Min + width  ;
+            CurrentIndex = (int)(Min + width - 0.5-1);
             if (this.ZedGraphControl.MasterPane.PaneList.Count > 1)
             {
                 this.ZedGraphControl.MasterPane[1].XAxis.Scale.Min += 1;
                 this.ZedGraphControl.MasterPane[1].XAxis.Scale.Max += 1;
-            }
-
-            double[] MaxMin = GetMaxMin(this.ZedGraphControl.GraphPane.XAxis.Scale.Min, this.ZedGraphControl.GraphPane.XAxis.Scale.Max);
-            double gap = MaxMin[0] - MaxMin[1];
-            this.ZedGraphControl.GraphPane.YAxis.Scale.Max = MaxMin[0] + gap*0.1;
-            this.ZedGraphControl.GraphPane.YAxis.Scale.Min= MaxMin[1] -gap*0.1;
-            if (this.ZedGraphControl.MasterPane.PaneList.Count > 1)
-            {
-                if (MaxMin[2] != 0)
-                {
-                    this.ZedGraphControl.MasterPane[1].YAxis.Scale.Max = MaxMin[2];
-                    this.ZedGraphControl.MasterPane[1].YAxis.Scale.Min = MaxMin[3];
-                }
-                if (MaxMin[4] != 0)
-                {
-                    this.ZedGraphControl.MasterPane[1].Y2Axis.Scale.Max = MaxMin[4];
-                    this.ZedGraphControl.MasterPane[1].Y2Axis.Scale.Min = MaxMin[5];
-                }
-            }
-            this.ZedGraphControl.AxisChange();
-            this.ZedGraphControl.Invalidate(); 
-        }
-        //2021-10-01
-        public void MoveDate(string Date)
-        {
-            int Point = 0;
-            for (int i = 0; i < _lTable.Rows.Count; i++)
-            {
-                DateTime lDate = (DateTime)_lTable.Rows[i]["Date"];
-                if (lDate.ToString("yyyy-MM-dd").CompareTo(Date)>=0)
-                {
-                    Point = i;
-                    break;
-                }
-            }
-
-            //int Add = Point - this.ZedGraphControl.MasterPane[1].XAxis.Scale.Min;
-            //起始x =0.5 GL
-            double width = this.ZedGraphControl.GraphPane.XAxis.Scale.Max - this.ZedGraphControl.GraphPane.XAxis.Scale.Min;
-
-            this.ZedGraphControl.GraphPane.XAxis.Scale.Min = Point+ 0.5;
-            this.ZedGraphControl.GraphPane.XAxis.Scale.Max = Point+ width+ 0.5;
-            if (this.ZedGraphControl.MasterPane.PaneList.Count > 1)
-            {
-                this.ZedGraphControl.MasterPane[1].XAxis.Scale.Min += 1;
-                this.ZedGraphControl.MasterPane[1].XAxis.Scale.Max += 1 ;
             }
 
             double[] MaxMin = GetMaxMin(this.ZedGraphControl.GraphPane.XAxis.Scale.Min, this.ZedGraphControl.GraphPane.XAxis.Scale.Max);
@@ -935,6 +900,38 @@ namespace My
             }
             this.ZedGraphControl.AxisChange();
             this.ZedGraphControl.Invalidate();
+        }
+        //2021-10-01
+        public void MoveDate(string Date)
+        {
+            int Point = 0;
+            for (int i = 0; i < _lTable.Rows.Count; i++)
+            {
+                DateTime lDate = (DateTime)_lTable.Rows[i]["Date"];
+                if (lDate.ToString("yyyy-MM-dd").CompareTo(Date)>=0)
+                {
+                    Point = i;
+                    break;
+                }
+            }
+            MoveByIndex(Point+0.5); 
+        }
+
+        public void MoveLastDate(string Date)
+        {
+            double width = this.ZedGraphControl.GraphPane.XAxis.Scale.Max - this.ZedGraphControl.GraphPane.XAxis.Scale.Min;
+
+            int Point = 0;
+            for (int i = 0; i < _lTable.Rows.Count; i++)
+            {
+                DateTime lDate = (DateTime)_lTable.Rows[i]["Date"];
+                if (lDate.ToString("yyyy-MM-dd").CompareTo(Date) >= 0)
+                {
+                    Point = i;
+                    break;
+                }
+            }
+            MoveByIndex(Point + 0.5- width);
         }
 
         private double[] GetMaxMin(double start, double end)

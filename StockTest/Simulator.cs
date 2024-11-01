@@ -688,7 +688,10 @@ namespace StockTest
         {
             lGraphic.ZedGraphControl.Visible = true; 
             lGraphic.Update(StockNo, "90");
-            lGraphic.MoveDate(DateTime.Now.AddDays(-130).ToString("yyyy-MM-dd")); 
+            if(txtinfo.CurrentDate>DateTime.Now)
+                lGraphic.MoveLastDate(DateTime.Now.AddDays(-330).ToString("yyyy-MM-dd")); 
+            else
+                lGraphic.MoveLastDate(txtinfo.CurrentDate.ToString("yyyy-MM-dd"));
         }
         private void txtStock_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -777,10 +780,20 @@ namespace StockTest
         {
             txtinfo.SetData("O", "1955");
         }
-
+        public TradeManager lTradeManager = new TradeManager();
         private void btnBuy_Click(object sender, EventArgs e)
         {
+            lTradeManager.DoTrade(lGraphic.StockNo,txtinfo.CurrentDate, TradeType.Buy, txtinfo.CurrentPrice);
+            double  ResultClose = lTradeManager.GetClosePriceALL();
+            txtinfo.SetData("Already", ResultClose.ToString());
+            double[] ResultNonClose = lTradeManager.GetNonClosePrice(lGraphic.StockNo, txtinfo.CurrentPrice);
+            txtinfo.SetData("Non", ResultNonClose[0].ToString() + "-" + ResultNonClose[1].ToString());
+            //double NonAll = lTradeManager.GetNonALL();
+        }
 
+        private void btnSell_Click(object sender, EventArgs e)
+        {
+            lTradeManager.DoTrade(lGraphic.StockNo, txtinfo.CurrentDate, TradeType.Sell, txtinfo.CurrentPrice);
         }
     }
 }
