@@ -19,6 +19,7 @@ using System.Linq;
 using FastMember;
 using System.Text;
 using System.Web.Script.Serialization;
+using StockTest;
 namespace My
 {
     /// <summary>
@@ -1101,6 +1102,7 @@ and [open]>0     group by stockno --order by stockno
             return null;
         }
         public static MyData lData = new MyData(ConfigurationSettings.AppSettings["DB"].ToString());
+        public static MyStockData StockData = new MyStockData();
         //public static MyData lData = new MyData(iniFile.iniReadValue("Conn", "Conn1") + System.Environment.MachineName);
         //public static MyData lData = new MyData(iniFile.iniReadValue("Conn", "Conn1"));
         //iniFile.iniReadValue("Conn", "Conn1")

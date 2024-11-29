@@ -378,8 +378,8 @@ namespace My
 
         private void setData_df(DataFrame df)
         {
-            _lTable = MyData.df_dt(df); 
-            
+            _lTable = MyData.df_dt(df);
+
             foreach (DataRow item in _lTable.Rows)
             {
                 if (!_IndexData.Keys.Contains(item["date"].ToString()))
@@ -387,7 +387,7 @@ namespace My
 
             }
         }
-
+        
         public void DrawTrade2(GraphPane myPane, Trade lTrade)
         {
             Trade lTrade2= new Trade();
@@ -603,6 +603,7 @@ namespace My
         }
 
         public static Dictionary<string, DataFrame> dfData = new Dictionary<string, DataFrame>();
+        public static Dictionary<string, DataTable> dtData = new Dictionary<string, DataTable>();
 
         public static DataFrame GetDateData(string StockNo, string Resample,DateTime Date1,DateTime Date2)
         {
@@ -616,6 +617,7 @@ namespace My
                 DataTable Table = MyData.JsonToDataTable("database\\" + DateTime.Now.ToString("yyyyMMdd") + "\\" + filename);
                 if (!dfData.ContainsKey(filename))
                     dfData.Add(filename, MyData.table_df(Table)); 
+                    dtData.Add(filename, Table);
                 return dfData[filename];
             }
             else
@@ -686,6 +688,26 @@ namespace My
             return json;
         }
 
+        public static Dictionary<string,double> GetCurrentClose(string Date)
+        {
+            Dictionary<string, double> CurrentClose = new Dictionary<string, double>();
+            foreach (string StockNo in dtData.Keys)
+            {
+                DataTable dt = dtData[StockNo];
+                for (int i = 0; i < dt.Rows.Count; i++)
+                {
+                    DateTime lDate = (DateTime)dt.Rows[i]["Date"];
+                    if (lDate.ToString("yyyy-MM-dd").CompareTo(Date) >= 0)
+                    {
+                        double Close = (double)dt.Rows[i]["Close"];
+                        CurrentClose.Add(StockNo, Close);
+                        break;
+                    }
+                }
+            }
+            return CurrentClose;
+        }
+
         public virtual void Update(string StockNo,string Range)
         {
             _StockNo = StockNo;
@@ -711,7 +733,7 @@ namespace My
             _GraphicRange = int.Parse(Range); 
             FirstDraw();
         }
-
+        
         public void UpdateIndex( )
         { 
             string para = "";

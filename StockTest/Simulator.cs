@@ -721,7 +721,6 @@ namespace StockTest
                 } 
             }
         }
-
         //事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件
         private void collapsePanel2_MenuDoubleClick(object sender, EventArgs e)
         {
@@ -775,7 +774,6 @@ namespace StockTest
             lGraphic.MoveNext();
             txtinfo.SetData( lGraphic.GetCurrentRow()); 
         }
-
         private void button21_Click(object sender, EventArgs e)
         {
             txtinfo.SetData("O", "1955");
@@ -790,7 +788,6 @@ namespace StockTest
             txtinfo.SetData("Non", ResultNonClose[0].ToString() + "-" + ResultNonClose[1].ToString());
             //double NonAll = lTradeManager.GetNonALL();
         }
-
         private void btnSell_Click(object sender, EventArgs e)
         {
             lTradeManager.DoTrade(lGraphic.StockNo, txtinfo.CurrentDate, TradeType.Sell, txtinfo.CurrentPrice);
