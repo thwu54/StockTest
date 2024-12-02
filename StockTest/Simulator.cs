@@ -786,7 +786,7 @@ namespace StockTest
             txtinfo.SetData("Already", ResultClose.ToString());
             double[] ResultNonClose = lTradeManager.GetNonClosePrice(lGraphic.StockNo, txtinfo.CurrentPrice);
             txtinfo.SetData("Non", ResultNonClose[0].ToString() + "-" + ResultNonClose[1].ToString());
-            //double NonAll = lTradeManager.GetNonALL();
+            double NonAll = lTradeManager.GetNonALL(txtinfo.CurrentDate);
         }
         private void btnSell_Click(object sender, EventArgs e)
         {
