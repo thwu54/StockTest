@@ -772,25 +772,33 @@ namespace StockTest
         private void button15_Click(object sender, EventArgs e)
         {
             lGraphic.MoveNext();
-            txtinfo.SetData( lGraphic.GetCurrentRow()); 
+            txtinfo.SetData( lGraphic.GetCurrentRow());
+            refreshGain();
         }
         private void button21_Click(object sender, EventArgs e)
         {
             txtinfo.SetData("O", "1955");
         }
         public TradeManager lTradeManager = new TradeManager();
-        private void btnBuy_Click(object sender, EventArgs e)
+
+        public void refreshGain()
         {
-            lTradeManager.DoTrade(lGraphic.StockNo,txtinfo.CurrentDate, TradeType.Buy, txtinfo.CurrentPrice);
-            double  ResultClose = lTradeManager.GetClosePriceALL();
+            double ResultClose = lTradeManager.GetClosePriceALL();
             txtinfo.SetData("Already", ResultClose.ToString());
             double[] ResultNonClose = lTradeManager.GetNonClosePrice(lGraphic.StockNo, txtinfo.CurrentPrice);
             txtinfo.SetData("Non", ResultNonClose[0].ToString() + "-" + ResultNonClose[1].ToString());
             double NonAll = lTradeManager.GetNonALL(txtinfo.CurrentDate);
+            txtinfo.SetData("NonAll", NonAll.ToString());
+        }
+        private void btnBuy_Click(object sender, EventArgs e)
+        {
+            lTradeManager.DoTrade(lGraphic.StockNo,txtinfo.CurrentDate, TradeType.Buy, txtinfo.CurrentPrice);
+            refreshGain();
         }
         private void btnSell_Click(object sender, EventArgs e)
         {
             lTradeManager.DoTrade(lGraphic.StockNo, txtinfo.CurrentDate, TradeType.Sell, txtinfo.CurrentPrice);
+            refreshGain();
         }
     }
 }
