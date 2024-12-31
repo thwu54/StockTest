@@ -1,97 +1,90 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\1.GitSelf\\StockTest\\",
+  "WorkspaceRootPath": "C:\\Old PC\\1.GitSelf\\StockTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|D:\\1.GitSelf\\StockTest\\stocktest\\simulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|C:\\Old PC\\1.GitSelf\\StockTest\\stocktest\\simulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|solutionrelative:stocktest\\simulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|D:\\1.GitSelf\\StockTest\\stocktest\\simulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|solutionrelative:stocktest\\simulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|D:\\1.GitSelf\\StockTest\\stocktest\\trademanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|solutionrelative:stocktest\\trademanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|D:\\1.GitSelf\\StockTest\\stocktest\\mydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|solutionrelative:stocktest\\mydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|d:\\1.gitself\\stocktest\\stocktest\\mystockdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|solutionrelative:stocktest\\mystockdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A62E044-48A5-47C3-BF0A-EFA7728C9DEB}|GroupLabel\\GroupLabel.csproj|D:\\1.GitSelf\\StockTest\\grouplabel\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A62E044-48A5-47C3-BF0A-EFA7728C9DEB}|GroupLabel\\GroupLabel.csproj|solutionrelative:grouplabel\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|D:\\1.GitSelf\\StockTest\\stocktest\\mygraphic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|C:\\Old PC\\1.GitSelf\\StockTest\\stocktest\\mygraphic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|solutionrelative:stocktest\\mygraphic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|D:\\1.GitSelf\\StockTest\\stocktest\\backtest\\mybacktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|C:\\Old PC\\1.GitSelf\\StockTest\\stocktest\\mydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|solutionrelative:stocktest\\mydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|c:\\old pc\\1.gitself\\stocktest\\stocktest\\simulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|solutionrelative:stocktest\\simulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|C:\\Old PC\\1.GitSelf\\StockTest\\stocktest\\backtest\\mybacktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|solutionrelative:stocktest\\backtest\\mybacktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|D:\\1.GitSelf\\StockTest\\stocktest\\trade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|C:\\Old PC\\1.GitSelf\\StockTest\\stocktest\\trade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|solutionrelative:stocktest\\trade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A62E044-48A5-47C3-BF0A-EFA7728C9DEB}|GroupLabel\\GroupLabel.csproj|D:\\1.GitSelf\\StockTest\\grouplabel\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7A62E044-48A5-47C3-BF0A-EFA7728C9DEB}|GroupLabel\\GroupLabel.csproj|solutionrelative:grouplabel\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|D:\\1.GitSelf\\StockTest\\stocktest\\signal\\gasignal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|C:\\Old PC\\1.GitSelf\\StockTest\\stocktest\\signal\\gasignal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|solutionrelative:stocktest\\signal\\gasignal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|D:\\1.GitSelf\\StockTest\\stocktest\\signal\\conditionall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|C:\\Old PC\\1.GitSelf\\StockTest\\stocktest\\signal\\conditionall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|solutionrelative:stocktest\\signal\\conditionall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|GroupLabel||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|D:\\1.GitSelf\\StockTest\\stocktest\\menudata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|C:\\Old PC\\1.GitSelf\\StockTest\\stocktest\\menudata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|solutionrelative:stocktest\\menudata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|D:\\1.GitSelf\\StockTest\\stocktest\\collapsepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|C:\\Old PC\\1.GitSelf\\StockTest\\stocktest\\collapsepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|solutionrelative:stocktest\\collapsepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|D:\\1.GitSelf\\StockTest\\stocktest\\signal\\condition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|C:\\Old PC\\1.GitSelf\\StockTest\\stocktest\\signal\\condition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|solutionrelative:stocktest\\signal\\condition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|D:\\1.GitSelf\\StockTest\\stocktest\\condition\\ma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|C:\\Old PC\\1.GitSelf\\StockTest\\stocktest\\condition\\ma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|solutionrelative:stocktest\\condition\\ma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|D:\\1.GitSelf\\StockTest\\stocktest\\ml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|C:\\Old PC\\1.GitSelf\\StockTest\\stocktest\\ml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|solutionrelative:stocktest\\ml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|D:\\1.GitSelf\\StockTest\\stocktest\\backtest\\kline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|C:\\Old PC\\1.GitSelf\\StockTest\\stocktest\\backtest\\kline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|solutionrelative:stocktest\\backtest\\kline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|D:\\1.GitSelf\\StockTest\\stocktest\\condition\\rsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|C:\\Old PC\\1.GitSelf\\StockTest\\stocktest\\condition\\rsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|solutionrelative:stocktest\\condition\\rsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|D:\\1.GitSelf\\StockTest\\stocktest\\condition\\macd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|C:\\Old PC\\1.GitSelf\\StockTest\\stocktest\\condition\\macd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|solutionrelative:stocktest\\condition\\macd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|D:\\1.GitSelf\\StockTest\\stocktest\\condition\\stoplose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|C:\\Old PC\\1.GitSelf\\StockTest\\stocktest\\condition\\stoplose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|solutionrelative:stocktest\\condition\\stoplose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|D:\\1.GitSelf\\StockTest\\stocktest\\signal\\kdsingal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|C:\\Old PC\\1.GitSelf\\StockTest\\stocktest\\signal\\kdsingal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A142EE5-DF16-430D-B99D-78FF28C1F30C}|StockTest\\StockTest.csproj|solutionrelative:stocktest\\signal\\kdsingal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1.GitSelf\\StockTest\\StockTest\\TradeManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1.GitSelf\\StockTest\\grouplabel\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1.GitSelf\\StockTest\\GroupLabel\\UserControl1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -101,15 +94,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Simulator.cs [\u8A2D\u8A08]",
-              "DocumentMoniker": "D:\\1.GitSelf\\StockTest\\StockTest\\Simulator.cs",
+              "DocumentMoniker": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\Simulator.cs",
               "RelativeDocumentMoniker": "StockTest\\Simulator.cs",
-              "ToolTip": "D:\\1.GitSelf\\StockTest\\StockTest\\Simulator.cs [\u8A2D\u8A08]",
+              "ToolTip": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\Simulator.cs [\u8A2D\u8A08]",
               "RelativeToolTip": "StockTest\\Simulator.cs [\u8A2D\u8A08]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T14:37:24.183Z",
@@ -117,115 +110,93 @@
               "EditorCaption": " [\u8A2D\u8A08]"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TradeManager.cs",
-              "DocumentMoniker": "D:\\1.GitSelf\\StockTest\\StockTest\\TradeManager.cs",
-              "RelativeDocumentMoniker": "StockTest\\TradeManager.cs",
-              "ToolTip": "D:\\1.GitSelf\\StockTest\\StockTest\\TradeManager.cs",
-              "RelativeToolTip": "StockTest\\TradeManager.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAIAzwCUAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T09:17:05.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MyStockData.cs",
-              "DocumentMoniker": "D:\\1.GitSelf\\StockTest\\StockTest\\MyStockData.cs",
-              "RelativeDocumentMoniker": "StockTest\\MyStockData.cs",
-              "ToolTip": "D:\\1.GitSelf\\StockTest\\StockTest\\MyStockData.cs",
-              "RelativeToolTip": "StockTest\\MyStockData.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAASwA8AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T03:20:28.674Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Simulator.cs",
-              "DocumentMoniker": "D:\\1.GitSelf\\StockTest\\StockTest\\Simulator.cs",
+              "DocumentMoniker": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\Simulator.cs",
               "RelativeDocumentMoniker": "StockTest\\Simulator.cs",
-              "ToolTip": "D:\\1.GitSelf\\StockTest\\StockTest\\Simulator.cs",
+              "ToolTip": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\Simulator.cs",
               "RelativeToolTip": "StockTest\\Simulator.cs",
-              "ViewState": "AQIAAPoCAAAAAAAAAAAawAcDAAAaAAAA",
+              "ViewState": "AgIAAJgDAAAAAAAAAAAhwKYDAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T14:59:40.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "MyGraphic.cs",
-              "DocumentMoniker": "D:\\1.GitSelf\\StockTest\\StockTest\\MyGraphic.cs",
+              "DocumentMoniker": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\MyGraphic.cs",
               "RelativeDocumentMoniker": "StockTest\\MyGraphic.cs",
-              "ToolTip": "D:\\1.GitSelf\\StockTest\\StockTest\\MyGraphic.cs",
+              "ToolTip": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\MyGraphic.cs",
               "RelativeToolTip": "StockTest\\MyGraphic.cs",
-              "ViewState": "AQIAAGUDAAAAAAAAAAAawHADAAAkAAAA",
+              "ViewState": "AgIAAGUDAAAAAAAAAAAawHADAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T06:37:12.348Z"
+              "WhenOpened": "2024-10-29T06:37:12.348Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
               "Title": "UserControl1.cs [\u8A2D\u8A08]",
               "DocumentMoniker": "D:\\1.GitSelf\\StockTest\\GroupLabel\\UserControl1.cs",
-              "RelativeDocumentMoniker": "GroupLabel\\UserControl1.cs",
               "ToolTip": "D:\\1.GitSelf\\StockTest\\GroupLabel\\UserControl1.cs [\u8A2D\u8A08]",
-              "RelativeToolTip": "GroupLabel\\UserControl1.cs [\u8A2D\u8A08]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T01:41:28.133Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MyData.cs",
-              "DocumentMoniker": "D:\\1.GitSelf\\StockTest\\StockTest\\MyData.cs",
+              "DocumentMoniker": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\MyData.cs",
               "RelativeDocumentMoniker": "StockTest\\MyData.cs",
-              "ToolTip": "D:\\1.GitSelf\\StockTest\\StockTest\\MyData.cs",
+              "ToolTip": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\MyData.cs",
               "RelativeToolTip": "StockTest\\MyData.cs",
-              "ViewState": "AQIAABcEAAAAAAAAAADgv1AEAAA5AAAA",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAwwFgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T06:44:53.385Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GASignal.cs",
-              "DocumentMoniker": "D:\\1.GitSelf\\StockTest\\StockTest\\Signal\\GASignal.cs",
-              "RelativeDocumentMoniker": "StockTest\\Signal\\GASignal.cs",
-              "ToolTip": "D:\\1.GitSelf\\StockTest\\StockTest\\Signal\\GASignal.cs",
-              "RelativeToolTip": "StockTest\\Signal\\GASignal.cs",
-              "ViewState": "AQIAADQDAAAAAAAAAAAuwD8DAAAoAAAA",
+              "DocumentIndex": 19,
+              "Title": "TradeManager.cs",
+              "DocumentMoniker": "D:\\1.GitSelf\\StockTest\\StockTest\\TradeManager.cs",
+              "ToolTip": "D:\\1.GitSelf\\StockTest\\StockTest\\TradeManager.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAIAzwCUAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T03:52:47.53Z"
+              "WhenOpened": "2024-12-02T09:17:05.617Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "GASignal.cs",
+              "DocumentMoniker": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\Signal\\GASignal.cs",
+              "RelativeDocumentMoniker": "StockTest\\Signal\\GASignal.cs",
+              "ToolTip": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\Signal\\GASignal.cs",
+              "RelativeToolTip": "StockTest\\Signal\\GASignal.cs",
+              "ViewState": "AgIAADQDAAAAAAAAAAAuwD8DAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T03:52:47.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "UserControl1.cs",
               "DocumentMoniker": "D:\\1.GitSelf\\StockTest\\GroupLabel\\UserControl1.cs",
-              "RelativeDocumentMoniker": "GroupLabel\\UserControl1.cs",
               "ToolTip": "D:\\1.GitSelf\\StockTest\\GroupLabel\\UserControl1.cs",
-              "RelativeToolTip": "GroupLabel\\UserControl1.cs",
               "ViewState": "AQIAAD0AAAAAAAAAAAAawEwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T01:59:59.855Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "MyBackTest.cs",
-              "DocumentMoniker": "D:\\1.GitSelf\\StockTest\\StockTest\\backtest\\MyBackTest.cs",
+              "DocumentMoniker": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\backtest\\MyBackTest.cs",
               "RelativeDocumentMoniker": "StockTest\\backtest\\MyBackTest.cs",
-              "ToolTip": "D:\\1.GitSelf\\StockTest\\StockTest\\backtest\\MyBackTest.cs",
+              "ToolTip": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\backtest\\MyBackTest.cs",
               "RelativeToolTip": "StockTest\\backtest\\MyBackTest.cs",
               "ViewState": "AQIAAK0AAAAAAAAAAAAuwLoAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -233,11 +204,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "Trade.cs",
-              "DocumentMoniker": "D:\\1.GitSelf\\StockTest\\StockTest\\Trade.cs",
+              "DocumentMoniker": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\Trade.cs",
               "RelativeDocumentMoniker": "StockTest\\Trade.cs",
-              "ToolTip": "D:\\1.GitSelf\\StockTest\\StockTest\\Trade.cs",
+              "ToolTip": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\Trade.cs",
               "RelativeToolTip": "StockTest\\Trade.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAASwDgAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -245,34 +216,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "ConditionALL.cs",
-              "DocumentMoniker": "D:\\1.GitSelf\\StockTest\\StockTest\\Signal\\ConditionALL.cs",
+              "DocumentMoniker": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\Signal\\ConditionALL.cs",
               "RelativeDocumentMoniker": "StockTest\\Signal\\ConditionALL.cs",
-              "ToolTip": "D:\\1.GitSelf\\StockTest\\StockTest\\Signal\\ConditionALL.cs",
+              "ToolTip": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\Signal\\ConditionALL.cs",
               "RelativeToolTip": "StockTest\\Signal\\ConditionALL.cs",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAqwF4AAAAnAAAA",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAqwF4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T06:37:12.39Z"
+              "WhenOpened": "2024-10-29T06:37:12.39Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "GroupLabel",
               "DocumentMoniker": "D:\\1.GitSelf\\StockTest\\GroupLabel\\GroupLabel.csproj",
-              "RelativeDocumentMoniker": "GroupLabel\\GroupLabel.csproj",
               "ToolTip": "D:\\1.GitSelf\\StockTest\\GroupLabel\\GroupLabel.csproj",
-              "RelativeToolTip": "GroupLabel\\GroupLabel.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-10-29T01:55:35.717Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
               "Title": "MenuData.cs",
-              "DocumentMoniker": "D:\\1.GitSelf\\StockTest\\StockTest\\MenuData.cs",
+              "DocumentMoniker": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\MenuData.cs",
               "RelativeDocumentMoniker": "StockTest\\MenuData.cs",
-              "ToolTip": "D:\\1.GitSelf\\StockTest\\StockTest\\MenuData.cs",
+              "ToolTip": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\MenuData.cs",
               "RelativeToolTip": "StockTest\\MenuData.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAArwBEAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -280,11 +250,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 10,
               "Title": "CollapsePanel.cs",
-              "DocumentMoniker": "D:\\1.GitSelf\\StockTest\\StockTest\\CollapsePanel.cs",
+              "DocumentMoniker": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\CollapsePanel.cs",
               "RelativeDocumentMoniker": "StockTest\\CollapsePanel.cs",
-              "ToolTip": "D:\\1.GitSelf\\StockTest\\StockTest\\CollapsePanel.cs",
+              "ToolTip": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\CollapsePanel.cs",
               "RelativeToolTip": "StockTest\\CollapsePanel.cs",
               "ViewState": "AQIAADgAAAAAAAAAAAArwEEAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -292,11 +262,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 11,
               "Title": "Condition.cs",
-              "DocumentMoniker": "D:\\1.GitSelf\\StockTest\\StockTest\\Signal\\Condition.cs",
+              "DocumentMoniker": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\Signal\\Condition.cs",
               "RelativeDocumentMoniker": "StockTest\\Signal\\Condition.cs",
-              "ToolTip": "D:\\1.GitSelf\\StockTest\\StockTest\\Signal\\Condition.cs",
+              "ToolTip": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\Signal\\Condition.cs",
               "RelativeToolTip": "StockTest\\Signal\\Condition.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAuwAkAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -304,11 +274,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 12,
               "Title": "MA.cs",
-              "DocumentMoniker": "D:\\1.GitSelf\\StockTest\\StockTest\\Condition\\MA.cs",
+              "DocumentMoniker": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\Condition\\MA.cs",
               "RelativeDocumentMoniker": "StockTest\\Condition\\MA.cs",
-              "ToolTip": "D:\\1.GitSelf\\StockTest\\StockTest\\Condition\\MA.cs",
+              "ToolTip": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\Condition\\MA.cs",
               "RelativeToolTip": "StockTest\\Condition\\MA.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAkwEMAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -316,11 +286,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 14,
               "Title": "kline.cs",
-              "DocumentMoniker": "D:\\1.GitSelf\\StockTest\\StockTest\\backtest\\kline.cs",
+              "DocumentMoniker": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\backtest\\kline.cs",
               "RelativeDocumentMoniker": "StockTest\\backtest\\kline.cs",
-              "ToolTip": "D:\\1.GitSelf\\StockTest\\StockTest\\backtest\\kline.cs",
+              "ToolTip": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\backtest\\kline.cs",
               "RelativeToolTip": "StockTest\\backtest\\kline.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -328,11 +298,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 13,
               "Title": "ML.cs",
-              "DocumentMoniker": "D:\\1.GitSelf\\StockTest\\StockTest\\ML.cs",
+              "DocumentMoniker": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\ML.cs",
               "RelativeDocumentMoniker": "StockTest\\ML.cs",
-              "ToolTip": "D:\\1.GitSelf\\StockTest\\StockTest\\ML.cs",
+              "ToolTip": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\ML.cs",
               "RelativeToolTip": "StockTest\\ML.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -340,11 +310,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 15,
               "Title": "RSI.cs",
-              "DocumentMoniker": "D:\\1.GitSelf\\StockTest\\StockTest\\Condition\\RSI.cs",
+              "DocumentMoniker": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\Condition\\RSI.cs",
               "RelativeDocumentMoniker": "StockTest\\Condition\\RSI.cs",
-              "ToolTip": "D:\\1.GitSelf\\StockTest\\StockTest\\Condition\\RSI.cs",
+              "ToolTip": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\Condition\\RSI.cs",
               "RelativeToolTip": "StockTest\\Condition\\RSI.cs",
               "ViewState": "AQIAADIAAAAAAAAAAAAUwDwAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -352,11 +322,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 16,
               "Title": "Macd.cs",
-              "DocumentMoniker": "D:\\1.GitSelf\\StockTest\\StockTest\\Condition\\Macd.cs",
+              "DocumentMoniker": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\Condition\\Macd.cs",
               "RelativeDocumentMoniker": "StockTest\\Condition\\Macd.cs",
-              "ToolTip": "D:\\1.GitSelf\\StockTest\\StockTest\\Condition\\Macd.cs",
+              "ToolTip": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\Condition\\Macd.cs",
               "RelativeToolTip": "StockTest\\Condition\\Macd.cs",
               "ViewState": "AQIAAC0AAAAAAAAAAAAywAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -364,11 +334,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 17,
               "Title": "StopLose.cs",
-              "DocumentMoniker": "D:\\1.GitSelf\\StockTest\\StockTest\\Condition\\StopLose.cs",
+              "DocumentMoniker": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\Condition\\StopLose.cs",
               "RelativeDocumentMoniker": "StockTest\\Condition\\StopLose.cs",
-              "ToolTip": "D:\\1.GitSelf\\StockTest\\StockTest\\Condition\\StopLose.cs",
+              "ToolTip": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\Condition\\StopLose.cs",
               "RelativeToolTip": "StockTest\\Condition\\StopLose.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAA1wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -376,11 +346,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 18,
               "Title": "KDSingal.cs",
-              "DocumentMoniker": "D:\\1.GitSelf\\StockTest\\StockTest\\Signal\\KDSingal.cs",
+              "DocumentMoniker": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\Signal\\KDSingal.cs",
               "RelativeDocumentMoniker": "StockTest\\Signal\\KDSingal.cs",
-              "ToolTip": "D:\\1.GitSelf\\StockTest\\StockTest\\Signal\\KDSingal.cs",
+              "ToolTip": "C:\\Old PC\\1.GitSelf\\StockTest\\StockTest\\Signal\\KDSingal.cs",
               "RelativeToolTip": "StockTest\\Signal\\KDSingal.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

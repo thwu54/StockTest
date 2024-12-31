@@ -17,6 +17,9 @@ using ZedGraph;
 using System.IO;
 using Microsoft.Spark.Sql.Types;
 using MathNet.Numerics.LinearAlgebra.Factorization;
+using System.Data.SqlClient;
+using System.Security;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
 
 namespace StockTest
 {
@@ -784,9 +787,9 @@ namespace StockTest
         public void refreshGain()
         {
             double ResultClose = lTradeManager.GetClosePriceALL();
-            txtinfo.SetData("Already", ResultClose.ToString());
-            double[] ResultNonClose = lTradeManager.GetNonClosePrice(lGraphic.StockNo, txtinfo.CurrentPrice);
-            txtinfo.SetData("Non", ResultNonClose[0].ToString() + "-" + ResultNonClose[1].ToString());
+            txtinfo.SetData("Already", ResultClose.ToString());//全部以平
+            double[] ResultNonClose = lTradeManager.GetNonClosePrice(lGraphic.StockNo, txtinfo.CurrentPrice);//單一未平
+            txtinfo.SetData("Non", ResultNonClose[0].ToString() + "-" + ResultNonClose[1].ToString());//全部未平
             double NonAll = lTradeManager.GetNonALL(txtinfo.CurrentDate);
             txtinfo.SetData("NonAll", NonAll.ToString());
         }
@@ -799,6 +802,163 @@ namespace StockTest
         {
             lTradeManager.DoTrade(lGraphic.StockNo, txtinfo.CurrentDate, TradeType.Sell, txtinfo.CurrentPrice);
             refreshGain();
+        }
+
+        private void button21_Click_1(object sender, EventArgs e)
+        {
+            using (OpenFileDialog openFileDialog = new OpenFileDialog())
+            {
+                openFileDialog.Filter = "CSV files (*.csv)|*.csv|All files (*.*)|*.*";
+                openFileDialog.Title = "Select a CSV file";
+
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    string filePath = openFileDialog.FileName;
+
+                    try
+                    {
+                        DataTable dataTable = CsvToDataTable(filePath);
+                        
+                        // For demonstration: bind the DataTable to a DataGridView
+                        dataGridView3.DataSource = dataTable;
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"An error occurred: {ex.Message}");
+                    }
+                }
+            }
+        }
+        string[] split = { "\",\"" }; 
+        private DataTable CsvToDataTable(string filePath)
+        {
+            DataTable dataTable = new DataTable();
+            string[] names = {"SerialNumber", "OpenDate", "SecurityName", "SecurityCode", "Market", "MarketType", "AuctionMethod",
+"BidStartDate", "BidEndDate", "AuctionShares", "MinBidPrice", "MinBidUnit",
+"MaxBidUnit", "DepositPercentage", "BidProcessingFee", "AllocationDate",
+"Underwriter", "TotalWinningAmount", "WinningFeeRate", "TotalValidBids",
+"ValidBidVolume", "MinWinningPrice", "MaxWinningPrice", "WeightedAvgWinningPrice",
+"IssuePrice", "AuctionCancellation","LastPrice"};
+           
+            using (StreamReader reader = new StreamReader(filePath, System.Text.Encoding.Default))
+            {
+                bool MarketType = true;
+                int rowno = 0;
+
+                while (!reader.EndOfStream)
+                {
+                    string line = reader.ReadLine();
+
+                    if (line == null) continue;
+
+                    string[] values = line.Split(split,StringSplitOptions.None);
+
+                    if (rowno==1)
+                    { 
+                        foreach (string column in names)
+                        {
+                            dataTable.Columns.Add(column.Trim());
+                        }
+
+                    }
+                    else if (rowno > 1)
+                    {
+                        // Add rows to the DataTable
+                        if (values.Length == 25)
+                        {
+                            List<string> list = new List<string>(values);
+                            list.Insert(5, "");
+                            values = list.ToArray();
+                        }
+                        dataTable.Rows.Add(values);
+                    }
+                    rowno++;
+                }
+            }
+            dataTable.Columns.RemoveAt(0);
+            for (int i = dataTable.Rows.Count - 1; i >= 0; i--)
+            {
+                
+                // 获取第一列的值（索引为 0）
+                if (dataTable.Rows[i][0].ToString() == "")
+                {
+                    dataTable.Rows.RemoveAt(i); // 删除该行
+                }
+            }
+            int lastColumnIndex = dataTable.Columns.Count - 2;
+            foreach (DataRow row in dataTable.Rows)
+            {
+                row[lastColumnIndex] = row[lastColumnIndex].ToString().Replace(",", "").Replace("\"", ""); // 替换为空字符串
+            }
+
+            MyDatas.lData.InsertData(dataTable,"Stockauction");
+            return dataTable;
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            string sql = "select * from StockAuction where len(securitycode)=4";
+            DataTable dataTable = MyDatas.lData.FineDataTable(sql);
+            foreach (DataRow item in dataTable.Rows)
+            {
+                string BidEndDate = item["BidEndDate"].ToString();
+                string AllocationDate = item["AllocationDate"].ToString(); ;
+                string SecurityCode = item["SecurityCode"].ToString();
+                string Market = item["Market"].ToString();
+               
+                sql = "SELECT  [Open]   FROM [MyAnalysis].[dbo].[StockData] where stockno='"+ SecurityCode + "' and dates <='" + DateTime.Parse(BidEndDate).ToString("yyyy-MM-dd") + "' order by dates desc";
+                string LastPrice = MyDatas.lData.FineDataField(sql);
+
+                sql = "SELECT  [Close]   FROM [MyAnalysis].[dbo].[StockData] where stockno='" + SecurityCode + "' and dates >='" + DateTime.Parse(AllocationDate).ToString("yyyy-MM-dd") + "' order by dates  ";
+                string LastPrice2 = MyDatas.lData.FineDataField(sql);
+
+                sql = "update StockAuction set LastPrice='"+ LastPrice + "',AllocationPrice='" + LastPrice2 + "' where SecurityCode='" + SecurityCode + "' and Market='" + Market +"'";
+                MyDatas.lData.SqlCmdExec(sql);
+            }
+        }
+
+        private   void button23_Click(object sender, EventArgs e)
+        {
+              GetStockClass.GetYahooStockData("6026,TW");
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            DataTable dt = MyDatas.lData.GetXmlTable("Stockauction");
+            DataRow[] selectedRows = dt.Select("Market in('初上櫃','櫃檯買賣') and LastPrice<>'' and Underwriter not like '%台新%'","BidEndDate");
+            dt = selectedRows.CopyToDataTable();
+            dt.Columns.Add("P1", typeof(decimal)); // 添加新欄位
+            dt.Columns.Add("P2", typeof(decimal)); // 添加新欄位
+            dt.Columns.Add("P3", typeof(decimal)); // 添加新欄位
+            dt.Columns.Add("Sum", typeof(string)); // 添加新欄位
+            foreach (DataRow row in dt.Rows)
+            {
+                try
+                {
+                    // 嘗試將 MinWinningPrice 欄位轉換為 decimal
+                    row["P1"] = Convert.ToDecimal(row["MinWinningPrice"].ToString().Replace(",",""));
+                    row["P2"] = Convert.ToDecimal(row["LastPrice"].ToString().Replace(",", ""));
+                    row["P3"] = Convert.ToDecimal(row["AllocationPrice"].ToString().Replace(",", ""));
+                    if((double.Parse(row["P2"].ToString()))*0.83 > double.Parse(row["P1"].ToString()))
+                    {
+                        row["Sum"]= "Y";
+                    }
+
+
+                }
+                catch (FormatException)
+                {
+                    // 如果轉換失敗（例如非數字格式），這裡會捕捉到
+                    Console.WriteLine($"無法轉換 '{row["MinWinningPrice"]}' 為數字");
+                }
+            }
+            dt.Columns.Remove("MinWinningPrice");
+            dt.Columns.Remove("LastPrice");
+            dt.Columns.Remove("AllocationPrice");
+            //selectedRows = dt.Select("P2*0.83> P1", "BidEndDate");
+            //dt = selectedRows.CopyToDataTable();
+            //AllocationDate  BidEndDate AllocationPrice MinWinningPrice
+            dataGridView3.DataSource= dt;
         }
     }
 }

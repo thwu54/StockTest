@@ -1,0 +1,16 @@
+D:\1.SelfGit\StockTest\GroupLabel\bin\Debug\GroupLabel.dll
+D:\1.SelfGit\StockTest\GroupLabel\bin\Debug\GroupLabel.pdb
+D:\1.SelfGit\StockTest\GroupLabel\obj\Debug\GroupLabel.csproj.AssemblyReference.cache
+D:\1.SelfGit\StockTest\GroupLabel\obj\Debug\GroupLabel.UserControl1.resources
+D:\1.SelfGit\StockTest\GroupLabel\obj\Debug\GroupLabel.csproj.GenerateResource.cache
+D:\1.SelfGit\StockTest\GroupLabel\obj\Debug\GroupLabel.csproj.CoreCompileInputs.cache
+D:\1.SelfGit\StockTest\GroupLabel\obj\Debug\GroupLabel.dll
+D:\1.SelfGit\StockTest\GroupLabel\obj\Debug\GroupLabel.pdb
+C:\Old PC\1.GitSelf\StockTest\GroupLabel\bin\Debug\GroupLabel.dll
+C:\Old PC\1.GitSelf\StockTest\GroupLabel\bin\Debug\GroupLabel.pdb
+C:\Old PC\1.GitSelf\StockTest\GroupLabel\obj\Debug\GroupLabel.csproj.AssemblyReference.cache
+C:\Old PC\1.GitSelf\StockTest\GroupLabel\obj\Debug\GroupLabel.UserControl1.resources
+C:\Old PC\1.GitSelf\StockTest\GroupLabel\obj\Debug\GroupLabel.csproj.GenerateResource.cache
+C:\Old PC\1.GitSelf\StockTest\GroupLabel\obj\Debug\GroupLabel.csproj.CoreCompileInputs.cache
+C:\Old PC\1.GitSelf\StockTest\GroupLabel\obj\Debug\GroupLabel.dll
+C:\Old PC\1.GitSelf\StockTest\GroupLabel\obj\Debug\GroupLabel.pdb

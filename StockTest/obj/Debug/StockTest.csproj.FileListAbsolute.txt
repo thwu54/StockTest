@@ -852,3 +852,261 @@ D:\1.GitSelf\StockTest\StockTest\obj\Debug\StockTest.csproj.CoreCompileInputs.ca
 D:\1.GitSelf\StockTest\StockTest\obj\Debug\StockTest.csproj.Up2Date
 D:\1.GitSelf\StockTest\StockTest\obj\Debug\StockTest.exe
 D:\1.GitSelf\StockTest\StockTest\obj\Debug\StockTest.pdb
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\LdaNative.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\CpuMathNative.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\microsoft-spark-2-4_2.11-2.1.1.jar
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\microsoft-spark-3-0_2.12-2.1.1.jar
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\microsoft-spark-3-1_2.12-2.1.1.jar
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\microsoft-spark-3-2_2.12-2.1.1.jar
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Accord.dll.config
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\StockTest.exe.config
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\StockTest.exe
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\StockTest.pdb
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Accord.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Apache.Arrow.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\CsvHelper.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\FastMember.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Flurl.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Flurl.Http.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\GroupLabel.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\MathNet.Numerics.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.Bcl.HashCode.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.Data.Analysis.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.Core.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.CpuMath.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.Data.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.DataView.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.KMeansClustering.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.PCA.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.StandardTrainers.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.Transforms.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.Spark.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\MyText.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Newtonsoft.Json.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Razorvine.Pyrolite.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Razorvine.Serpent.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\System.Buffers.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\System.CodeDom.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\System.Collections.Immutable.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\System.Memory.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\System.Numerics.Vectors.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\System.Threading.Channels.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\System.Threading.Tasks.Extensions.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\TA-Lib-Core.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\YahooFinanceApi.dll
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\GroupLabel.pdb
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\MyText.pdb
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Accord.xml
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\CsvHelper.xml
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Flurl.xml
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Flurl.Http.xml
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\MathNet.Numerics.xml
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.Bcl.HashCode.xml
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.Data.Analysis.xml
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.xml
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.Core.xml
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.CpuMath.xml
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.Data.xml
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.DataView.xml
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.KMeansClustering.xml
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.PCA.xml
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.StandardTrainers.xml
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.Transforms.xml
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.Spark.xml
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\Newtonsoft.Json.xml
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\System.Buffers.xml
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\System.Collections.Immutable.xml
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\System.Memory.xml
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\System.Numerics.Vectors.xml
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\System.Threading.Channels.xml
+Z:\1.GitSelf\StockTest\StockTest\bin\Debug\System.Threading.Tasks.Extensions.xml
+Z:\1.GitSelf\StockTest\StockTest\obj\Debug\StockTest.csproj.AssemblyReference.cache
+Z:\1.GitSelf\StockTest\StockTest\obj\Debug\My.CollapsePanel.resources
+Z:\1.GitSelf\StockTest\StockTest\obj\Debug\StockTest.Auto.resources
+Z:\1.GitSelf\StockTest\StockTest\obj\Debug\StockTest.frmData.resources
+Z:\1.GitSelf\StockTest\StockTest\obj\Debug\StockTest.Properties.Resources.resources
+Z:\1.GitSelf\StockTest\StockTest\obj\Debug\StockTest.Simulator.resources
+Z:\1.GitSelf\StockTest\StockTest\obj\Debug\StockTest.csproj.GenerateResource.cache
+Z:\1.GitSelf\StockTest\StockTest\obj\Debug\StockTest.csproj.CoreCompileInputs.cache
+Z:\1.GitSelf\StockTest\StockTest\obj\Debug\StockTest.csproj.Up2Date
+Z:\1.GitSelf\StockTest\StockTest\obj\Debug\StockTest.exe
+Z:\1.GitSelf\StockTest\StockTest\obj\Debug\StockTest.pdb
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\LdaNative.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\CpuMathNative.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\microsoft-spark-2-4_2.11-2.1.1.jar
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\microsoft-spark-3-0_2.12-2.1.1.jar
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\microsoft-spark-3-1_2.12-2.1.1.jar
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\microsoft-spark-3-2_2.12-2.1.1.jar
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Accord.dll.config
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\StockTest.exe.config
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\StockTest.exe
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\StockTest.pdb
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Accord.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Apache.Arrow.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\CsvHelper.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\FastMember.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Flurl.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Flurl.Http.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\GroupLabel.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\MathNet.Numerics.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.Data.Analysis.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.Core.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.CpuMath.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.Data.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.DataView.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.KMeansClustering.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.PCA.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.StandardTrainers.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.Transforms.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.Spark.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\MyText.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Newtonsoft.Json.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Razorvine.Pyrolite.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Razorvine.Serpent.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\System.Buffers.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\System.CodeDom.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\System.Collections.Immutable.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\System.Memory.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\System.Numerics.Vectors.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\System.Threading.Channels.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\TA-Lib-Core.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\YahooFinanceApi.dll
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\GroupLabel.pdb
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\MyText.pdb
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Accord.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\CsvHelper.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Flurl.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Flurl.Http.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\MathNet.Numerics.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.Data.Analysis.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.Core.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.CpuMath.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.Data.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.DataView.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.KMeansClustering.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.PCA.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.StandardTrainers.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.ML.Transforms.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Microsoft.Spark.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\Newtonsoft.Json.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\System.Buffers.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\System.Collections.Immutable.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\System.Memory.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\System.Numerics.Vectors.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\System.Threading.Channels.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Old PC\1.GitSelf\StockTest\StockTest\obj\Debug\StockTest.csproj.AssemblyReference.cache
+C:\Old PC\1.GitSelf\StockTest\StockTest\obj\Debug\My.CollapsePanel.resources
+C:\Old PC\1.GitSelf\StockTest\StockTest\obj\Debug\StockTest.Auto.resources
+C:\Old PC\1.GitSelf\StockTest\StockTest\obj\Debug\StockTest.frmData.resources
+C:\Old PC\1.GitSelf\StockTest\StockTest\obj\Debug\StockTest.Properties.Resources.resources
+C:\Old PC\1.GitSelf\StockTest\StockTest\obj\Debug\StockTest.Simulator.resources
+C:\Old PC\1.GitSelf\StockTest\StockTest\obj\Debug\StockTest.csproj.GenerateResource.cache
+C:\Old PC\1.GitSelf\StockTest\StockTest\obj\Debug\StockTest.csproj.CoreCompileInputs.cache
+C:\Old PC\1.GitSelf\StockTest\StockTest\obj\Debug\StockTest.csproj.Up2Date
+C:\Old PC\1.GitSelf\StockTest\StockTest\obj\Debug\StockTest.exe
+C:\Old PC\1.GitSelf\StockTest\StockTest\obj\Debug\StockTest.pdb
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\LdaNative.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\CpuMathNative.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\microsoft-spark-2-4_2.11-2.1.1.jar
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\microsoft-spark-3-0_2.12-2.1.1.jar
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\microsoft-spark-3-1_2.12-2.1.1.jar
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\microsoft-spark-3-2_2.12-2.1.1.jar
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Accord.dll.config
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\StockTest.exe.config
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\StockTest.exe
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\StockTest.pdb
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Accord.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Apache.Arrow.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\CsvHelper.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\FastMember.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Flurl.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Flurl.Http.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\GroupLabel.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\MathNet.Numerics.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Microsoft.Data.Analysis.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Microsoft.ML.Core.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Microsoft.ML.CpuMath.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Microsoft.ML.Data.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Microsoft.ML.DataView.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Microsoft.ML.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Microsoft.ML.KMeansClustering.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Microsoft.ML.PCA.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Microsoft.ML.StandardTrainers.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Microsoft.ML.Transforms.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Microsoft.Spark.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\MyText.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Newtonsoft.Json.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Razorvine.Pyrolite.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Razorvine.Serpent.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\System.Buffers.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\System.CodeDom.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\System.Collections.Immutable.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\System.Memory.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\System.Numerics.Vectors.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\System.Threading.Channels.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\TA-Lib-Core.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\YahooFinanceApi.dll
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\GroupLabel.pdb
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\MyText.pdb
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Accord.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\CsvHelper.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Flurl.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Flurl.Http.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\MathNet.Numerics.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Microsoft.Data.Analysis.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Microsoft.ML.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Microsoft.ML.Core.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Microsoft.ML.CpuMath.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Microsoft.ML.Data.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Microsoft.ML.DataView.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Microsoft.ML.KMeansClustering.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Microsoft.ML.PCA.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Microsoft.ML.StandardTrainers.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Microsoft.ML.Transforms.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Microsoft.Spark.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\Newtonsoft.Json.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\System.Buffers.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\System.Collections.Immutable.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\System.Memory.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\System.Numerics.Vectors.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\System.Threading.Channels.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Old PC\1.GitSelf\StockTest2\StockTest\obj\Debug\StockTest.csproj.AssemblyReference.cache
+C:\Old PC\1.GitSelf\StockTest2\StockTest\obj\Debug\My.CollapsePanel.resources
+C:\Old PC\1.GitSelf\StockTest2\StockTest\obj\Debug\StockTest.Auto.resources
+C:\Old PC\1.GitSelf\StockTest2\StockTest\obj\Debug\StockTest.frmData.resources
+C:\Old PC\1.GitSelf\StockTest2\StockTest\obj\Debug\StockTest.Properties.Resources.resources
+C:\Old PC\1.GitSelf\StockTest2\StockTest\obj\Debug\StockTest.Simulator.resources
+C:\Old PC\1.GitSelf\StockTest2\StockTest\obj\Debug\StockTest.csproj.GenerateResource.cache
+C:\Old PC\1.GitSelf\StockTest2\StockTest\obj\Debug\StockTest.csproj.CoreCompileInputs.cache
+C:\Old PC\1.GitSelf\StockTest2\StockTest\obj\Debug\StockTest.csproj.Up2Date
+C:\Old PC\1.GitSelf\StockTest2\StockTest\obj\Debug\StockTest.exe
+C:\Old PC\1.GitSelf\StockTest2\StockTest\obj\Debug\StockTest.pdb

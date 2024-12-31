@@ -59,7 +59,7 @@ namespace My
         public double Value3 { get; set; }
         public string Text { get; set; }
     }
-
+    
     public class MyData
     {
         public event EventHandler ConnectError; //宣告不用傳回參數之事件
@@ -71,8 +71,100 @@ namespace My
         //srcConnect="Provider=MSDAORA;User ID="+id1.Text+";Data Source="+Source1.Text+";Password="+pwd1.Text;
         //srcConnect="provider=Microsoft.Jet.OLEDB.4.0; data source=" + path1.Text + "; Extended Properties=Excel 8.0;";
         //dstConnect="Provider=SQLOLEDB;User ID=sa;Initial Catalog=Db1;PWD=pwd;Data Source=Db1;";
+        public void WriteXml(string tableName,DataTable dt, DataSet ds)
+        { 
+            dt.TableName = tableName;
+            ds.Tables.Add(dt.Copy()); // 确保操作不会影响原始表
+            ds.WriteXml(tableName + ".xml", XmlWriteMode.WriteSchema);
+        }
+        public DataTable GetXmlTable(string tableName)
+        {
+            DataTable dt = new DataTable();
+            DataSet ds = new DataSet();
+            if (File.Exists(tableName + ".xml"))
+            {
+                ds.ReadXml(tableName + ".xml");
+                if (ds.Tables.Contains(tableName))
+                {
+                    return ds.Tables[tableName];
+                }
+                else
+                {
+                    DataTable lTable = FineDataTable("select * from " + tableName);
+                    WriteXml(tableName, lTable,ds);
+                    return lTable;
+                }
+            }
+            else
+            {
+                DataTable lTable = FineDataTable("select * from "+tableName);
+                WriteXml(tableName, lTable, ds);
+                return lTable;
+            }
+        }
 
+        public void CreateSqlTable(DataTable dataTable,string TableName)
+        {
+            StringBuilder sb = new StringBuilder($"CREATE TABLE "+ TableName + " {dataTable.TableName} (");
 
+            foreach (DataColumn column in dataTable.Columns)
+            {
+                string columnType = GetSqlDataType(column.DataType);
+                sb.Append($"[{column.ColumnName}] {columnType},");
+            }
+
+            sb.Length--; // 移除最后一个逗号
+            sb.Append(");");
+
+            
+            using (SqlConnection connection = new SqlConnection(lConnstr))
+            {
+                connection.Open();
+                using (SqlCommand command = new SqlCommand(sb.ToString(), connection))
+                {
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
+
+        public void InsertData(DataTable dataTable, string TableName)
+        {
+            // Define your connection string (make sure to replace with your actual server and database details)
+          
+            using (SqlConnection connection = new SqlConnection(lConnstr))
+            {
+                try
+                {
+                    connection.Open();
+
+                    // Use SqlBulkCopy for fast data insertion
+                    using (SqlBulkCopy bulkCopy = new SqlBulkCopy(connection))
+                    {
+                        // Specify the destination table name
+                        bulkCopy.DestinationTableName = TableName; // Replace with your table name
+
+                        // Optionally, map columns if the names are different
+                        // bulkCopy.ColumnMappings.Add("DataColumnName", "TableColumnName");
+
+                        // Write the data to the SQL Server
+                        bulkCopy.WriteToServer(dataTable);
+                    } 
+                }
+                catch (Exception ex)
+                {
+                    string ss = ex.Message;
+                }
+            }
+        }
+
+        public static string GetSqlDataType(Type type)
+        {
+            return type == typeof(int) ? "INT"
+                 : type == typeof(string) ? "NVARCHAR(100)"
+                 : type == typeof(DateTime) ? "DATETIME"
+                 : type == typeof(decimal) ? "DECIMAL(18, 2)"
+                 : "NVARCHAR(100)"; // 默认类型
+        }
         public MyData(string Connstr)
         {
             lConnstr = Connstr;
