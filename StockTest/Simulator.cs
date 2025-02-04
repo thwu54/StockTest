@@ -29,6 +29,56 @@ namespace StockTest
         {
             InitializeComponent();
         }
+        //事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件
+        private void collapsePanel2_MenuDoubleClick(object sender, EventArgs e)
+        {
+            TreeView tree = sender as TreeView;
+            if (tree == null)
+                return;
+            var node = tree.SelectedNode;
+            if (node == null)
+                return;
+            //只对无子菜单的菜单弹出窗口
+            if (node.Nodes.Count == 0)
+            {
+                if (node.Tag.ToString() == "StockNo")
+                {
+                    STOCH lStoch = new STOCH();
+                    BBANDS lBBANDS = new BBANDS();
+                    MACD lMACD = new MACD();
+                    lGraphic.AddIndex(lStoch);
+                    lGraphic.AddIndex(lBBANDS);
+                    //lGraphic.AddIndex(lMACD);
+                    ShowStock(node.Text);
+                    node.BackColor = Color.Pink;
+                    //((TreeView)sender).BackColor = Color.Blue;
+                }
+                if (node.Tag.ToString() == "Graphic") {
+                    if (node.Name.ToString() == "hidden")
+                    {
+                        lGraphic.ZedGraphControl.Visible = false;
+                    }
+                    else if (node.Name.ToString() == "volume")
+                    {
+                        lGraphic.IsShowPanel2 = true;
+                        lGraphic.FirstDraw();
+                    }
+                    else if (node.Name.ToString() == "hiddenV")
+                    {
+                        lGraphic.IsShowPanel2 = false;
+                        lGraphic.FirstDraw();
+                    }
+                    else if (node.Name.ToString() == "KD")
+                    {
+                        //InitGraphic();
+                        STOCH lStoch = new STOCH();
+                        lGraphic.AddIndex(lStoch);
+                        lGraphic.Update("2344", "90");
+                    }
+                } 
+
+            }
+        }
         private bool IsMenu(string StockNo)
         {
             foreach (MenuData item in this.collapsePanel2.Menus)
@@ -46,15 +96,16 @@ namespace StockTest
                 
             }
         }
-        private void AddMenu(int ParentId,string Menun)
+        private void AddMenu(int ParentId,string Menun,string Tag)
         {
             if (!IsMenu(Menun))
             {
-                this.collapsePanel2.Menus.Add(new MenuData() { Id = this.collapsePanel2.Menus[this.collapsePanel2.Menus.Count - 1].Id + 1, ParentId = ParentId, Name = Menun, Path = "StockNo", BackColor = Color.White  }); this.collapsePanel2.InitMenus();
+                this.collapsePanel2.Menus.Add(new MenuData() { Id = this.collapsePanel2.Menus[this.collapsePanel2.Menus.Count - 1].Id + 1, ParentId = ParentId, Name = Menun, Path = Tag, BackColor = Color.White  }); this.collapsePanel2.InitMenus();
             }
         }
         private void Simulator_Load(object sender, EventArgs e)
         {
+
 
             List<MenuData> menuList = new List<MenuData>()
             {
@@ -63,6 +114,7 @@ namespace StockTest
                 new MenuData(){ Id=3,ParentId=null,Name="組合條件",Path="conditions" , BackColor=Color.White},
                 new MenuData(){ Id=4,ParentId=null,Name="現有標的",Path="current" , BackColor=Color.White},
                 new MenuData(){ Id=5,ParentId=null,Name="關注",Path="favorite" , BackColor=Color.White},
+                new MenuData(){ Id=6,ParentId=null,Name="圖型設定",Path="Graphic" , BackColor=Color.White},
                 //new MenuData(){ Id=4,ParentId=1,Name="show",Path="show", BackColor=Color.White },
                 //new MenuData(){ Id=5,ParentId=1,Name="hidden",Path="hidden", BackColor=Color.White },
                 //new MenuData(){ Id=6,ParentId=1,Name="volume",Path="volume" , BackColor=Color.White},
@@ -79,8 +131,16 @@ namespace StockTest
             List<string> ConditionList = ConditionALL.GetConditionList();
             foreach (string item in ConditionList)
             {
-                AddMenu(2, item);
+                AddMenu(2, item, "Condition");
             }
+            AddMenu(1, "法人Buy","SelectStock");
+            AddMenu(1, "大量", "SelectStock");
+            AddMenu(1, "價格", "SelectStock");
+
+            AddMenu(6, "hidden", "Graphic");
+            AddMenu(6, "volume", "Graphic");
+            AddMenu(6, "hiddenV", "Graphic");
+            AddMenu(6, "KD", "Graphic");
 
             collapsePanel2.AllowDrop = true;//可以當拖曳來源
             string StockList = iniFile.iniReadValue("StockNo", "StockList");
@@ -90,7 +150,7 @@ namespace StockTest
                 string[] StockNos = StockList.Split(new string[]  { "," }, StringSplitOptions.None);
                 foreach (var item in StockNos)
                 {
-                    AddMenu(5,item.ToString());
+                    AddMenu(5,item.ToString(),"StockNo");
                 }
             }
             //this.splitContainer2.Panel1.Controls.Add(collapsePanel1);
@@ -701,7 +761,7 @@ namespace StockTest
             if (e.KeyChar == (char)Keys.Enter)
             {
                 ShowStock(txtStock.Text);
-                AddMenu(5,txtStock.Text);
+                AddMenu(5,txtStock.Text, "StockNo");
 
                 string StockList = iniFile.iniReadValue("StockNo", "StockList");
                 if (StockList == "")
@@ -724,54 +784,7 @@ namespace StockTest
                 } 
             }
         }
-        //事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件事件
-        private void collapsePanel2_MenuDoubleClick(object sender, EventArgs e)
-        {
-            TreeView tree = sender as TreeView;
-            if (tree == null)
-                return;
-            var node = tree.SelectedNode;
-            if (node == null)
-                return;
-            //只对无子菜单的菜单弹出窗口
-            if (node.Nodes.Count == 0)
-            {
-                if (node.Tag.ToString() == "StockNo")
-                {
-                    STOCH lStoch = new STOCH();
-                    BBANDS lBBANDS = new BBANDS();
-                    MACD lMACD = new MACD();
-                    lGraphic.AddIndex(lStoch);
-                    lGraphic.AddIndex(lBBANDS);
-                    //lGraphic.AddIndex(lMACD);
-                    ShowStock(node.Text);
-                    node.BackColor = Color.Pink;
-                    //((TreeView)sender).BackColor = Color.Blue;
-                }
-                else if (node.Tag.ToString() == "hidden")
-                {
-                    lGraphic.ZedGraphControl.Visible = false;
-                }
-                else if (node.Tag.ToString() == "volume")
-                {
-                    lGraphic.IsShowPanel2 = true;
-                    lGraphic.FirstDraw();
-                }
-                else if (node.Tag.ToString() == "hiddenV")
-                {
-                    lGraphic.IsShowPanel2 = false;
-                    lGraphic.FirstDraw();
-                }
-                else if (node.Tag.ToString() == "KD")
-                {
-                    //InitGraphic();
-                    STOCH lStoch = new STOCH();
-                    lGraphic.AddIndex(lStoch);
-                    lGraphic.Update("2344", "90");
-                }
-
-            }
-        }
+        
         private void button15_Click(object sender, EventArgs e)
         {
             lGraphic.MoveNext();
