@@ -97,12 +97,14 @@ namespace StockTest
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.splitContainer3 = new System.Windows.Forms.SplitContainer();
+            this.button24 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.button24 = new System.Windows.Forms.Button();
+            this.splitContainer4 = new System.Windows.Forms.SplitContainer();
+            this.StockList = new My.CollapsePanel();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -130,14 +132,17 @@ namespace StockTest
             this.splitContainer3.Panel2.SuspendLayout();
             this.splitContainer3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).BeginInit();
+            this.splitContainer4.Panel1.SuspendLayout();
+            this.splitContainer4.Panel2.SuspendLayout();
+            this.splitContainer4.SuspendLayout();
             this.SuspendLayout();
             // 
             // splitContainer1
             // 
             this.splitContainer1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(3, 2);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.splitContainer1.Location = new System.Drawing.Point(0, 0);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -156,8 +161,8 @@ namespace StockTest
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
             this.splitContainer1.Panel2MinSize = 1;
-            this.splitContainer1.Size = new System.Drawing.Size(1509, 672);
-            this.splitContainer1.SplitterDistance = 65;
+            this.splitContainer1.Size = new System.Drawing.Size(1543, 901);
+            this.splitContainer1.SplitterDistance = 87;
             this.splitContainer1.SplitterWidth = 1;
             this.splitContainer1.TabIndex = 0;
             this.splitContainer1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer1_SplitterMoved);
@@ -165,10 +170,9 @@ namespace StockTest
             // 
             // btnSell
             // 
-            this.btnSell.Location = new System.Drawing.Point(244, 18);
-            this.btnSell.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSell.Location = new System.Drawing.Point(274, 24);
             this.btnSell.Name = "btnSell";
-            this.btnSell.Size = new System.Drawing.Size(56, 31);
+            this.btnSell.Size = new System.Drawing.Size(63, 41);
             this.btnSell.TabIndex = 8;
             this.btnSell.Text = "S";
             this.btnSell.UseVisualStyleBackColor = true;
@@ -179,10 +183,8 @@ namespace StockTest
             this.groupBox6.BackColor = System.Drawing.Color.White;
             this.groupBox6.Controls.Add(this.txtStock);
             this.groupBox6.Location = new System.Drawing.Point(3, 1);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox6.Size = new System.Drawing.Size(117, 50);
+            this.groupBox6.Size = new System.Drawing.Size(132, 67);
             this.groupBox6.TabIndex = 3;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "ID";
@@ -190,19 +192,17 @@ namespace StockTest
             // txtStock
             // 
             this.txtStock.BackColor = System.Drawing.SystemColors.Menu;
-            this.txtStock.Location = new System.Drawing.Point(11, 19);
-            this.txtStock.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtStock.Location = new System.Drawing.Point(12, 25);
             this.txtStock.Name = "txtStock";
-            this.txtStock.Size = new System.Drawing.Size(100, 25);
+            this.txtStock.Size = new System.Drawing.Size(112, 26);
             this.txtStock.TabIndex = 2;
             this.txtStock.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtStock_KeyPress);
             // 
             // btnBuy
             // 
-            this.btnBuy.Location = new System.Drawing.Point(181, 18);
-            this.btnBuy.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnBuy.Location = new System.Drawing.Point(204, 24);
             this.btnBuy.Name = "btnBuy";
-            this.btnBuy.Size = new System.Drawing.Size(56, 31);
+            this.btnBuy.Size = new System.Drawing.Size(63, 41);
             this.btnBuy.TabIndex = 7;
             this.btnBuy.Text = "B";
             this.btnBuy.UseVisualStyleBackColor = true;
@@ -216,18 +216,17 @@ namespace StockTest
             this.txtinfo.CustomFontSize = 8F;
             this.txtinfo.Dock = System.Windows.Forms.DockStyle.Right;
             this.txtinfo.Lables = "Alrealy,Non,NonAll,Date,ID,O,H,L,C,V";
-            this.txtinfo.Location = new System.Drawing.Point(1124, 0);
-            this.txtinfo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtinfo.Location = new System.Drawing.Point(1094, 0);
+            this.txtinfo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtinfo.Name = "txtinfo";
-            this.txtinfo.Size = new System.Drawing.Size(381, 51);
+            this.txtinfo.Size = new System.Drawing.Size(445, 70);
             this.txtinfo.TabIndex = 6;
             // 
             // button15
             // 
-            this.button15.Location = new System.Drawing.Point(125, 18);
-            this.button15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button15.Location = new System.Drawing.Point(141, 24);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(51, 31);
+            this.button15.Size = new System.Drawing.Size(57, 41);
             this.button15.TabIndex = 4;
             this.button15.Text = ">";
             this.button15.UseVisualStyleBackColor = true;
@@ -238,10 +237,9 @@ namespace StockTest
             this.button2.BackColor = System.Drawing.Color.MistyRose;
             this.button2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Location = new System.Drawing.Point(0, 51);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button2.Location = new System.Drawing.Point(0, 70);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(1505, 10);
+            this.button2.Size = new System.Drawing.Size(1539, 13);
             this.button2.TabIndex = 0;
             this.button2.Text = "^";
             this.button2.UseVisualStyleBackColor = false;
@@ -252,7 +250,6 @@ namespace StockTest
             this.splitContainer2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer2.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.splitContainer2.Name = "splitContainer2";
             // 
             // splitContainer2.Panel1
@@ -267,8 +264,8 @@ namespace StockTest
             this.splitContainer2.Panel2.AllowDrop = true;
             this.splitContainer2.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.splitContainer2.Panel2MinSize = 1;
-            this.splitContainer2.Size = new System.Drawing.Size(1509, 606);
-            this.splitContainer2.SplitterDistance = 90;
+            this.splitContainer2.Size = new System.Drawing.Size(1543, 813);
+            this.splitContainer2.SplitterDistance = 91;
             this.splitContainer2.SplitterWidth = 1;
             this.splitContainer2.TabIndex = 0;
             this.splitContainer2.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer2_SplitterMoved);
@@ -277,9 +274,9 @@ namespace StockTest
             // 
             this.collapsePanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.collapsePanel2.Location = new System.Drawing.Point(0, 0);
-            this.collapsePanel2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.collapsePanel2.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.collapsePanel2.Name = "collapsePanel2";
-            this.collapsePanel2.Size = new System.Drawing.Size(71, 602);
+            this.collapsePanel2.Size = new System.Drawing.Size(70, 809);
             this.collapsePanel2.TabIndex = 1;
             this.collapsePanel2.MenuDoubleClick += new System.EventHandler(this.collapsePanel2_MenuDoubleClick);
             // 
@@ -288,10 +285,9 @@ namespace StockTest
             this.button1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.button1.Dock = System.Windows.Forms.DockStyle.Right;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(71, 0);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Location = new System.Drawing.Point(70, 0);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(15, 602);
+            this.button1.Size = new System.Drawing.Size(17, 809);
             this.button1.TabIndex = 0;
             this.button1.Text = "<";
             this.button1.UseVisualStyleBackColor = false;
@@ -304,20 +300,18 @@ namespace StockTest
             this.tabControl2.Controls.Add(this.tabPage5);
             this.tabControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl2.Location = new System.Drawing.Point(0, 0);
-            this.tabControl2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(1523, 705);
+            this.tabControl2.Size = new System.Drawing.Size(1713, 940);
             this.tabControl2.TabIndex = 1;
             // 
             // tabPage3
             // 
-            this.tabPage3.Controls.Add(this.splitContainer1);
-            this.tabPage3.Location = new System.Drawing.Point(4, 25);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage3.Controls.Add(this.splitContainer4);
+            this.tabPage3.Location = new System.Drawing.Point(4, 29);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabPage3.Size = new System.Drawing.Size(1515, 676);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1705, 907);
             this.tabPage3.TabIndex = 0;
             this.tabPage3.Text = "圖形";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -325,11 +319,10 @@ namespace StockTest
             // tabPage4
             // 
             this.tabPage4.Controls.Add(this.tabControl1);
-            this.tabPage4.Location = new System.Drawing.Point(4, 25);
-            this.tabPage4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage4.Location = new System.Drawing.Point(4, 29);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabPage4.Size = new System.Drawing.Size(1515, 676);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(1705, 907);
             this.tabPage4.TabIndex = 1;
             this.tabPage4.Text = "資料";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -339,11 +332,10 @@ namespace StockTest
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl1.Location = new System.Drawing.Point(3, 2);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabControl1.Location = new System.Drawing.Point(3, 3);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1509, 672);
+            this.tabControl1.Size = new System.Drawing.Size(1699, 901);
             this.tabControl1.TabIndex = 4;
             // 
             // tabPage1
@@ -372,19 +364,17 @@ namespace StockTest
             this.tabPage1.Controls.Add(this.dataGridView1);
             this.tabPage1.Controls.Add(this.button5);
             this.tabPage1.Controls.Add(this.button3);
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabPage1.Size = new System.Drawing.Size(1501, 643);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(1691, 868);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "交易";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // yearRange
             // 
-            this.yearRange.Location = new System.Drawing.Point(653, 120);
-            this.yearRange.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.yearRange.Location = new System.Drawing.Point(735, 160);
             this.yearRange.Maximum = new decimal(new int[] {
             10,
             0,
@@ -396,7 +386,7 @@ namespace StockTest
             0,
             0});
             this.yearRange.Name = "yearRange";
-            this.yearRange.Size = new System.Drawing.Size(69, 25);
+            this.yearRange.Size = new System.Drawing.Size(78, 26);
             this.yearRange.TabIndex = 26;
             this.yearRange.Value = new decimal(new int[] {
             2,
@@ -416,11 +406,9 @@ namespace StockTest
             this.groupBox5.Controls.Add(this.r2017);
             this.groupBox5.Controls.Add(this.r2016);
             this.groupBox5.Controls.Add(this.r2015);
-            this.groupBox5.Location = new System.Drawing.Point(32, 102);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox5.Location = new System.Drawing.Point(36, 136);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox5.Size = new System.Drawing.Size(605, 48);
+            this.groupBox5.Size = new System.Drawing.Size(681, 64);
             this.groupBox5.TabIndex = 25;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "start year";
@@ -428,10 +416,9 @@ namespace StockTest
             // r2022
             // 
             this.r2022.AutoSize = true;
-            this.r2022.Location = new System.Drawing.Point(427, 25);
-            this.r2022.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.r2022.Location = new System.Drawing.Point(480, 33);
             this.r2022.Name = "r2022";
-            this.r2022.Size = new System.Drawing.Size(56, 19);
+            this.r2022.Size = new System.Drawing.Size(70, 24);
             this.r2022.TabIndex = 9;
             this.r2022.TabStop = true;
             this.r2022.Text = "2022";
@@ -441,10 +428,9 @@ namespace StockTest
             // r2023
             // 
             this.r2023.AutoSize = true;
-            this.r2023.Location = new System.Drawing.Point(488, 25);
-            this.r2023.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.r2023.Location = new System.Drawing.Point(549, 33);
             this.r2023.Name = "r2023";
-            this.r2023.Size = new System.Drawing.Size(56, 19);
+            this.r2023.Size = new System.Drawing.Size(70, 24);
             this.r2023.TabIndex = 8;
             this.r2023.TabStop = true;
             this.r2023.Text = "2023";
@@ -454,10 +440,9 @@ namespace StockTest
             // r2024
             // 
             this.r2024.AutoSize = true;
-            this.r2024.Location = new System.Drawing.Point(549, 25);
-            this.r2024.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.r2024.Location = new System.Drawing.Point(618, 33);
             this.r2024.Name = "r2024";
-            this.r2024.Size = new System.Drawing.Size(56, 19);
+            this.r2024.Size = new System.Drawing.Size(70, 24);
             this.r2024.TabIndex = 7;
             this.r2024.TabStop = true;
             this.r2024.Text = "2024";
@@ -467,10 +452,9 @@ namespace StockTest
             // r2018
             // 
             this.r2018.AutoSize = true;
-            this.r2018.Location = new System.Drawing.Point(192, 24);
-            this.r2018.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.r2018.Location = new System.Drawing.Point(216, 32);
             this.r2018.Name = "r2018";
-            this.r2018.Size = new System.Drawing.Size(56, 19);
+            this.r2018.Size = new System.Drawing.Size(70, 24);
             this.r2018.TabIndex = 6;
             this.r2018.TabStop = true;
             this.r2018.Text = "2018";
@@ -480,10 +464,9 @@ namespace StockTest
             // r2019
             // 
             this.r2019.AutoSize = true;
-            this.r2019.Location = new System.Drawing.Point(252, 24);
-            this.r2019.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.r2019.Location = new System.Drawing.Point(284, 32);
             this.r2019.Name = "r2019";
-            this.r2019.Size = new System.Drawing.Size(56, 19);
+            this.r2019.Size = new System.Drawing.Size(70, 24);
             this.r2019.TabIndex = 5;
             this.r2019.TabStop = true;
             this.r2019.Text = "2019";
@@ -493,10 +476,9 @@ namespace StockTest
             // r2020
             // 
             this.r2020.AutoSize = true;
-            this.r2020.Location = new System.Drawing.Point(315, 24);
-            this.r2020.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.r2020.Location = new System.Drawing.Point(354, 32);
             this.r2020.Name = "r2020";
-            this.r2020.Size = new System.Drawing.Size(56, 19);
+            this.r2020.Size = new System.Drawing.Size(70, 24);
             this.r2020.TabIndex = 4;
             this.r2020.TabStop = true;
             this.r2020.Text = "2020";
@@ -506,10 +488,9 @@ namespace StockTest
             // r2021
             // 
             this.r2021.AutoSize = true;
-            this.r2021.Location = new System.Drawing.Point(371, 24);
-            this.r2021.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.r2021.Location = new System.Drawing.Point(417, 32);
             this.r2021.Name = "r2021";
-            this.r2021.Size = new System.Drawing.Size(56, 19);
+            this.r2021.Size = new System.Drawing.Size(70, 24);
             this.r2021.TabIndex = 3;
             this.r2021.TabStop = true;
             this.r2021.Text = "2021";
@@ -519,10 +500,9 @@ namespace StockTest
             // r2017
             // 
             this.r2017.AutoSize = true;
-            this.r2017.Location = new System.Drawing.Point(131, 24);
-            this.r2017.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.r2017.Location = new System.Drawing.Point(147, 32);
             this.r2017.Name = "r2017";
-            this.r2017.Size = new System.Drawing.Size(56, 19);
+            this.r2017.Size = new System.Drawing.Size(70, 24);
             this.r2017.TabIndex = 2;
             this.r2017.TabStop = true;
             this.r2017.Text = "2017";
@@ -532,10 +512,9 @@ namespace StockTest
             // r2016
             // 
             this.r2016.AutoSize = true;
-            this.r2016.Location = new System.Drawing.Point(69, 24);
-            this.r2016.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.r2016.Location = new System.Drawing.Point(78, 32);
             this.r2016.Name = "r2016";
-            this.r2016.Size = new System.Drawing.Size(56, 19);
+            this.r2016.Size = new System.Drawing.Size(70, 24);
             this.r2016.TabIndex = 1;
             this.r2016.TabStop = true;
             this.r2016.Text = "2016";
@@ -545,10 +524,9 @@ namespace StockTest
             // r2015
             // 
             this.r2015.AutoSize = true;
-            this.r2015.Location = new System.Drawing.Point(7, 24);
-            this.r2015.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.r2015.Location = new System.Drawing.Point(8, 32);
             this.r2015.Name = "r2015";
-            this.r2015.Size = new System.Drawing.Size(56, 19);
+            this.r2015.Size = new System.Drawing.Size(70, 24);
             this.r2015.TabIndex = 0;
             this.r2015.TabStop = true;
             this.r2015.Text = "2015";
@@ -557,10 +535,9 @@ namespace StockTest
             // 
             // button20
             // 
-            this.button20.Location = new System.Drawing.Point(1559, 140);
-            this.button20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button20.Location = new System.Drawing.Point(1754, 187);
             this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(75, 24);
+            this.button20.Size = new System.Drawing.Size(84, 32);
             this.button20.TabIndex = 24;
             this.button20.Text = "refresh";
             this.button20.UseVisualStyleBackColor = true;
@@ -585,8 +562,7 @@ namespace StockTest
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView2.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridView2.Location = new System.Drawing.Point(1348, 170);
-            this.dataGridView2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dataGridView2.Location = new System.Drawing.Point(1516, 227);
             this.dataGridView2.Name = "dataGridView2";
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
@@ -598,36 +574,32 @@ namespace StockTest
             this.dataGridView2.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 27;
-            this.dataGridView2.Size = new System.Drawing.Size(600, 574);
+            this.dataGridView2.Size = new System.Drawing.Size(675, 765);
             this.dataGridView2.TabIndex = 23;
             this.dataGridView2.DoubleClick += new System.EventHandler(this.dataGridView2_DoubleClick);
             // 
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.MSG2);
-            this.groupBox4.Location = new System.Drawing.Point(785, 100);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox4.Location = new System.Drawing.Point(883, 133);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox4.Size = new System.Drawing.Size(653, 49);
+            this.groupBox4.Size = new System.Drawing.Size(735, 65);
             this.groupBox4.TabIndex = 22;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "ga";
             // 
             // MSG2
             // 
-            this.MSG2.Location = new System.Drawing.Point(5, 20);
-            this.MSG2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MSG2.Location = new System.Drawing.Point(6, 27);
             this.MSG2.Name = "MSG2";
-            this.MSG2.Size = new System.Drawing.Size(641, 25);
+            this.MSG2.Size = new System.Drawing.Size(721, 26);
             this.MSG2.TabIndex = 0;
             // 
             // button19
             // 
-            this.button19.Location = new System.Drawing.Point(907, 10);
-            this.button19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button19.Location = new System.Drawing.Point(1020, 13);
             this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(105, 32);
+            this.button19.Size = new System.Drawing.Size(118, 43);
             this.button19.TabIndex = 21;
             this.button19.Text = "Job2";
             this.button19.UseVisualStyleBackColor = true;
@@ -638,21 +610,18 @@ namespace StockTest
             this.groupBox3.Controls.Add(this.button18);
             this.groupBox3.Controls.Add(this.gaunit);
             this.groupBox3.Controls.Add(this.button10);
-            this.groupBox3.Location = new System.Drawing.Point(785, 48);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox3.Location = new System.Drawing.Point(883, 64);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox3.Size = new System.Drawing.Size(603, 49);
+            this.groupBox3.Size = new System.Drawing.Size(678, 65);
             this.groupBox3.TabIndex = 20;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "ga";
             // 
             // button18
             // 
-            this.button18.Location = new System.Drawing.Point(471, 12);
-            this.button18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button18.Location = new System.Drawing.Point(530, 16);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(125, 32);
+            this.button18.Size = new System.Drawing.Size(141, 43);
             this.button18.TabIndex = 12;
             this.button18.Text = "SUM";
             this.button18.UseVisualStyleBackColor = true;
@@ -660,19 +629,17 @@ namespace StockTest
             // 
             // gaunit
             // 
-            this.gaunit.Location = new System.Drawing.Point(5, 20);
-            this.gaunit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.gaunit.Location = new System.Drawing.Point(6, 27);
             this.gaunit.Name = "gaunit";
-            this.gaunit.Size = new System.Drawing.Size(352, 25);
+            this.gaunit.Size = new System.Drawing.Size(396, 26);
             this.gaunit.TabIndex = 0;
             this.gaunit.Text = "1,73,1,73,87,1,1,1,73,1,73,1,1,1,32";
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(363, 12);
-            this.button10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button10.Location = new System.Drawing.Point(408, 16);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(101, 34);
+            this.button10.Size = new System.Drawing.Size(114, 45);
             this.button10.TabIndex = 11;
             this.button10.Text = "GetLog";
             this.button10.UseVisualStyleBackColor = true;
@@ -680,10 +647,9 @@ namespace StockTest
             // 
             // button17
             // 
-            this.button17.Location = new System.Drawing.Point(128, 66);
-            this.button17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button17.Location = new System.Drawing.Point(144, 88);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(91, 29);
+            this.button17.Size = new System.Drawing.Size(102, 39);
             this.button17.TabIndex = 19;
             this.button17.Text = "Export MQL";
             this.button17.UseVisualStyleBackColor = true;
@@ -691,10 +657,9 @@ namespace StockTest
             // 
             // button16
             // 
-            this.button16.Location = new System.Drawing.Point(32, 65);
-            this.button16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button16.Location = new System.Drawing.Point(36, 87);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(91, 31);
+            this.button16.Size = new System.Drawing.Size(102, 41);
             this.button16.TabIndex = 18;
             this.button16.Text = "測試ML";
             this.button16.UseVisualStyleBackColor = true;
@@ -702,10 +667,9 @@ namespace StockTest
             // 
             // button14
             // 
-            this.button14.Location = new System.Drawing.Point(653, 58);
-            this.button14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button14.Location = new System.Drawing.Point(735, 77);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(116, 32);
+            this.button14.Size = new System.Drawing.Size(130, 43);
             this.button14.TabIndex = 17;
             this.button14.Text = "maxWorkerThreads";
             this.button14.UseVisualStyleBackColor = true;
@@ -714,11 +678,9 @@ namespace StockTest
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.txtPeriod);
-            this.groupBox2.Location = new System.Drawing.Point(459, 48);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox2.Location = new System.Drawing.Point(516, 64);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox2.Size = new System.Drawing.Size(89, 48);
+            this.groupBox2.Size = new System.Drawing.Size(100, 64);
             this.groupBox2.TabIndex = 16;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "週期";
@@ -730,40 +692,35 @@ namespace StockTest
             "W-SAT",
             "H",
             "10T"});
-            this.txtPeriod.Location = new System.Drawing.Point(5, 19);
-            this.txtPeriod.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtPeriod.Location = new System.Drawing.Point(6, 25);
             this.txtPeriod.Name = "txtPeriod";
-            this.txtPeriod.Size = new System.Drawing.Size(77, 23);
+            this.txtPeriod.Size = new System.Drawing.Size(86, 28);
             this.txtPeriod.TabIndex = 0;
             this.txtPeriod.Text = "W-SAT";
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.txtGACount);
-            this.groupBox1.Location = new System.Drawing.Point(359, 48);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Location = new System.Drawing.Point(404, 64);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(88, 48);
+            this.groupBox1.Size = new System.Drawing.Size(99, 64);
             this.groupBox1.TabIndex = 15;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "GACount";
             // 
             // txtGACount
             // 
-            this.txtGACount.Location = new System.Drawing.Point(7, 18);
-            this.txtGACount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtGACount.Location = new System.Drawing.Point(8, 24);
             this.txtGACount.Name = "txtGACount";
-            this.txtGACount.Size = new System.Drawing.Size(59, 25);
+            this.txtGACount.Size = new System.Drawing.Size(66, 26);
             this.txtGACount.TabIndex = 0;
             this.txtGACount.Text = "10";
             // 
             // button13
             // 
-            this.button13.Location = new System.Drawing.Point(553, 59);
-            this.button13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button13.Location = new System.Drawing.Point(622, 79);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(85, 31);
+            this.button13.Size = new System.Drawing.Size(96, 41);
             this.button13.TabIndex = 14;
             this.button13.Text = "GetData1";
             this.button13.UseVisualStyleBackColor = true;
@@ -771,10 +728,9 @@ namespace StockTest
             // 
             // button12
             // 
-            this.button12.Location = new System.Drawing.Point(464, 11);
-            this.button12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button12.Location = new System.Drawing.Point(522, 15);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(85, 31);
+            this.button12.Size = new System.Drawing.Size(96, 41);
             this.button12.TabIndex = 13;
             this.button12.Text = "GetData";
             this.button12.UseVisualStyleBackColor = true;
@@ -782,10 +738,9 @@ namespace StockTest
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(653, 11);
-            this.button11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button11.Location = new System.Drawing.Point(735, 15);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(84, 32);
+            this.button11.Size = new System.Drawing.Size(94, 43);
             this.button11.TabIndex = 12;
             this.button11.Text = "GA";
             this.button11.UseVisualStyleBackColor = true;
@@ -793,10 +748,9 @@ namespace StockTest
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(224, 12);
-            this.button9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button9.Location = new System.Drawing.Point(252, 16);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(116, 35);
+            this.button9.Size = new System.Drawing.Size(130, 47);
             this.button9.TabIndex = 10;
             this.button9.Text = "取得DBB紀錄";
             this.button9.UseVisualStyleBackColor = true;
@@ -804,10 +758,9 @@ namespace StockTest
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(128, 12);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button4.Location = new System.Drawing.Point(144, 16);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(91, 35);
+            this.button4.Size = new System.Drawing.Size(102, 47);
             this.button4.TabIndex = 9;
             this.button4.Text = "取得DBB";
             this.button4.UseVisualStyleBackColor = true;
@@ -815,10 +768,9 @@ namespace StockTest
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(32, 12);
-            this.button8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button8.Location = new System.Drawing.Point(36, 16);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(91, 35);
+            this.button8.Size = new System.Drawing.Size(102, 47);
             this.button8.TabIndex = 8;
             this.button8.Text = "DBB";
             this.button8.UseVisualStyleBackColor = true;
@@ -826,10 +778,9 @@ namespace StockTest
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(1019, 9);
-            this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button7.Location = new System.Drawing.Point(1146, 12);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(111, 34);
+            this.button7.Size = new System.Drawing.Size(125, 45);
             this.button7.TabIndex = 7;
             this.button7.Text = "測試";
             this.button7.UseVisualStyleBackColor = true;
@@ -837,10 +788,9 @@ namespace StockTest
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(1285, 10);
-            this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button6.Location = new System.Drawing.Point(1446, 13);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(115, 35);
+            this.button6.Size = new System.Drawing.Size(129, 47);
             this.button6.TabIndex = 6;
             this.button6.Text = "取得WKD";
             this.button6.UseVisualStyleBackColor = true;
@@ -848,10 +798,9 @@ namespace StockTest
             // 
             // msg
             // 
-            this.msg.Location = new System.Drawing.Point(359, 18);
-            this.msg.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.msg.Location = new System.Drawing.Point(404, 24);
             this.msg.Name = "msg";
-            this.msg.Size = new System.Drawing.Size(88, 25);
+            this.msg.Size = new System.Drawing.Size(98, 26);
             this.msg.TabIndex = 5;
             this.msg.Text = "2330";
             // 
@@ -874,8 +823,7 @@ namespace StockTest
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle5;
-            this.dataGridView1.Location = new System.Drawing.Point(32, 170);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dataGridView1.Location = new System.Drawing.Point(36, 227);
             this.dataGridView1.Name = "dataGridView1";
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
@@ -887,7 +835,7 @@ namespace StockTest
             this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 27;
-            this.dataGridView1.Size = new System.Drawing.Size(1309, 574);
+            this.dataGridView1.Size = new System.Drawing.Size(1473, 765);
             this.dataGridView1.TabIndex = 4;
             this.dataGridView1.DoubleClick += new System.EventHandler(this.dataGridView1_DoubleClick);
             // 
@@ -895,10 +843,9 @@ namespace StockTest
             // 
             this.button5.BackColor = System.Drawing.Color.SandyBrown;
             this.button5.Dock = System.Windows.Forms.DockStyle.Left;
-            this.button5.Location = new System.Drawing.Point(3, 2);
-            this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button5.Location = new System.Drawing.Point(3, 3);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(23, 639);
+            this.button5.Size = new System.Drawing.Size(26, 862);
             this.button5.TabIndex = 3;
             this.button5.Text = "v";
             this.button5.UseVisualStyleBackColor = false;
@@ -906,10 +853,9 @@ namespace StockTest
             // button3
             // 
             this.button3.AllowDrop = true;
-            this.button3.Location = new System.Drawing.Point(755, 11);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button3.Location = new System.Drawing.Point(849, 15);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(147, 32);
+            this.button3.Size = new System.Drawing.Size(165, 43);
             this.button3.TabIndex = 1;
             this.button3.Text = "JsonToCsv";
             this.button3.UseVisualStyleBackColor = true;
@@ -917,11 +863,10 @@ namespace StockTest
             // 
             // tabPage2
             // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabPage2.Size = new System.Drawing.Size(243, 55);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1691, 868);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "設定";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -929,10 +874,10 @@ namespace StockTest
             // tabPage5
             // 
             this.tabPage5.Controls.Add(this.splitContainer3);
-            this.tabPage5.Location = new System.Drawing.Point(4, 25);
-            this.tabPage5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage5.Location = new System.Drawing.Point(4, 29);
+            this.tabPage5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(1515, 676);
+            this.tabPage5.Size = new System.Drawing.Size(1705, 907);
             this.tabPage5.TabIndex = 2;
             this.tabPage5.Text = "競拍";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -941,7 +886,7 @@ namespace StockTest
             // 
             this.splitContainer3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer3.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.splitContainer3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.splitContainer3.Name = "splitContainer3";
             this.splitContainer3.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -955,17 +900,28 @@ namespace StockTest
             // splitContainer3.Panel2
             // 
             this.splitContainer3.Panel2.Controls.Add(this.dataGridView3);
-            this.splitContainer3.Size = new System.Drawing.Size(1515, 676);
-            this.splitContainer3.SplitterDistance = 60;
-            this.splitContainer3.SplitterWidth = 5;
+            this.splitContainer3.Size = new System.Drawing.Size(1705, 907);
+            this.splitContainer3.SplitterDistance = 80;
+            this.splitContainer3.SplitterWidth = 7;
             this.splitContainer3.TabIndex = 6;
+            // 
+            // button24
+            // 
+            this.button24.Location = new System.Drawing.Point(390, 35);
+            this.button24.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(84, 31);
+            this.button24.TabIndex = 3;
+            this.button24.Text = "datatable";
+            this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.button24_Click);
             // 
             // button23
             // 
-            this.button23.Location = new System.Drawing.Point(240, 20);
-            this.button23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button23.Location = new System.Drawing.Point(270, 27);
+            this.button23.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(100, 29);
+            this.button23.Size = new System.Drawing.Size(112, 39);
             this.button23.TabIndex = 2;
             this.button23.Text = "button23";
             this.button23.UseVisualStyleBackColor = true;
@@ -973,10 +929,10 @@ namespace StockTest
             // 
             // button22
             // 
-            this.button22.Location = new System.Drawing.Point(132, 20);
-            this.button22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button22.Location = new System.Drawing.Point(148, 27);
+            this.button22.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(100, 29);
+            this.button22.Size = new System.Drawing.Size(112, 39);
             this.button22.TabIndex = 1;
             this.button22.Text = "找價格";
             this.button22.UseVisualStyleBackColor = true;
@@ -984,10 +940,10 @@ namespace StockTest
             // 
             // button21
             // 
-            this.button21.Location = new System.Drawing.Point(24, 20);
-            this.button21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button21.Location = new System.Drawing.Point(27, 27);
+            this.button21.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(100, 29);
+            this.button21.Size = new System.Drawing.Size(112, 39);
             this.button21.TabIndex = 0;
             this.button21.Text = "選檔";
             this.button21.UseVisualStyleBackColor = true;
@@ -1014,7 +970,6 @@ namespace StockTest
             this.dataGridView3.DefaultCellStyle = dataGridViewCellStyle8;
             this.dataGridView3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView3.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView3.Name = "dataGridView3";
             dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
@@ -1026,30 +981,45 @@ namespace StockTest
             this.dataGridView3.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.dataGridView3.RowHeadersWidth = 51;
             this.dataGridView3.RowTemplate.Height = 27;
-            this.dataGridView3.Size = new System.Drawing.Size(1515, 611);
+            this.dataGridView3.Size = new System.Drawing.Size(1705, 820);
             this.dataGridView3.TabIndex = 5;
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // button24
+            // splitContainer4
             // 
-            this.button24.Location = new System.Drawing.Point(347, 26);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(75, 23);
-            this.button24.TabIndex = 3;
-            this.button24.Text = "datatable";
-            this.button24.UseVisualStyleBackColor = true;
-            this.button24.Click += new System.EventHandler(this.button24_Click);
+            this.splitContainer4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer4.Location = new System.Drawing.Point(3, 3);
+            this.splitContainer4.Name = "splitContainer4";
+            // 
+            // splitContainer4.Panel1
+            // 
+            this.splitContainer4.Panel1.Controls.Add(this.splitContainer1);
+            // 
+            // splitContainer4.Panel2
+            // 
+            this.splitContainer4.Panel2.Controls.Add(this.StockList);
+            this.splitContainer4.Size = new System.Drawing.Size(1699, 901);
+            this.splitContainer4.SplitterDistance = 1543;
+            this.splitContainer4.TabIndex = 1;
+            // 
+            // StockList
+            // 
+            this.StockList.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.StockList.Location = new System.Drawing.Point(0, 0);
+            this.StockList.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.StockList.Name = "StockList";
+            this.StockList.Size = new System.Drawing.Size(152, 901);
+            this.StockList.TabIndex = 0;
             // 
             // Simulator
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1523, 705);
+            this.ClientSize = new System.Drawing.Size(1713, 940);
             this.Controls.Add(this.tabControl2);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Simulator";
             this.Text = "Simulator";
             this.Load += new System.EventHandler(this.Simulator_Load);
@@ -1087,6 +1057,10 @@ namespace StockTest
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).EndInit();
             this.splitContainer3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+            this.splitContainer4.Panel1.ResumeLayout(false);
+            this.splitContainer4.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).EndInit();
+            this.splitContainer4.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1159,5 +1133,7 @@ namespace StockTest
         private System.Windows.Forms.Button button22;
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.SplitContainer splitContainer4;
+        private My.CollapsePanel StockList;
     }
 }

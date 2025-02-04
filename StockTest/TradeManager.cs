@@ -22,22 +22,30 @@ namespace StockTest
 
         public double[] GetNonClosePrice(string StockNo,double Price)
         {
+            if(Trades == null)
+                return new double[] { 0, 0 };
             return Trades[StockNo].GetNonClosePrice(Price);
         }
 
         public double[] GetClosePrice(string StockNo )
         {
+            if (Trades == null)
+                return new double[] { 0, 0 };
             return Trades[StockNo].GetClosePrice();
         }
 
         public double GetClosePriceALL()
         {
+            if(Trades  == null)
+                return 0;
             return Trades.Sum(x => x.Value.GetClosePrice()[0]);
         }
 
         public double GetNonALL(DateTime date)
         {
             double Gain = 0;
+            if(Trades == null)
+                return 0;
             foreach (string stockno in Trades.Keys)
             {
                 double currentPrice = (double)(MyDatas.StockData.StockData[stockno].Select($"Date >= #{date.ToString("yyyy-MM-dd HH:mm:ss")}#").FirstOrDefault()?["Close"] ?? 0);
@@ -49,6 +57,8 @@ namespace StockTest
 
         public double GetNonClosePriceALL( double Price)
         {
+            if (Trades == null)
+                return 0;
             return Trades.Sum(x => x.Value.GetNonClosePrice(Price)[0]);
         }
 

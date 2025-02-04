@@ -912,8 +912,8 @@ namespace StockTest
                 sql = "SELECT  [Close]   FROM [MyAnalysis].[dbo].[StockData] where stockno='" + SecurityCode + "' and dates >='" + DateTime.Parse(AllocationDate).ToString("yyyy-MM-dd") + "' order by dates  ";
                 string LastPrice2 = MyDatas.lData.FineDataField(sql);
 
-                sql = "update StockAuction set LastPrice='"+ LastPrice + "',AllocationPrice='" + LastPrice2 + "' where SecurityCode='" + SecurityCode + "' and Market='" + Market +"'";
-                MyDatas.lData.SqlCmdExec(sql);
+                //sql = "update StockAuction set LastPrice='"+ LastPrice + "',AllocationPrice='" + LastPrice2 + "' where SecurityCode='" + SecurityCode + "' and Market='" + Market +"'";
+                //MyDatas.lData.SqlCmdExec(sql);
             }
         }
 
