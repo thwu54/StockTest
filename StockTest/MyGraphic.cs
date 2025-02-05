@@ -343,6 +343,11 @@ namespace My
             Indexs.Add(lIndex);
         }
 
+        public bool IsBBANDS = false;
+        public bool IsMACD = false;
+        public bool IsSTOCH = false; 
+
+
         private ArrayList _SecondIndex = new ArrayList();
 
         public bool IsSecond = true;
@@ -530,15 +535,33 @@ namespace My
             myCurve.Stick.Color = Color.Blue;
             myCurve.Stick.RisingFill = new Fill(Color.Red);
 
-            
-
-            foreach (Index item in Indexs)
+           
+           
+            if (IsMACD)
             {
-                if(item.PanelNo=="2" || item.PanelNo == "3")
-                    item.Draw(ref myPane2, _lTable); 
-                else
-                    item.Draw(ref myPane, _lTable);
+                MACD lMACD = new MACD();
+                lMACD.Draw(ref myPane2, _lTable);
             }
+            else if (IsSTOCH)
+            {
+                STOCH lSTOCH = new STOCH();
+                lSTOCH.Draw(ref myPane2, _lTable);
+
+            }
+            
+            if (IsBBANDS)
+            {
+                BBANDS lBBANDS = new BBANDS();
+                lBBANDS.Draw(ref myPane, _lTable);
+            }
+
+            //    foreach (Index item in Indexs)
+            //{
+            //    if(item.PanelNo=="2" || item.PanelNo == "3")
+            //        item.Draw(ref myPane2, _lTable); 
+            //    else
+            //        item.Draw(ref myPane, _lTable);
+            //}
             
             double gap = 0.5;
             double width = _GraphicRange;
@@ -586,9 +609,9 @@ namespace My
 
         public static DataFrame GetData(string StockNo , string Resample)
         {
-            if (FunLog.checkFileExist2("database\\" + DateTime.Now.ToString("yyyyMMdd") + "\\", StockNo + "_" + Resample))
+            if (FunLog.checkFileExist2("database\\fix\\", StockNo + "_" + Resample))
             {
-                DataTable Table = MyData.JsonToDataTable("database\\" + DateTime.Now.ToString("yyyyMMdd") + "\\" + StockNo + "_" + Resample);
+                DataTable Table = MyData.JsonToDataTable("database\\fix\\" + StockNo + "_" + Resample);
                 return MyData.table_df(Table);
             }
             else
@@ -612,9 +635,9 @@ namespace My
             string filename = StockNo + "_" + Resample + "_" + Date1.ToString("yyyyMMdd") + "_" + Date2.ToString("yyyyMMdd");
             if (dfData.ContainsKey(filename))
                 return dfData[filename];
-            if (FunLog.checkFileExist2("database\\" + DateTime.Now.ToString("yyyyMMdd") + "\\", filename))
+            if (FunLog.checkFileExist2("database\\fix\\", filename))
             {
-                DataTable Table = MyData.JsonToDataTable("database\\" + DateTime.Now.ToString("yyyyMMdd") + "\\" + filename);
+                DataTable Table = MyData.JsonToDataTable("database\\fix\\" + filename);
                 if (!dfData.ContainsKey(filename))
                     dfData.Add(filename, MyData.table_df(Table)); 
                     dtData.Add(filename, Table);
@@ -636,9 +659,9 @@ namespace My
 
         public static DataFrame GetData2(string StockNo, string Resample)
         {
-            if (FunLog.checkFileExist2("database\\" + DateTime.Now.ToString("yyyyMMdd") + "\\", StockNo + "_" + Resample))
+            if (FunLog.checkFileExist2("database\\fix\\", StockNo + "_" + Resample))
             {
-                DataTable Table = MyData.JsonToDataTable("database\\" + DateTime.Now.ToString("yyyyMMdd") + "\\" + StockNo + "_" + Resample);
+                DataTable Table = MyData.JsonToDataTable("database\\fix\\" + StockNo + "_" + Resample);
                 return MyData.table_df(Table);
             }
             else
@@ -660,9 +683,9 @@ namespace My
             }
 
 
-            if (FunLog.checkFileExist2("database\\" + DateTime.Now.ToString("yyyyMMdd") + "\\", StockNo + "_" + Resample))
+            if (FunLog.checkFileExist2("database\\fix\\", StockNo + "_" + Resample))
             {
-                DataTable Table = MyData.JsonToDataTable("database\\" + DateTime.Now.ToString("yyyyMMdd") + "\\" + StockNo + "_" + Resample);
+                DataTable Table = MyData.JsonToDataTable("database\\fix\\" + StockNo + "_" + Resample);
                 return Table;
             }
             else

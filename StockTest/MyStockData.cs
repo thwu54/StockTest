@@ -22,9 +22,9 @@ namespace StockTest
             foreach (string StockNo in List)
             {
                 string filename = StockNo + "_W-SAT_20200101_20250101"  ; 
-                if (FunLog.checkFileExist2("database\\" + DateTime.Now.ToString("yyyyMMdd") + "\\", filename))
+                if (FunLog.checkFileExist2("database\\fix\\", filename))
                 {
-                    DataTable Table = MyData.JsonToDataTable("database\\" + DateTime.Now.ToString("yyyyMMdd") + "\\" + filename);
+                    DataTable Table = MyData.JsonToDataTable("database\\fix\\" + filename);
                     if (!StockData.ContainsKey(StockNo))
                         StockData.Add(StockNo, Table);  
                 }

@@ -43,37 +43,32 @@ namespace StockTest
             {
                 if (node.Tag.ToString() == "StockNo")
                 {
-                    STOCH lStoch = new STOCH();
-                    BBANDS lBBANDS = new BBANDS();
-                    MACD lMACD = new MACD();
-                    lGraphic.AddIndex(lStoch);
-                    lGraphic.AddIndex(lBBANDS);
-                    //lGraphic.AddIndex(lMACD);
+                    
+                    lGraphic.IsBBANDS = true;
+                    lGraphic.IsMACD = true;
+                    lGraphic.IsShowPanel2 = false;
                     ShowStock(node.Text);
-                    node.BackColor = Color.Pink;
-                    //((TreeView)sender).BackColor = Color.Blue;
+                    node.BackColor = Color.Pink; 
                 }
                 if (node.Tag.ToString() == "Graphic") {
-                    if (node.Name.ToString() == "hidden")
+                    if (node.Text.ToString() == "hidden")
                     {
                         lGraphic.ZedGraphControl.Visible = false;
                     }
-                    else if (node.Name.ToString() == "volume")
+                    else if (node.Text.ToString() == "volume")
                     {
                         lGraphic.IsShowPanel2 = true;
                         lGraphic.FirstDraw();
                     }
-                    else if (node.Name.ToString() == "hiddenV")
+                    else if (node.Text.ToString() == "hiddenV")
                     {
                         lGraphic.IsShowPanel2 = false;
                         lGraphic.FirstDraw();
                     }
-                    else if (node.Name.ToString() == "KD")
+                    else if (node.Text.ToString() == "KD")
                     {
-                        //InitGraphic();
-                        STOCH lStoch = new STOCH();
-                        lGraphic.AddIndex(lStoch);
-                        lGraphic.Update("2344", "90");
+                        lGraphic.IsSTOCH = !lGraphic.IsSTOCH;
+                        ShowStock(node.Text);
                     }
                 } 
 
@@ -241,7 +236,7 @@ namespace StockTest
                     DateTime sDate = new DateTime(int.Parse(parts[2].Substring(0, 4)), 1, 1);
                     DateTime eDate = new DateTime(int.Parse(parts[3].Substring(0, 4)), 1, 1);
                     string filename = stockno + "_" + parts[1] + "_" + sDate.ToString("yyyyMMdd") + "_" + eDate.ToString("yyyyMMdd");
-                    DataTable Table = MyData.JsonToDataTable("database\\" + DateTime.Now.ToString("yyyyMMdd") + "\\" + filename);
+                    DataTable Table = MyData.JsonToDataTable("database\\fix\\" + filename);
                     MyBackTest.DataTableToCsv(Table, "database\\"  + filename + ".csv");
                 }
             }
